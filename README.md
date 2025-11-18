@@ -1,6 +1,8 @@
 # StarCitizenJapaneseResources
 
-## Star Citizen v4.x 用非公式日本語リソース
+## Star Citizen v4.x 用非公式日本語リソース (mayaeh改訂版)
+
+**正規リポジトリは [stdblue/StarCitizenJapaneseResources](https://github.com/stdblue/StarCitizenJapaneseResources) です。**
 
 　Star Citizen VERSION 3.20.0b より多言語リソース対応が CIG 公式からアナウンスされました。  
 　本リソースは Star Citizen 日本コミュニティ有志による手動翻訳をマージしたものとなります。  
