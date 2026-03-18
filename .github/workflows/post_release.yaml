@@ -1,0 +1,121 @@
+name: Post Release to X
+
+on:
+  release:
+    types: [published, edited]
+
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: '投稿したいリリースのタグ名 (空なら最新を取得)'
+        required: false
+        default: ''
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install tweepy
+
+      - name: Post to X
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        # Release コンテキストから直接渡す
+          INPUT_TAG_NAME: ${{ github.event.inputs.tag_name }}
+          RELEASE_TITLE: ${{ github.event.release.name }}
+          RELEASE_BODY: ${{ github.event.release.body }}
+          RELEASE_URL: ${{ github.event.release.html_url }}
+        run: |
+          python << 'EOF'
+          import os
+          import tweepy
+          import requests
+
+          def main():
+            # --- 1. リリース情報の取得 ---
+            # 自動実行（releaseイベント）なら環境変数から取得、空ならAPIから取得
+            # 手動入力されたタグ名があるか確認
+            repo = os.environ.get("GITHUB_REPOSITORY")
+            input_tag = os.environ.get("INPUT_TAG_NAME")
+            title = os.environ.get("RELEASE_TITLE")
+            body = os.environ.get("RELEASE_BODY")
+            url = os.environ.get("RELEASE_URL")
+
+            if not title or title == "None" or title.strip() == "":
+              print("Manual trigger detected or empty event data. Fetching via API...")
+              if input_tag and input_tag.strip() != "":
+                # 特定のタグが入力されていればそれを取得
+                print(f"Targeting specific tag: {input_tag}")
+                api_url = f"https://api.github.com/repos/{repo}/releases/tags/{input_tag}"
+              else:
+                # 入力がなければ、時系列で一番上を取得
+                print("No tag specified. Fetching the very latest release...")
+                api_url = f"https://api.github.com/repos/{repo}/releases?per_page=1"
+                  
+              resp = requests.get(api_url)
+              if resp.status_code == 200:
+                data = resp.json()
+                if isinstance(data, list): data = data[0]
+                title = data.get("name") or data.get("tag_name")
+                body = data.get("body", "")
+                url = data.get("html_url")
+              else:
+                print(f"Failed to fetch release info: {resp.status_code}")
+                return
+
+            # --- 2. ツイート本文の作成 ---
+            # 本文から ### 変更内容 以降の3行を抽出（なければ空）
+            lines = body.splitlines()
+            update_info = ""
+            try:
+                for i, line in enumerate(lines):
+                    if "### 変更内容" in line:
+                        update_info = "\n".join([l for l in lines[i+1:i+4] if l.strip()])
+                        break
+            except:
+                pass
+
+            tweet_text = f"【StarCitizen 日本語化更新】\n{title}\n\n{update_info}\n\n詳細はこちら → {url}"
+            print(f"DEBUG: Posting to X ->\n{tweet_text}")
+
+            # 4. 投稿
+            try:
+              auth = tweepy.OAuth1UserHandler(
+                os.environ["X_API_KEY"],
+                os.environ["X_API_SECRET"],
+                os.environ["X_ACCESS_TOKEN"],
+                os.environ["X_ACCESS_TOKEN_SECRET"]
+              )
+              api = tweepy.API(auth)
+
+              client = tweepy.Client(
+                consumer_key=os.environ["X_API_KEY"],
+                consumer_secret=os.environ["X_API_SECRET"],
+                access_token=os.environ["X_ACCESS_TOKEN"],
+                access_token_secret=os.environ["X_ACCESS_TOKEN_SECRET"]
+              )
+
+            # Xの280文字制限に合わせてカット
+
+              client.create_tweet(text=tweet_text[:280])
+              print("Successfully posted to X!")
+          
+            except Exception as e:
+              print(f"Error posting to X: {e}")
+              exit(1)
+        
+          if __name__ == "__main__":
+            main()
+          EOF
