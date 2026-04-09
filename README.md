@@ -13,6 +13,8 @@
 
 　翻訳作業は現在作業中であり、随時新しいリソースへと置き換えていきます。
 
+## 最新翻訳版  
+現在の最新版は **SCJP翻訳版 11592622.0** と表示されます。  
 
 ## 注意事項
 
@@ -22,8 +24,8 @@
 
 ## 公開リソース
 
-* v4.7.0 LIVE 版
-[v4.7.0 LIVE](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.7-ja_JP-alpha-4.7-LIVE "4.7.0 LIVE 版")  
+* v4.7.1 LIVE 版
+[v4.7.1 LIVE](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.7-ja_JP-alpha-4.7-LIVE "4.7.1 LIVE 版")  
 
 
 ## 現在の翻訳/進捗
@@ -112,15 +114,16 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 + Translator  
 	MoMoShrine  
 	OOM Tricorn  
-	kogumatta  
 	Luke  
+	kogumatta  
 	Exceptur  
 	NERURU  
-	AdmiralAndersen  
 	Oldman1917  
+	AdmiralAndersen  
 	nmtkawb  
 	eggman  
 	Verkhasel  
+	Heizo  
 	Ban_Danas  
 	NTKestrel  
 	ogumap  
