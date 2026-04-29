@@ -1,5 +1,5 @@
 diff --git a/v4.x/release/japanese_(japan)/global.ini b/v4.x/release/japanese_(japan)/global.ini
-index a35571e..ffa89bc 100644
+index 525145d..c57f4e9 100644
 --- a/v4.x/release/japanese_(japan)/global.ini
 +++ b/v4.x/release/japanese_(japan)/global.ini
 @@ -12,7 +12,7 @@
@@ -7019,17 +7019,8 @@ index a35571e..ffa89bc 100644
 -items_commodities_magnesium_desc=融点が低いアルカリ土類金属です。巨大で老齢の恒星内で生成され、宇宙で9番目に豊富な元素です。
 +items_commodities_magnesium_desc=融点が低いアルカリ土類金属です。巨大で老齢の恒星内で生成され、宇宙で 9 番目に豊富な元素です。
  items_commodities_mala=Mala
- items_commodities_mala_desc=Mala バエに含まれる独特の毒素を接種・代謝することで、脳の認知経路が混乱し、異なる感覚が交差し混ざる共感覚が引き起こされます。ユーザーが報告する効果は幅広く、音楽が見えるようになったり、色が味わえるようになったりします。この毒素の影響下では痛みが平常時のように感じられないため、「感覚の交換」をしている間に多くの人々が重傷を負う結果となっています。例えば、ある服用者はスラスターエンジンからの熱を快感と感じ、その結果、腕を焼き落としてしまいました。
+ items_commodities_mala_desc=Mala バエが持つ独特の毒素を摂取・代謝すると、脳の認知経路が混乱し、異なる感覚体験が交差して混ざり合う共感覚が引き起こされます。使用者から報告される効果は多岐にわたり、音楽が視覚的に見えたり、色に味を感じたりと様々です。この毒素の影響下では痛みも通常とは異なる感じ方をするため、「感覚交換」の最中に深刻な怪我を負ってしまう人が少なくありません。例えば、ある使用者はスラスターエンジンの熱が快感であると錯覚した結果、腕を焼き落としてしまいました。
  items_commodities_marokgem=Marok Gem
-@@ -72046,7 +72046,7 @@ items_commodities_maze_desc=Tevarin由来の鎮静剤であり、昏睡剤のよ
- items_commodities_medGel,P=MedGel
- items_commodities_medGel_desc,P=医療用ベッドによって消費される MedGel には、クローン体の作成や治療に必要な成分が含まれています。
- items_commodities_medPens=MedPen
--items_commodities_medPens_desc=CureLifeのMedPenは、野外での使用の厳しさに耐えるために設計・製造された完全な多機能の個人用応急医療システムです。
-+items_commodities_medPens_desc=CureLife の MedPen は、野外での使用の厳しさに耐えるために設計・製造された完全な多機能の個人用応急医療システムです。
- items_commodities_medicalSupplies=医療用物資
- items_commodities_medicalSupplies_desc=主に怪我や病気の治療に使用されるさまざまなアイテムです。
- items_commodities_mercury=水銀
 @@ -72186,7 +72186,7 @@ items_commodities_stileron=Stileron
  items_commodities_stileron_des=この金属は物理的な衝撃を伴う戦闘環境に最適な特性を持っています。耐久性の高さから防衛産業において装甲材として好まれていますが、ひずみに対する耐性は低く、精錬が非常に困難であることでも知られています。
  items_commodities_stileron_ore=Stileron（鉱石）
