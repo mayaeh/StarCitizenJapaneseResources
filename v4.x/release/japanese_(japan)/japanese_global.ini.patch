@@ -1,5 +1,5 @@
 diff --git a/v4.x/release/japanese_(japan)/global.ini b/v4.x/release/japanese_(japan)/global.ini
-index e9c08c0..3b8a458 100644
+index 923225e..af4a36c 100644
 --- a/v4.x/release/japanese_(japan)/global.ini
 +++ b/v4.x/release/japanese_(japan)/global.ini
 @@ -12,7 +12,7 @@
@@ -217,7 +217,7 @@ index e9c08c0..3b8a458 100644
 -BlacJac_RepUI_Description=BlacJac は地元の Jac Ngo によって Tram で設立されたました。やがてこの民間警備会社は高い評判を得るようになり、大企業は他星での警備を BlacJac に依頼するようになります。同じ頃、ArcCorp は新たに購入した Stanton-3を警備するため独自の警備部隊を設立しようとしていましたが、一連の挫折と予算の問題の末、2906年に他のいくつかの警備問題で同社を支援していた BlacJac を雇いこの惑星の取り締まり業務を引き継ぐ決断を下しました。
 +BlacJac_RepUI_Description=BlacJac は地元の Jac Ngo によって Tram で設立されたました。やがてこの民間警備会社は高い評判を得るようになり、大企業は他星での警備を BlacJac に依頼するようになります。同じ頃、ArcCorp は新たに購入した Stanton-3 を警備するため独自の警備部隊を設立しようとしていましたが、一連の挫折と予算の問題の末、2906年に他のいくつかの警備問題で同社を支援していた BlacJac を雇いこの惑星の取り締まり業務を引き継ぐ決断を下しました。
  BlacJac_RepUI_Focus=民間警備会社
- BlacJac_RepUI_Founded=2885
+ BlacJac_RepUI_Founded=2885 年
  BlacJac_RepUI_Headquarters=Ferron 星系, Asura, Tram
  BlacJac_RepUI_Leadership=最高経営責任者　Jac Ngo Jr.
  BlacJac_RepUI_Name=BlacJac
@@ -606,7 +606,7 @@ index e9c08c0..3b8a458 100644
 -Covalex_RepUI_Description=個人船主に業務を委託する方針により Covalex は運輸業の'verse 最大手となりました。早くから個人船主の高い自己投資傾向と高い業務パフォーマンスの関係性に気がついていた Covalex は、今ではほとんどの星系で活動する個人輸送船と契約していると言っても過言ではありません。
 +Covalex_RepUI_Description=個人船主に業務を委託する方針により Covalex は運輸業の 'verse 最大手となりました。早くから個人船主の高い自己投資傾向と高い業務パフォーマンスの関係性に気がついていた Covalex は、今ではほとんどの星系で活動する個人輸送船と契約していると言っても過言ではありません。
  Covalex_RepUI_Focus=配達, 運輸, 宅配サービス
- Covalex_RepUI_Founded=2782
+ Covalex_RepUI_Founded=2782 年
  Covalex_RepUI_Headquarters=Croshaw 星系, Angeli
 @@ -1650,17 +1650,17 @@ Covalex_Timed_003=さらに、すべての作業を特定の締め切りまで
  Covalex_Timed_004=これは「急ぎ優先」のお仕事です。つまり、遅れは許されません。
@@ -655,7 +655,7 @@ index e9c08c0..3b8a458 100644
  Crus_HistMarker_Text_06=Mario Kosso 氏は Crusader の緊急対応ユニットの初代責任者でした。Crusader の衛星で助けが必要な人々にサポートと救助サービスを提供するために設立されたユニットへの最初の救難信号に対応するため、Kosso 氏は2938年に引退するまでそのリーダーシップを発揮しました。その初めての救難信号は、この盆地から発せられました。彼の引退に際し、この盆地は彼の名前を冠して名付けられました。
  Crus_HistMarker_Text_07=Yela の輪が暗い空に照らされた有名な写真は、著名な写真家 Juliana Aston によって2918年にここで撮影されました。この景色は彼女の作品と深く結びついており、2928年に正式に「Aston Ridge」と名付けられました。
  Crus_HistMarker_Text_08=複数の渓谷が交わる場所に位置する Wolf Point は、Crusader の測量士 Cally Stroble によって名付けられました。彼女は初期のレポートにて「予想に反して、オオカミのような生き物の一家が、どうにかしてこの地域に定住する方法を見つけたようだ。彼らの鳴き声は周囲何キロにもわたって聞こえる。」と興奮交じりに述べたと伝えられています。しかし、さらなる調査でこのオオカミは単なる測量士のいたずらであることが判明しましたが、その名前は残ることとなりました。
-@@ -1810,34 +1810,34 @@ Crusader_RepUI_Founded=2799
+@@ -1810,34 +1810,34 @@ Crusader_RepUI_Founded=2799 年
  Crusader_RepUI_Headquarters=Stanton 星系, Crusader, Orison
  Crusader_RepUI_Leadership=最高経営責任者　Kelly Caplan
  Crusader_RepUI_Name=Crusader Industries
@@ -1082,7 +1082,7 @@ index e9c08c0..3b8a458 100644
  EckhartSecurity_MultiEliminateAllAndBoss_DC_Title_001=~mission(TargetName)と支援部隊の処理 / Deal with ~mission(TargetName) and Support Forces
  EckhartSecurity_RecoverCargo_Easy_Description=ECKHART SECURITY, LLC.\n契約・派遣要請\n\n契約タイプ：貨物回収\n承認コード：= ~mission(ApprovalCode)\n\n即時処理案件\n\nクライアントの貨物が輸送中にトラブルに巻き込まれ、その隙を突いて無法者どもが横取りを狙っている。\n\n仕事を受けるなら、<EM4>~mission(Location|Address)</EM4> に向かい、貨物を押さえている連中を排除してこい。<EM4>高出力トラクタービーム</EM4>で回収し、<EM4>~mission(MissionMaxSCUSize) 貨物コンテナを積める船</EM4>に積んだら、そのまま <EM4>~mission(Destination|Address)</EM4> の貨物エレベーターへ搬入しろ。\n\n契約に関する交渉は不可能だ。\n\n本メッセージには機密性の高い、専有的、特権的、及び/又は個人情報が含まれている場合があります。本情報は、上記に指定された個人又は団体による使用を目的としています。
  EckhartSecurity_RecoverCargo_Easy_Title=クライアントの貨物回収 / Client's Cargo Needs Recovering
-@@ -8838,13 +8838,13 @@ EckhartSecurity_RepUI_Founded=2929
+@@ -8838,13 +8838,13 @@ EckhartSecurity_RepUI_Founded=2929 年
  EckhartSecurity_RepUI_Headquarters=Stanton 星系, Hurston, Lorville
  EckhartSecurity_RepUI_Leadership=最高経営責任者　Miles Eckhart
  EckhartSecurity_RepUI_Name=Eckhart Security
@@ -1294,7 +1294,7 @@ index e9c08c0..3b8a458 100644
  Foxwell_Mercenary_Rehire_title_001=仕事をお探しですか？/ Still Looking for Work?
  Foxwell_RepUI_Area=UEE 圏
  Foxwell_RepUI_Description=Corel 星系の Lo 在住の元警察官によって設立された Foxwell Enforcement は、最も支援を必要とする人々に低コストのセキュリティコンサルティングを提供しています。当初、こうした善意の活動が経済的な成功につながることを期待していましたが、現実は厳しく、経費削減や採用基準の緩和を余儀なくされています。低価格でのサービス提供を求める企業にとって、Foxwell の需要は依然として根強いものの、低賃金のため熟練したセキュリティ契約者を確保し続けるのは難しいのが現状です。
-@@ -9923,33 +9923,33 @@ Foxwell_RepUI_Founded=2928
+@@ -9923,33 +9923,33 @@ Foxwell_RepUI_Founded=2928 年
  Foxwell_RepUI_Headquarters=Corel 星系, Lo
  Foxwell_RepUI_Leadership=最高経営責任者　Banco Foxwell
  Foxwell_RepUI_Name=Foxwell Enforcement
@@ -1653,7 +1653,7 @@ index e9c08c0..3b8a458 100644
  Hockcrow_SearchBody_Easy_Title_001=行方不明の従業員の捜索 / Locate Missing Employee
  Hockcrow_SearchBody_Hard_Description_001=Hockrow Agency\nケースファイル #MP45648\n主任調査員：Arken Mallor\n\n調査概要：\n依頼主より、行方不明となった家族の捜索依頼が入っています。対象者は不安定な行動を示した後、すべての通信を遮断し、~mission(System) へ向かったそうです。こちらからはおおよその位置は特定できたものの、状況を直接確認するために、現地へ赴く調査員が必要となっています。\n\n契約調査員の行動：\n~mission(Location|Address) にて ~mission(MissingPersonList) を特定し、その状況を確認してください。\n\nもし死亡している場合は、mobiGlas で死亡確認が行えるよう、遺体を詳細に調査してください。\n\n補足事項：\n捜索中に敵対勢力と遭遇する可能性が高いと判定されています。援護として追加調査員の同行を検討することを推奨します。
  Hockcrow_SearchBody_Hard_Title_001=行方不明の家族の捜索 / Locate Missing Family Member
-@@ -11527,23 +11527,23 @@ HockrowAgency_RepUI_Founded=2790
+@@ -11527,23 +11527,23 @@ HockrowAgency_RepUI_Founded=2790 年
  HockrowAgency_RepUI_Headquarters=Croshaw 星系, Angelia, Quinton
  HockrowAgency_RepUI_Leadership=長官　Puaul McWaters
  HockrowAgency_RepUI_Name=Hockrow Agency
@@ -2513,7 +2513,7 @@ index e9c08c0..3b8a458 100644
  NavPoint_CapShipVsCapShip=CapShip 対 CapShip
  NavPoint_Escort=エスコートテスト
  NavPoint_FighterVsCapship=戦闘機 vs CapShip
-@@ -23200,9 +23200,9 @@ NineTails_RepUI_Founded=2938
+@@ -23200,9 +23200,9 @@ NineTails_RepUI_Founded=2938 年
  NineTails_RepUI_Headquarters=Stanton 星系, Grim HEX
  NineTails_RepUI_Leadership=該当なし
  NineTails_RepUI_Name=Nine Tails
@@ -3957,7 +3957,7 @@ index e9c08c0..3b8a458 100644
 -UDM_RepUI_Description=microTech 主催の2945 ヤング・イノベーター・アワードの受賞者である Yan Linfeld と Kalee Ora は、配送ルートの最適化ソフトウェアとして「Unified Distribution Management（UDM）」を開発しました。その優れた機能のおかげで二人の企業は短期間のうちに競合他社のほとんどを凌駕し、microTech とその衛星のローカル配送のほとんどを扱う大企業へと成長しました。
 +UDM_RepUI_Description=microTech 主催の2945 ヤングイノベーターアワードの受賞者である Yan Linfeld と Kalee Ora は、配送ルートの最適化ソフトウェアとして「Unified Distribution Management（UDM）」を開発しました。その優れた機能のおかげで二人の企業は短期間のうちに競合他社のほとんどを凌駕し、microTech とその衛星のローカル配送のほとんどを扱う大企業へと成長しました。
  UDM_RepUI_Focus=配達, 運輸, 宅配サービス
- UDM_RepUI_Founded=2946
+ UDM_RepUI_Founded=2946 年
  UDM_RepUI_Headquarters=Stanton 星系, microTech, New Babbage
 @@ -49172,15 +49172,15 @@ UDM_Rivals=該当なし
  UDM_UGF_collect_desc_001=認定配送パートナーの皆様、こんにちは！\n\nもし配送パイロットとしての仕事に興味があれば、ぴったりの機会があります！\n\n<EM4>~mission(Location|Address)</EM4> での荷物が待機しており、それを <EM4>~mission(Destination|Address)</EM4> に配達することになります。楽しそうですね？\n\nただし、この地域で複数のセキュリティアラートが発生しています。安全のために防御策を用意してください。\n\nもしこの機会に興味があれば、すぐにこのオファーを受けてください！\n\n一緒に仕事ができることを楽しみにしています。\n\nUnified Distribution Management\n ー「お届け中」を、どんな荷物でもー\n
@@ -4615,7 +4615,7 @@ index e9c08c0..3b8a458 100644
 -item_Desc400i_Paint_Luminalia_green_red=人類が大好きな Banu の祭典、Luminalia の伝統色である緑と赤を基調とした Deck the Hull ペイントで、あなたのホリデー・スピリットを表現してみるのはいかかですか？
 +item_Desc400i_Paint_Luminalia_green_red=人類が大好きな Banu の祭典、Luminalia の伝統色である緑と赤を基調とした Deck the Hull ペイントで、あなたのホリデースピリットを表現してみるのはいかかですか？
  item_Desc400i_Paint_Luminalia_white_blue=あなたの 400i に、吹雪よりもクールなペイントを。IceBreak ペイントでは爽やかな白色と涼しげな青色をミックスし、どの季節にも似合う刺激的な外観に仕上げられています。
- item_Desc400i_Paint_Penumbra_Black_Gold=400i の Penumbra ペイントは、インクのような黒にきらめくゴールドを組み合わせ、エレガントで洗練された仕上がりとなっています。
+ item_Desc400i_Paint_Penumbra_Black_Gold=400i 用の Penumbra ペイントは、インクブラックにきらめく金を組み合わせた、エレガントで洗練された仕上がりとなっています。
  item_Desc400i_Paint_Stratus_Grey_Yellow=400i の Stratus ペイントでは、グレーのウイングと白亜の船体の間を、鮮やかな黄色のアクセントで彩っています。
 -item_Desc5mm_rifle_ballistic=サイズは従来の 5.56 x 45mm ですが、ガウス・メカニクス用に作られており、非常に高い精度と非常に速い投射速度が特徴です。5.56mm スラグは高密度タングステンと軽量カーボンの混合物から作られており、装甲侵徹フォームとしては最大級の侵徹力を持ちます。
 +item_Desc5mm_rifle_ballistic=サイズは従来の 5.56 x 45mm ですが、ガウスメカニクス用に作られており、非常に高い精度と非常に速い投射速度が特徴です。5.56mm スラグは高密度タングステンと軽量カーボンの混合物から作られており、装甲侵徹フォームとしては最大級の侵徹力を持ちます。
@@ -4629,7 +4629,7 @@ index e9c08c0..3b8a458 100644
 +item_Desc600i_Paint_IAE_2952_Metal=Sterling ペイントが、600i にシンプルながらも際立つメタリック仕上げに、ブルーのハイライトを添えます。
  item_Desc600i_Paint_Unity=Foundation Festival は、市民と民間人が一堂に会し、コミュニティの基盤を強化する機会です。このカスタムペイントで、より良い宇宙への貢献をアピールしましょう。
  item_Desc6mm_pistol_laser=Pulse Slug 10 は球体状になるようにエネルギーを収束形成したものです。発射することで生体にショックを与え、電子機器を故障させることができます。拡散または単発の形態で射撃が可能ですが、エネルギー体をスラグ弾として形成する際のカオス的性質により、しばしば弾丸は泡のような不規則な形態を取ることがあります。
- item_Desc890J_Paint_Black_Gold=890 Jump 用 Penumbra ペイントは、インクのような黒にきらめくゴールドを組み合わせ、エレガントで洗練された仕上がりとなっています。
+ item_Desc890J_Paint_Black_Gold=890 Jump 用 Penumbra ペイントは、インクブラックにきらめく金を組み合わせた、エレガントで洗練された仕上がりとなっています。
 @@ -57233,12 +57233,12 @@ item_DescAEGS_Retaliator_Turret,P=Aegis Retaliator タレット
  item_DescAEGS_Retaliator_Turret_Base,P=Aegis Retaliator タレット
  item_DescAEGS_Retaliator_Turret_Seat,P=Aegis Retaliator タレット席
@@ -4683,8 +4683,8 @@ index e9c08c0..3b8a458 100644
  item_DescANVL_Hornet_F7CM_Mk2_Ball_Turret_Bespoke=製造元：Behring\nアイテムタイプ：ジンバルマウント\nサイズ：5\n\nF7C Hornet Mk II 専用モデルとして Anvil Aerospace 社と共同で設計されたこのタレットは、柔軟なターゲティングを可能にする完全一体型のジンバルマウントが特徴であり、特注の2連装実弾ガトリング砲が搭載されています。
  item_DescANVL_Hornet_F7CM_Mk2_Ball_Turret_Single=アイテムタイプ：タレット\n製造元：Anvil Aerospace\nサイズ：5\n\nあなたの Anvil F7C-M Hornet Heartseeker Mk II も、この S4 船舶用兵装を搭載可能な専用設計のボールタレットで火力を強化させましょう。
  item_DescANVL_Hornet_F7CM_Mk2_Nose_Turret=アイテムタイプ：タレット\n製造元：Anvil Aerospace\nサイズ：2\n\nこの機首タレットは、Anvil の F7C Hornet Mk II 向けに特別に設計されており、サイズ2兵装2基の取り付けとターゲットの精密なジンバルトラッキングを可能にしています。
--item_DescANVL_Hornet_F7CR_shop=製造元：Anvil Aerospace\n用途：先行探査\n\nGhost が隠れるために生まれたものなら、Tracker は探し求めるために生まれたものです。F7C-R Tracker は高度なレーダー・スイートを誇り、スキャン・パッケージに深さと正確さを要求する深宇宙探査に理想的な船です。地元の民兵や大規模な傭兵部隊も、Tracker を中隊の移動 C&C 船として活用するでしょう。
-+item_DescANVL_Hornet_F7CR_shop=製造元：Anvil Aerospace\n用途：先行探査\n\nGhost が隠れるために生まれたものなら、Tracker は探し求めるために生まれたものです。F7C-R Tracker は高度なレーダースイートを誇り、スキャンパッケージに深さと正確さを要求する深宇宙探査に理想的な船です。地元の民兵や大規模な傭兵部隊も、Tracker を中隊の移動 C&C 船として活用するでしょう。
+-item_DescANVL_Hornet_F7CR_shop=製造元：Anvil Aerospace\n用途：探査\n\nGhost が隠れるために生まれたものなら、Tracker は探し求めるために生まれたものです。F7C-R Hornet Tracker は高度なレーダー・スイートを誇り、スキャン・パッケージに深さと正確さを要求する深宇宙探査に理想的な船です。地元の民兵や大規模な傭兵部隊も、Tracker を中隊の移動 C&C 船として活用するでしょう。 
++item_DescANVL_Hornet_F7CR_shop=製造元：Anvil Aerospace\n用途：探査\n\nGhost が隠れるために生まれたものなら、Tracker は探し求めるために生まれたものです。F7C-R Hornet Tracker は高度なレーダースイートを誇り、スキャンパッケージに深さと正確さを要求する深宇宙探査に理想的な船です。地元の民兵や大規模な傭兵部隊も、Tracker を中隊の移動 C&C 船として活用するでしょう。 
  item_DescANVL_Hornet_F7CS_shop=製造元：Anvil Aerospace\n用途：ステルス戦闘\n\n低排出量のドライブ、低消費電力武器、そしてスキャンを拡散させる Void Armor テクノロジーの組み合わせにより、F7C-S Ghost は目立たないことを望むパイロットのために開発されました。Ghost は熱心な監視者の目をすり抜け、どんな目的でも達成することが可能です。心配はご無用です。
  item_DescANVL_Hornet_F7C_Ball_Turret=Anvil の F7 シリーズ用に特別に設計された C4-160f で、Hornet の火力を向上させましょう。この S5 ボールタレットは、2つの S2 船舶用武器を装備できます。
  item_DescANVL_Hornet_F7C_Mk2_Cargo_Door=製造元：Stor*All\nアイテムタイプ：ストレージ\n\nHornet F7C Mk II 用に設計された Stor*All Big Box モデル H2 は、軍用仕様の機体のタレットシステムを取り外し、代わりに十分な貨物積載能力を提供します。
@@ -4901,7 +4901,7 @@ index e9c08c0..3b8a458 100644
  item_DescDefault_DoubleFuelTank,P=二連燃料タンク
  item_DescDefault_Fixed_Mount_S3,P=サイズ3 固定マウント
  item_DescDefault_Fixed_Mount_S4,P=サイズ4 固定マウント
-@@ -58136,8 +58136,8 @@ item_DescEclipse_Paint_Black_Black_Red_Camo=Discreetly soar through the night sk
+@@ -58136,8 +58136,8 @@ item_DescEclipse_Paint_Black_Black_Red_Camo=黒を基調に赤のハイライト
  item_DescEclipse_Paint_IAE_2952_Blue_Red_Camo=Ambush Camo ペイントで、視覚的な認識を妨げる迷彩柄を施し、Eclipse をより見つかりにくくしましょう。
  item_DescEclipse_Paint_IAE_2952_Green_Yellow=Knockout ペイントは、緑豊かな風景の中で Eclipse が目立ちにくくなるよう、緑を基調とした色合いになっています。
  item_DescEclipse_Paint_Pirateweek_Black_Clear=Meridian ペイントは、Eclipse をシンプルかつスタイリッシュなメタリックシルバーに仕上げてくれます。
@@ -5175,8 +5175,8 @@ index e9c08c0..3b8a458 100644
 -item_DescHerald_Paint_IAE2951_Blue_Black=このカスタムされた Herald 用ペイントで2951 IAE を祝いましょう。青と黒に白のアクセントを織り交ぜたこの塗装は、船にビビッと新しい外観を与えてくれます。
 +item_DescHerald_Paint_IAE2951_Blue_Black=このカスタムされた Herald 用ペイントで 2951 IAE を祝いましょう。青と黒に白のアクセントを織り交ぜたこの塗装は、船にビビッと新しい外観を与えてくれます。
  item_DescHerald_Paint_IAE2951_Grey_White=IAE 2951のために特別にデザインされたこの白とグレーのペイントで、あなたの Herald を彩りましょう。
- item_DescHermes_Paint_Black_Black_Red_Camo=Discreetly soar through the night sky in the Hermes with the Nightbreak livery, which is primarily black with red highlights.
- item_DescHermes_Paint_Black_Silver=Tripline ペイントのメタリックな配色には、鋭い銀のアクセントが漆黒を切り裂くように走っています。
+ item_DescHermes_Paint_Black_Black_Red_Camo=黒を基調に赤のハイライトが入った Nightbreak ペイントをまとった Hermes で、夜空へおしとやかに舞い上がりましょう。
+ item_DescHermes_Paint_Black_Silver=Tripline ペイントのメタリックな配色には、鋭いシルバーのアクセントが漆黒を切り裂くように走っています。
 @@ -58760,10 +58760,10 @@ item_DescHullC_Paint_DarkGreen_Grey_Red_Stripe=Trailblazer ペイントは、上
  item_DescHullC_Paint_Dusk=今回 MISC は、貨物船をさりげなくアピールしたい長距離輸送船のキャプテンのために、ひときわ目立つ Hull C Dusk ペイントをご用意しました。隅々までグレーで塗装された船体に、上品なゴールドの縁取りがクラシックな船型を引き立ててくれます。
  item_DescHullC_Paint_Empyrean=ダイナミックなトリコロールカラーのレイアウトが特徴的な Hull C Empyrean ペイントで、貨物輸送に大胆な新風を吹き込みましょう。グレーの船尾と真っ白な船首を分ける黄色のラインが、貨物船にスピード感を与えています。
@@ -5191,7 +5191,7 @@ index e9c08c0..3b8a458 100644
  item_DescINTK_VNCL_S04_Mauler=この燃料吸入口は、戦闘機動中に Mauler の水素燃料を補充し、タンクを満タンに保つ役割を果たします。
  item_DescIdris_Cooler,P= AEGS Idris クーラー
  item_DescIdris_FuelIntake,P=Aegis Idris 燃料吸入口
-@@ -58796,12 +58796,12 @@ item_DescIronclad_olive_olive_yellow=Primarily green with yellow accents, the Co
+@@ -58796,12 +58796,12 @@ item_DescIronclad_olive_olive_yellow=グリーンベースに黄色のアクセ
  item_DescJDRV_WETK_S04_Idris=アイテムタイプ：ジャンプモジュール\n製造元：Aegis Dynamics\nサイズ：4\n\nIdris フリゲート専用に設計された主力艦向けジャンプモジュールです。
  item_DescJOKR_Defcon_CML_Chaff,P=Joker Defcon - ノイズ発射機
  item_DescJOKR_Defcon_CML_Flare,P=Joker Defcon - デコイ発射機
@@ -5240,16 +5240,16 @@ index e9c08c0..3b8a458 100644
 +item_DescM50_Paint_IAE2950_Grey_White=IAE 2950 のために特別にデザインされたこの白とグレーのペイントで、あなたの M50 を彩りましょう。
  item_DescM50_Paint_PirateWeek_Red_Black_Skull=甲板に巨大なドクロを描いたこの M50 用 Skullcrusher ペイントで、そのイカツさを見せつけてやろう。
  item_DescM50_Paint_Racing_Blue_Yellow_Yellow=このスポーティなレーシングカラーを身に着け、ポールポジションに滑り込め。スタイリッシュな山模様でアクセントを加えたブルーとイエローの塗装を採用した、この Murray Cup テーマのペイントで M50 の流麗で鋭い特性を際立たせましょう。
- item_DescM80_Paint_black_black_orange=Black envelopes most of the Afterglow livery for the M80 while orange accent lines provide a pop of color.
-@@ -58927,7 +58927,7 @@ item_DescM80_Paint_red_black_blue=Featuring a brilliant red that produces a radi
- item_DescM80_Paint_teal_black_green=Turn heads with the Tetra livery, featuring a shimmering teal, light green accents, and a sharp black nose.
- item_DescM80_Paint_white_white_blue=Soar through the sky in style with the Dynasty livery, predominantly featuring a crisp white with soft accents of black and blue.
+ item_DescM80_Paint_black_black_orange=M80 向けの Afterglow ペイントでは、船体のほとんどを黒で包み込み、その上からオレンジのアクセントラインが明るい色合いを引き立てています。
+@@ -58927,7 +58927,7 @@ item_DescM80_Paint_red_black_blue=鮮やかな赤が放つ眩い輝きが特徴
+ item_DescM80_Paint_teal_black_green=きらめくティールカラー、明るい緑のアクセント、そしてシャープな黒の船首が特徴の Tetra ペイントで、周囲の視線をクギ付けにしましょう。
+ item_DescM80_Paint_white_white_blue=鮮やかな白を基調に、黒と青の柔らかなアクセントを添えた Dynasty ペイントで宙を優雅に舞いましょう。
  item_DescMCRK_S01_CRUS_Intrepid=アイテムタイプ：ミサイルラック\n製造元：Crusader Industries\nサイズ：1\nミサイル：1xS1\n\n予期せぬトラブルから Intrepid を守るため、Crusader は S1ミサイルを搭載・発射可能な専用ミサイルラックを用意しました。\n
 -item_DescMGbullet=<-=MISSING=->
 +item_DescMGbullet="<-=MISSING=->"
  item_DescMISC_Cockpit_Audio,P=MISC コックピット音声システム
  item_DescMISC_Freelancer_CoPilot_Seat,P=MISC Freelancer 副操縦士座席
- item_DescMISC_Freelancer_DUR_shop=製造元：MISC\n用途：探査\n\nFreelancer DUR は長距離探査に特化したバリエーションです。ベースモデルの25％分の貨物容量を犠牲にして、強化されたジャンプドライブとより高度なスキャナー、そして拡張された燃料タンクを搭載しています。これらの変更を気に入らない人々もいるかもしれませんが、利益よりも発見を重視する人々にとってこの船は最適な選択肢といえるでしょう。
+ item_DescMISC_Freelancer_DUR_shop=製造元：MISC\n用途：長期探査\n\nFreelancer DUR は長距離探査に特化したバリエーションです。ベースモデルの25％分の貨物容量を犠牲にして、強化されたジャンプドライブとより高度なスキャナー、そして拡張された燃料タンクを搭載しています。これらの変更を気に入らない人々もいるかもしれませんが、利益よりも発見を重視する人々にとってこの船は最適な選択肢といえるでしょう。
 @@ -59181,13 +59181,13 @@ item_DescM_tagaca_shr_hair_01=エッジを完全に失うことなく、控え
  item_DescM_tall_hair_01=空に向かって伸びる、背の高いクラシックなヘアスタイル。
  item_DescM_weezy_shr_hair_01=カジュアルでありながら、プロフェッショナルな印象に。
@@ -5409,8 +5409,8 @@ index e9c08c0..3b8a458 100644
  item_DescPaint_300_Series_Metallic_Blue=Origin 300シリーズ用の Ultramarine ペイントです。
  item_DescPaint_300_Series_Metallic_Grey=Origin 300シリーズ用の Obsidian ペイントです。
  item_DescPaint_300_Series_Metallic_Silver=Origin 300シリーズ用の Sterling ペイントです。
-@@ -59435,7 +59435,7 @@ item_DescPerseus_Paint_gold_marble_gold=The Hieron livery bring classical beauty
- item_DescPerseus_Paint_grey_black_white=Accentuate the strong, angular design of the Perseus with the Flintlock livery. A distinct white section across the middle of the ship divides the pointed front half from the dark foreboding back.
+@@ -59435,7 +59435,7 @@ item_DescPerseus_Paint_gold_marble_gold=Hieron ペイントは、大理石風の
+ item_DescPerseus_Paint_grey_black_white=Flintlock ペイントで、Perseus の力強い角形フォルムをより際立たせましょう。船体中央を横切る特徴的な白いラインが、鋭利な艦首と重厚な艦尾を鮮やかに分かちます。
  item_DescPerseus_Paint_grey_blue_red=Perseus 用 Resilient ペイントは、グレーと青に、アクセントとして赤の差し色を効果的に取り入れたデザインとなっています。
  item_DescPerseus_Paint_red_grey_black=鮮やかな赤色の艦首部とグレーと黒の艦尾が特徴的な Insight ペイントで Perseus の存在をアピールしましょう。
 -item_DescPickAndThrowWeapon=<-=MISSING=->
@@ -5497,7 +5497,7 @@ index e9c08c0..3b8a458 100644
  item_DescRedeemer_Paint_Scrubland_Camo=Scrubland Camo ペイントで、Redeemer に深緑の迷彩服を着せましょう。クラシカルで威厳のある外観は、森林や草原での遠征にも最適です。
  item_DescRedeemer_Paint_Seraphim_White_Black=Redeemer の印象的な白い Seraphim ペイントは、その船を美しくも荒々しいものにします。
  item_DescRedeemer_Paint_Underworld_Black_Yellow=Redeemer に Underworld ペイントを施して真っ黒になれば、攻撃の準備は万全です。
-@@ -59746,11 +59746,11 @@ item_DescRetaliator_Paint_Black_Black_Red_Camo=Discreetly soar through the night
+@@ -59746,11 +59746,11 @@ item_DescRetaliator_Paint_Black_Black_Red_Camo=黒を基調に赤のハイライ
  item_DescRetaliator_Paint_Desert_Sand_Red=日光が砂漠の砂に当たるときの微妙な色の変化にインスパイアされた Retaliator の Calico ペイントは、薄茶色と茶色の色合いに赤のハイライトが施されています。
  item_DescRetaliator_Paint_Green_Dark_Green_Yellow=Retaliator の Underbrush ペイントは、第一次 Tevarin 戦争中に導入されました。このクラシックスタイルなペイントは、さまざまな明るさの緑と黄色のハイライトで彩られています。
  item_DescRetaliator_Paint_Yellow_Black=明るく大胆な Backlash ペイントは、Retaliator にダイナミックなデザインをもたらします。黒のストライプに黄色のリング、赤のハイライトが施されています。
@@ -5575,7 +5575,7 @@ index e9c08c0..3b8a458 100644
 +item_DescShieldPane="<-=MISSING=->"
  item_DescShiv_Paint_Beige_Beige_Black=Earthquake ペイントで Shiv のつぎはぎなデザインをアップグレードしよう。ベージュと黒の絶妙な色合いが芸術的に調和しています。
  item_DescShiv_Paint_Black_Black_Black=黒一色の Spectre ペイントで、Shiv をダークで目立たないデザインに仕上げましょう。
- item_DescShiv_Paint_Black_Black_Red_Camo=Discreetly soar through the night sky in the Shiv with the Nightbreak livery, which is primarily black with red highlights.
+ item_DescShiv_Paint_Black_Black_Red_Camo=黒を基調に赤のハイライトが入った Nightbreak ペイントをまとった Shiv で、夜空へおしとやかに舞い上がりましょう。
 @@ -59875,14 +59875,14 @@ item_DescShiv_Paint_White_Blue_Black=機体上部に色鮮やかで装飾的な
  item_DescShubinTurretItem=クラス2b の基本的なタレットマウント
  item_DescShubin_Ballistic_Unmanned_Turret,P= Shubin 無人タレット
@@ -5789,7 +5789,7 @@ index e9c08c0..3b8a458 100644
 +item_Desc_GYS_helmet_01_01_imperator=Ready-Up は、信頼性が高く手頃な価格のソフトシェルヘルメットの代替品で、真空対応のシーリングにより長時間呼吸を保つことができます。Pathfinder Edition では、紫がかった特殊な宇宙仕様のプラスチックを使用することで、実にユニークな外観を実現しています。
  item_Desc_Glowing_Vine=この植物の名前は、古代の地球劇『ハムレット』で溺死した Ophelia の名に由来します。生物発光する Ophelia のつるは、生育する汽水域の砂浜を上昇する潮によって定期的に水没します。この植物の明るい輝きは、その故郷の海に生息する大量のバクテリアによって蓄積されたルシフェリンを自然に吸収するためです。
  item_Desc_HDH_Hat_01_01_01=Habidash のシンプルでスタイリッシュなヘッドカバーは、寒さだけではなく、あらゆる天候、他人の目線までもカットできます。Rabum は、軽量で吸湿性があり、手入れもラクチンな合成エクストラロングコットン製です。
- item_Desc_HRST_Tiburon_S10_laserbeam=Manufacturer: Hurston Dynamics\nType: Laser Beam\nSize: 10\n\nDeveloped in concert with the weapons specialists of Aegis to form part of the dedicated anti-capital ship loadout of the Tiburon, the Supremacy-10T combines surgical precision with devastating destructive power.
+ item_Desc_HRST_Tiburon_S10_laserbeam=製造元：Hurston Dynamics\nタイプ：レーザービーム\nサイズ：10\n\nAegis 社の兵装専門チームとの共同開発により、Tiburon の対主力艦用固定兵装として設計された Supremacy-10T は、外科手術のような精密さと、全てを焼き尽くす壊滅的な破壊力を両立させています。
  item_Desc_HTNK_Default=
 -item_Desc_HWK_Shoes_01_01_Shared=時を経ても色あせない Hawksworth の Couloir ローアンクル・スリップオンシューズは、カジュアルからフォーマルまでどちらにもお使いいただけます。前方を向いた縫い目と先細りのつま先が、このシューズにさりげなくも独特のエレガントなフォルムを与えています。\n\n女性サイズは現在品切れ中です。
 -item_Desc_HWK_Shoes_02_01_01=Hawksworth の De Leon では、伝統的なキャップトゥのオックスフォード・デザインに、シューレースのないスリップオンデザインを組み合わせ、フォーマルシューズの世界に新しい風を吹き込みました。
@@ -6073,7 +6073,7 @@ index e9c08c0..3b8a458 100644
  item_Desc_hdh_jacket_06=運搬容量：400 uSCU\n\nVacha ジャケットは、密封されたカフスとユーティリティネックカラーにより、広範囲の環境で快適な着心地を提供します。さらに、この頑丈なデザインは、密着型クロスクロージャー、内蔵ベルト、補助ポートを備えています。その高い耐久性と実用性により、Vacha ジャケットは Habidash のコレクションの人気製品に常にランクインしています。
  item_Desc_hdh_jacket_07=運搬容量：400 uSCU\n\nもっとポケットを大きくしたいって？ Habidash の Chada パニエールは、持ち運びに便利なように設計されており、調節可能なストラップで腰回りにしっかりと固定できます。各パニエールセットには、ファッショナブルなスチールとレザーのゴージャットも付属しています。
  item_Desc_hdh_jacket_08_01_01=運搬容量：1000 uSCU\n\nHabidash の Detara ジャケットは、耐久性のある生地を何枚もつなぎ合わせて作られており、過酷な環境にも適しつつもユニークなシルエットに仕上がっています。
-@@ -61469,8 +61469,8 @@ item_Desc_nvy_training_shirt_02_defcon2956=Turn up the heat and celebrate Defens
+@@ -61469,8 +61469,8 @@ item_Desc_nvy_training_shirt_02_defcon2956=DefenseCon 2956 をアツくスタイ
  item_Desc_nvy_training_shoes_01=NorthStar の CloudSprint シューズなら、足運びも快適で疲れ知らずに。ワークアウト中もリラックス中も、クッション性とサポート性に優れたソールのおかげで、履いて後悔することはありません。
  item_Desc_nvy_training_shorts_01_01_Shared=標準装備の ActiveWear トレーニングショーツは、4ウェイストレッチ素材を使用しており、通気性を高め、広範囲な動きに対応できるように設計されています。最もハードなトレーニングセッション中も熱と湿気を逃がしてくれます。
  item_Desc_oct_boots_01_Shared=耐久性、信頼性、そして快適性。Bracewell は、防水加工、高トラクションの靴底、および任意の降水を防ぐために役立つトグルロックトップのエンクロージャと予測できない気象条件の中で繁栄するように設計されたハイアンクルブーツです。
@@ -6263,21 +6263,21 @@ index e9c08c0..3b8a458 100644
 -item_Descun_portable_light_1_a_cyan=製造元：Shubin Interstellar\n\nShubin InterstellarのCyan QuikFlareProで前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきた。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlareProは通常のフレアよりも長く輝くために先進技術を使用しています。
 -item_Descun_portable_light_1_a_green=製造元：Shubin Interstellar\n\nShubin InterstellarのGreen QuikFlareProで前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきた。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlareProは通常のフレアよりも長く輝くために先進技術を使用しています。
 -item_Descun_portable_light_1_a_orange=製造元：Shubin Interstellar\n\nShubin InterstellarのOrange QuikFlareProで前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきた。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlareProは通常のフレアよりも長く輝くために先進技術を使用しています。
-+item_Descun_portable_light_1_a_cyan=製造元：Shubin Interstellar\n\nShubin Interstellar の Cyan QuikFlarePro で前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきた。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse 全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlarePro は通常のフレアよりも長く輝くために先進技術を使用しています。
-+item_Descun_portable_light_1_a_green=製造元：Shubin Interstellar\n\nShubin Interstellar の Green QuikFlarePro で前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきた。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse 全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlarePro は通常のフレアよりも長く輝くために先進技術を使用しています。
-+item_Descun_portable_light_1_a_orange=製造元：Shubin Interstellar\n\nShubin Interstellar の Orange QuikFlarePro で前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきた。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse 全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlarePro は通常のフレアよりも長く輝くために先進技術を使用しています。
++item_Descun_portable_light_1_a_cyan=製造元：Shubin Interstellar\n\nShubin Interstellar の Cyan QuikFlarePro で前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきました。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse 全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlarePro は通常のフレアよりも長く輝くために先進技術を使用しています。
++item_Descun_portable_light_1_a_green=製造元：Shubin Interstellar\n\nShubin Interstellar の Green QuikFlarePro で前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきました。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse 全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlarePro は通常のフレアよりも長く輝くために先進技術を使用しています。
++item_Descun_portable_light_1_a_orange=製造元：Shubin Interstellar\n\nShubin Interstellar の Orange QuikFlarePro で前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきました。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse 全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlarePro は通常のフレアよりも長く輝くために先進技術を使用しています。
  item_Descun_portable_light_1_a_pink=製造元：Shubin Interstellar\n\nShubin Interstellar の Pink QuikFlare で前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきた。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse 全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。
 -item_Descun_portable_light_1_a_red=製造元：Shubin Interstellar\n\nShubin InterstellarのRed QuikFlareProで前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきた。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlareProは通常のフレアよりも長く輝くために先進技術を使用しています。
 -item_Descun_portable_light_1_a_yellow=製造元：Shubin Interstellar\n\nShubin InterstellarのYellow QuikFlareProで前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきた。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlareProは通常のフレアよりも長く輝くために先進技術を使用しています。
-+item_Descun_portable_light_1_a_red=製造元：Shubin Interstellar\n\nShubin Interstellar の Red QuikFlarePro で前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきた。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse 全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlarePro は通常のフレアよりも長く輝くために先進技術を使用しています。
-+item_Descun_portable_light_1_a_yellow=製造元：Shubin Interstellar\n\nShubin Interstellar の Yellow QuikFlarePro で前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきた。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse 全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlarePro は通常のフレアよりも長く輝くために先進技術を使用しています。
- item_Descutfl_crossbow_ballistic_01=Manufacturer: UltiFlex\nItem Type: Crossbow\n \nMagazine Size: 5\nRate Of Fire: 60 rpm\nEffective Range: 50 m\n \nAttachments: Optics (S3), Underbarrel (S3)\n \nThe craftsman at UltiFlex went through hundreds of prototypes to discover the perfect lightweight material with the right combination of strength and flexibility for its Novian crossbow, an ideal companion on everything from frontier expeditions to tactical infiltrations. With a pull of its firing action, the Novian near-silently launches a heavy bolt that shatters on impact causing devastating damage to close-range targets.
- item_Descutfl_crossbow_ballistic_01_mag=Item Type: Magazine\nCapacity: 5\n\nThis magazine for the Novian crossbow comes preloaded with five bolts.
- item_Descutfl_crossbow_ballistic_01_sota01=Manufacturer: UltiFlex \nItem Type: Crossbow\n\nMagazine Size: 5 \nRate Of Fire: 60 rpm \nEffective Range: 50 m   \n\nAttachments: Optics (S3), Underbarrel (S3)\n\nThe craftsman at UltiFlex went through hundreds of prototypes to discover the perfect lightweight material with the right combination of strength and flexibility for its Novian crossbow, an ideal companion on everything from frontier expeditions to tactical infiltrations. With a pull of its firing action, the Novian near-silently launches a heavy bolt that shatters on impact causing devastating damage to close-range targets.\n\nThe Shroud edition features rich, dark wood accents on a dark gray frame making it the ideal equipment for anyone seeking their next adventure.
-@@ -62617,10 +62617,10 @@ item_Descutfl_crossbow_ballistic_01_store01,P=Manufacturer: UltiFlex\nItem Type:
- item_Descutfl_crossbow_ballistic_01_tint01,P=Manufacturer: UltiFlex\nItem Type: Crossbow\n  \nMagazine Size: 5\nRate Of Fire: 60 rpm\nEffective Range: 50 m\n  \nAttachments: Optics (S3), Underbarrel (S3)\n  \nThe craftsman at UltiFlex went through hundreds of prototypes to discover the perfect lightweight material with the right combination of strength and flexibility for its Novian crossbow, an ideal companion on everything from frontier expeditions to tactical infiltrations. With a pull of its firing action, the Novian near-silently launches a heavy bolt that shatters on impact causing devastating damage to close-range targets. \n \nThe Nighthunter edition sports a dipped-in-shadow matte black frame.
- item_Descutfl_crossbow_ballistic_01_tint02,P=Manufacturer: UltiFlex\nItem Type: Crossbow\n  \nMagazine Size: 5\nRate Of Fire: 60 rpm\nEffective Range: 50 m\n  \nAttachments: Optics (S3), Underbarrel (S3)\n  \nThe craftsman at UltiFlex went through hundreds of prototypes to discover the perfect lightweight material with the right combination of strength and flexibility for its Novian crossbow, an ideal companion on everything from frontier expeditions to tactical infiltrations. With a pull of its firing action, the Novian near-silently launches a heavy bolt that shatters on impact causing devastating damage to close-range targets. \n \nThe Ghostmaker edition sports smoke gray accents on a metallic body.
- item_Descutfl_crossbow_ballistic_01_tint03,P=Manufacturer: UltiFlex\nItem Type: Crossbow\n  \nMagazine Size: 5\nRate Of Fire: 60 rpm\nEffective Range: 50 m\n  \nAttachments: Optics (S3), Underbarrel (S3)\n \nThe craftsman at UltiFlex went through hundreds of prototypes to discover the perfect lightweight material with the right combination of strength and flexibility for its Novian crossbow, an ideal companion on everything from frontier expeditions to tactical infiltrations. With a pull of its firing action, the Novian near-silently launches a heavy bolt that shatters on impact causing devastating damage to close-range targets. \n \nThe Wildshot edition's styling mixes subdued natural tones.
++item_Descun_portable_light_1_a_red=製造元：Shubin Interstellar\n\nShubin Interstellar の Red QuikFlarePro で前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきました。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse 全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlarePro は通常のフレアよりも長く輝くために先進技術を使用しています。
++item_Descun_portable_light_1_a_yellow=製造元：Shubin Interstellar\n\nShubin Interstellar の Yellow QuikFlarePro で前方を照らすか、助けを求めるサインを出してください。何世紀にもわたり、鉱夫たちはこのフレアを彼らの中核ツールキットの一部として頼りにしてきました。その試行錯誤を重ねたデザインと耐久性のおかげで、'verse 全域で遭遇する様々な厳しい天候や困難な大気の条件下でも燃え続けることが可能です。QuikFlarePro は通常のフレアよりも長く輝くために先進技術を使用しています。
+ item_Descutfl_crossbow_ballistic_01=製造元: UltiFlex\nアイテムタイプ: クロスボウ\n \nマガジンサイズ: 5\n射撃速度: 60 rpm\n有効射程: 50 m\n \nアタッチメント: オプティクス (S3), アンダーバレル (S3)\n \nUltiFlex の職人たちは、何百もの試作を重ねることで、Novian クロスボウに最適な強さと柔軟性を兼ね備えた、理想的な軽量素材を選定しました。辺境での探検から戦術的な潜入任務まで、あらゆる場面で最高の相棒となる武器です。トリガーを引けば、Novian はほぼ無音で重厚なボルトを射出し、着弾と同時にさく裂することで近距離のターゲットに絶大なダメージを与えます。
+ item_Descutfl_crossbow_ballistic_01_mag=アイテムタイプ：マガジン\n容量：5\n\nこの Novian クロスボウ用マガジンには 5 発のボルトが装填されています。
+ item_Descutfl_crossbow_ballistic_01_sota01=製造元: UltiFlex\nアイテムタイプ: クロスボウ\n \nマガジンサイズ: 5\n射撃速度: 60 rpm\n有効射程: 50 m\n \nアタッチメント: オプティクス (S3), アンダーバレル (S3)\n \nUltiFlex の職人たちは、何百もの試作を重ねることで、Novian クロスボウに最適な強さと柔軟性を兼ね備えた、理想的な軽量素材を選定しました。辺境での探検から戦術的な潜入任務まで、あらゆる場面で最高の相棒となる武器です。トリガーを引けば、Novian はほぼ無音で重厚なボルトを射出し、着弾と同時にさく裂することで近距離のターゲットに絶大なダメージを与えます。\n\nShroud edition は、ダークグレーのフレームに高級感あふれるダークウッドのアクセントを施しており、次なる冒険を追い求める者にとって理想的な装備となっています。
+@@ -62617,10 +62617,10 @@ item_Descutfl_crossbow_ballistic_01_store01,P=製造元: UltiFlex\nアイテム
+ item_Descutfl_crossbow_ballistic_01_tint01,P=製造元: UltiFlex\nアイテムタイプ: クロスボウ\n \nマガジンサイズ: 5\n射撃速度: 60 rpm\n有効射程: 50 m\n \nアタッチメント: オプティクス (S3), アンダーバレル (S3)\n \nUltiFlex の職人たちは、何百もの試作を重ねることで、Novian クロスボウに最適な強さと柔軟性を兼ね備えた、理想的な軽量素材を選定しました。辺境での探検から戦術的な潜入任務まで、あらゆる場面で最高の相棒となる武器です。トリガーを引けば、Novian はほぼ無音で重厚なボルトを射出し、着弾と同時にさく裂することで近距離のターゲットに絶大なダメージを与えます。\n\nNighthunter edition は、影に浸したようなマットブラックのフレームが特徴です。
+ item_Descutfl_crossbow_ballistic_01_tint02,P=製造元: UltiFlex\nアイテムタイプ: クロスボウ\n \nマガジンサイズ: 5\n射撃速度: 60 rpm\n有効射程: 50 m\n \nアタッチメント: オプティクス (S3), アンダーバレル (S3)\n \nUltiFlex の職人たちは、何百もの試作を重ねることで、Novian クロスボウに最適な強さと柔軟性を兼ね備えた、理想的な軽量素材を選定しました。辺境での探検から戦術的な潜入任務まで、あらゆる場面で最高の相棒となる武器です。トリガーを引けば、Novian はほぼ無音で重厚なボルトを射出し、着弾と同時にさく裂することで近距離のターゲットに絶大なダメージを与えます。\n\nGhostmaker edition は、メタリックボディにスモークグレーのアクセントが映えるデザインとなっています。
+ item_Descutfl_crossbow_ballistic_01_tint03,P=製造元: UltiFlex\nアイテムタイプ: クロスボウ\n \nマガジンサイズ: 5\n射撃速度: 60 rpm\n有効射程: 50 m\n \nアタッチメント: オプティクス (S3), アンダーバレル (S3)\n \nUltiFlex の職人たちは、何百もの試作を重ねることで、Novian クロスボウに最適な強さと柔軟性を兼ね備えた、理想的な軽量素材を選定しました。辺境での探検から戦術的な潜入任務まで、あらゆる場面で最高の相棒となる武器です。トリガーを引けば、Novian はほぼ無音で重厚なボルトを射出し、着弾と同時にさく裂することで近距離のターゲットに絶大なダメージを与えます。\n\nWildshot edition は、落ち着いたナチュラルカラーを組み合わせたスタイルを採用しています。
 -item_Descutfl_melee_01=製造元：UltiFlex\nアイテムタイプ：ナイフ\nクラス：近接\n\nサイズ：16 cm\n\nUltiFlex の FSK-8コンバットナイフは、可能な限りシンプルに設計された武器です。多くの人々が現代の武器の魅力的なテクノロジーに魅了される中、UltiFlex はシンプルで効果的な戦闘ツールを作ることに重点を置いています。バランスの取れた1055炭素鋼製の刃は、鋭利な刃先に研磨されており、このナイフは投擲を含めたあらゆる乱用に耐えることができます。
 -item_Descutfl_melee_01_browngold01=製造元：UltiFlex\nアイテムタイプ：ナイフ\nクラス：近接\n\nサイズ：16 cm\n\nUltiFlex の FSK-8コンバットナイフは、可能な限りシンプルに設計された武器です。多くの人々が現代の武器の魅力的なテクノロジーに魅了される中、UltiFlex はシンプルで効果的な戦闘ツールを作ることに重点を置いています。バランスの取れた1055炭素鋼製の刃は、鋭利な刃先に研磨されており、このナイフは投擲を含めたあらゆる乱用に耐えることができます。
 -item_Descutfl_melee_01_greywhite01=製造元：UltiFlex\nアイテムタイプ：ナイフ\nクラス：近接\n\nサイズ：16 cm\n\nUltiFlex の FSK-8コンバットナイフは、可能な限りシンプルに設計された武器です。多くの人々が現代の武器の魅力的なテクノロジーに魅了される中、UltiFlex はシンプルで効果的な戦闘ツールを作ることに重点を置いています。バランスの取れた1055炭素鋼製の刃は、鋭利な刃先に研磨されており、このナイフは投擲を含めたあらゆる乱用に耐えることができます。
@@ -6339,9 +6339,9 @@ index e9c08c0..3b8a458 100644
 -item_Mining_MiningLaser_Greycat_1_S2_Desc=製造元：Greycat Industrial\nアイテムタイプ：採掘レーザー\nサイズ：2\n\n適正距離：45m\n最大有効射程：135m\n\n採掘レーザー出力：900-3600\n抽出レーザー出力：2590\n\nモジュール用スロット数：2\n\nレーザー不安定度：-10%\n適正出力時チャージ速度：+40%\n不純物含有率：-40%\n\n適正出力域補正：-60%\n\nGreycat は Lancet MH2を、他の採掘者と一緒に採掘する際に最適に活用できるサポート用レーザーとして分類しています。この採掘レーザーの適正出力域サイズは小さく、精密な操作が要求されますが、Lancet MH2は見つけた鉱石を素早く回収し、抽出レーザーによって収集される不純物の量を減少させる点で優れています。採掘船クルーにとっては、他のレーザーと併用する理想的なサポート用レーザーです。
 +item_Mining_MiningLaser_Greycat_1_S2_Desc=製造元：Greycat Industrial\nアイテムタイプ：採掘レーザー\nサイズ：2\n\n適正距離：45m\n最大有効射程：135m\n\n採掘レーザー出力：900-3600\n抽出レーザー出力：2590\n\nモジュール用スロット数：2\n\nレーザー不安定度：-10%\n適正出力時チャージ速度：+40%\n不純物含有率：-40%\n\n適正出力域補正：-60%\n\nGreycat は Lancet MH2 を、他の採掘者と一緒に採掘する際に最適に活用できるサポート用レーザーとして分類しています。この採掘レーザーの適正出力域サイズは小さく、精密な操作が要求されますが、Lancet MH2 は見つけた鉱石を素早く回収し、抽出レーザーによって収集される不純物の量を減少させる点で優れています。採掘船クルーにとっては、他のレーザーと併用する理想的なサポート用レーザーです。
  item_Mining_MiningLaser_Greycat_1_SV=Lancet MHV 採掘レーザー
- item_Mining_MiningLaser_Greycat_1_SV_Desc=製造元：Greycat Industrial\nアイテムタイプ：採掘レーザー\nサイズ：0\n\n適正距離：30m\n最大有効射程：150m\n\n不安定性：-30%\n耐性：-50%\n回収速度：0.45 SCU/s\n電力転送：1200\nチャージ速度：-30%\nモジュール用スロット数：3\n\nGreycat は Lancet MHV を、他の採掘者と一緒に採掘する際に最適に活用できるサポートレーザーとして分類しています。平均よりも弱いビームを生成し、安全に鉱石を加熱して耐性と不安定性を低減させますが、単独運用で鉱石を破砕するのは難しいです。採掘クルーにとっては、他のレーザーと併用する理想的なサポート用レーザーです。
+ item_Mining_MiningLaser_Greycat_1_SV_Desc=製造元：Greycat Industrial\nアイテムタイプ：採掘レーザー\nサイズ：0\n\n適正距離：30m\n最大有効射程：150m\n\n不安定性：-30%\n耐性：-50%\n回収速度：0.45 SCU/秒\n電力転送：1200\nチャージ速度：-30%\nモジュール用スロット数：3\n\nGreycat は Lancet MHV を、他の採掘者と一緒に採掘する際に最適に活用できるサポートレーザーとして分類しています。平均よりも弱いビームを生成し、安全に鉱石を加熱して耐性と不安定性を低減させますが、単独運用で鉱石を破砕するのは難しいです。採掘クルーにとっては、他のレーザーと併用する理想的なサポート用レーザーです。
  item_Mining_MiningLaser_Greycat_Default_S0=Arbor MHV 採掘レーザー
- item_Mining_MiningLaser_Greycat_Default_S0_Desc=製造元：Greycat Industrial\nアイテムタイプ：採掘レーザー\nサイズ：0\n\n適正距離：15m\n最大有効射程：20m\n回収速度：0.01 SCU/s\n収集ポイント半径：1m\n\nArbor は、Greycat Industrial の厳格な基準と長年培った信頼によって、宇宙で最も称賛される採掘レーザーになりました。MHV は同じクラシックなデザインを採用し、よりコンパクトな採掘リグ向けに再構築しましたが、採掘者の皆様から愛される堅牢で信頼性の高い性能は変わりません。
+ item_Mining_MiningLaser_Greycat_Default_S0_Desc=製造元：Greycat Industrial\nアイテムタイプ：採掘レーザー\nサイズ：0\n\n適正距離：15m\n最大有効射程：20m\n回収速度：0.01 SCU/秒\n収集ポイント半径：1m\n\nArbor は、Greycat Industrial の厳格な基準と長年培った信頼によって、宇宙で最も称賛される採掘レーザーになりました。MHV は同じクラシックなデザインを採用し、よりコンパクトな採掘リグ向けに再構築しましたが、採掘者の皆様から愛される堅牢で信頼性の高い性能は変わりません。
  item_Mining_MiningLaser_Greycat_Default_S1=Arbor MH1 採掘レーザー
 -item_Mining_MiningLaser_Greycat_Default_S1_Desc=製造元：Greycat Industrial\nアイテムタイプ：採掘レーザー\nサイズ：1\n\n適正距離：60m\n最大有効射程：180m\n\n採掘レーザー出力：189-1890\n抽出レーザー出力：1850\n\nモジュール用スロット数：1\n\nレーザー不安定度：-35%\n適正出力域補正：+40%\n不純物含有率：-30%\n\n耐性：+25%\n\nArbor MH1は、Greycat Industrial の厳格な基準と営業努力により、宇宙で最も名高い採掘レーザーとなりました。このレーザーは、スピードと安全性のバランスの良さから、産業用や単独作業向けの製品として好評を博しています。Greycat はこの評判を活かし、Arbor MH1をほとんどの採掘船の標準的なレーザーヘッドにするための排他的な契約を締結しました。
 +item_Mining_MiningLaser_Greycat_Default_S1_Desc=製造元：Greycat Industrial\nアイテムタイプ：採掘レーザー\nサイズ：1\n\n適正距離：60m\n最大有効射程：180m\n\n採掘レーザー出力：189-1890\n抽出レーザー出力：1850\n\nモジュール用スロット数：1\n\nレーザー不安定度：-35%\n適正出力域補正：+40%\n不純物含有率：-30%\n\n耐性：+25%\n\nArbor MH1 は、Greycat Industrial の厳格な基準と営業努力により、宇宙で最も名高い採掘レーザーとなりました。このレーザーは、スピードと安全性のバランスの良さから、産業用や単独作業向けの製品として好評を博しています。Greycat はこの評判を活かし、Arbor MH1 をほとんどの採掘船の標準的なレーザーヘッドにするための排他的な契約を締結しました。
@@ -6349,7 +6349,7 @@ index e9c08c0..3b8a458 100644
 -item_Mining_MiningLaser_Greycat_Default_S2_Desc=製造元：Greycat Industrial\nアイテムタイプ：採掘レーザー\nサイズ：2\n\n適正距離：90m\n最大有効射程：270m\n\n採掘レーザー出力：480-2400\n抽出レーザー出力：2590\n\nモジュール用スロット数：2\n\nレーザー不安定度：-35%\n適正出力域補正：+40%\n不純物含有率：-40%\n\n耐性：+25%\n\nArbor MH2は、Greycat の誇る Arbor シリーズのサイズ2バージョンです。小型バージョン同様、Arbor MH2の堅固で信頼性の高いデザインは、スピードと安全性のバランスの良さから、産業用や単独での運用で好評を博しています。また、特殊なフィルターシステムを備えており、収集される不純物の量を減少させることが可能です。
 +item_Mining_MiningLaser_Greycat_Default_S2_Desc=製造元：Greycat Industrial\nアイテムタイプ：採掘レーザー\nサイズ：2\n\n適正距離：90m\n最大有効射程：270m\n\n採掘レーザー出力：480-2400\n抽出レーザー出力：2590\n\nモジュール用スロット数：2\n\nレーザー不安定度：-35%\n適正出力域補正：+40%\n不純物含有率：-40%\n\n耐性：+25%\n\nArbor MH2 は、Greycat の誇る Arbor シリーズのサイズ2バージョンです。小型バージョン同様、Arbor MH2 の堅固で信頼性の高いデザインは、スピードと安全性のバランスの良さから、産業用や単独での運用で好評を博しています。また、特殊なフィルターシステムを備えており、収集される不純物の量を減少させることが可能です。
  item_Mining_MiningLaser_Greycat_Default_SV=Arbor MHV 採掘レーザー
- item_Mining_MiningLaser_Greycat_Default_SV_Desc=製造元：Greycat Industrial\nアイテムタイプ：採掘レーザー\nサイズ：0\n\n適正距離：30m\n最大有効射程：150m\n回収速度：0.35 SCU/s\n電力転送：1400\n\nArbor MHV は、Greycat Industrial の厳格な基準と営業努力によって、宇宙で最も名高い採掘レーザーになりました。このレーザーの堅牢で信頼性の高い設計は、スピードと安全性のバランスの良さから、産業用および単独での運用で多くの支持を受けました。Greycat はこの評判を活かし、Arbor MHV をほとんどの採掘車両の標準的なレーザーヘッドにするための排他的な契約を締結しました。
+ item_Mining_MiningLaser_Greycat_Default_SV_Desc=製造元：Greycat Industrial\nアイテムタイプ：採掘レーザー\nサイズ：0\n\n適正距離：30m\n最大有効射程：150m\n回収速度：0.35 SCU/秒\n電力転送：1400\n\nArbor MHV は、Greycat Industrial の厳格な基準と営業努力によって、宇宙で最も名高い採掘レーザーになりました。このレーザーの堅牢で信頼性の高い設計は、スピードと安全性のバランスの良さから、産業用および単独での運用で多くの支持を受けました。Greycat はこの評判を活かし、Arbor MHV をほとんどの採掘車両の標準的なレーザーヘッドにするための排他的な契約を締結しました。
  item_Mining_MiningLaser_Shubin_1_S1=Hofstede-S1 採掘レーザー
 -item_Mining_MiningLaser_Shubin_1_S1_Desc=製造元：Shubin Interstellar\nアイテムタイプ：採掘レーザー\nサイズ：1\n\n適正距離：45m\n最大有効射程：135m\n\n採掘レーザー出力：105-2100\n抽出レーザー出力：1295\n\nモジュール用スロット数：1\n\n耐性：-30%\n適正出力時チャージ速度：+20%\n不純物含有率：-30%\n\nレーザー不安定度：+10%\n\nHofstede-S1は、特許を取得した結晶格子構造を採用し、鉱石の採掘時の自然な抵抗を抑制し、抽出時の不純物量を削減することに成功しました。短距離および中距離で最も効果的に使用できますが、レーザーの不安定性が増加しているため、照射中はレーザーを注意深く管理する必要があります。
 +item_Mining_MiningLaser_Shubin_1_S1_Desc=製造元：Shubin Interstellar\nアイテムタイプ：採掘レーザー\nサイズ：1\n\n適正距離：45m\n最大有効射程：135m\n\n採掘レーザー出力：105-2100\n抽出レーザー出力：1295\n\nモジュール用スロット数：1\n\n耐性：-30%\n適正出力時チャージ速度：+20%\n不純物含有率：-30%\n\nレーザー不安定度：+10%\n\nHofstede-S1 は、特許を取得した結晶格子構造を採用し、鉱石の採掘時の自然な抵抗を抑制し、抽出時の不純物量を削減することに成功しました。短距離および中距離で最も効果的に使用できますが、レーザーの不安定性が増加しているため、照射中はレーザーを注意深く管理する必要があります。
@@ -6357,7 +6357,7 @@ index e9c08c0..3b8a458 100644
 -item_Mining_MiningLaser_Shubin_1_S2_Desc=製造元：Shubin Interstellar\nアイテムタイプ：採掘レーザー\nサイズ：2\n\n適正距離：60m\n最大有効射程：180m\n\n採掘レーザー出力：336-3360\n抽出レーザー出力：1295\n\nモジュール用スロット数：2\n\n耐性：-30%\n適正出力時チャージ速度：+20%\n不純物含有率：-40%\n\nレーザー不安定度：+10%\n\nHofstede-S2は、特許を取得した結晶格子構造を採用し、鉱石の採掘時の自然な抵抗を抑制し、抽出時の不純物量を削減することに成功しました。短距離および中距離で最も効果的に使用できますが、レーザーの不安定性が増加しているため、照射中はレーザーを注意深く管理する必要があります。
 +item_Mining_MiningLaser_Shubin_1_S2_Desc=製造元：Shubin Interstellar\nアイテムタイプ：採掘レーザー\nサイズ：2\n\n適正距離：60m\n最大有効射程：180m\n\n採掘レーザー出力：336-3360\n抽出レーザー出力：1295\n\nモジュール用スロット数：2\n\n耐性：-30%\n適正出力時チャージ速度：+20%\n不純物含有率：-40%\n\nレーザー不安定度：+10%\n\nHofstede-S2 は、特許を取得した結晶格子構造を採用し、鉱石の採掘時の自然な抵抗を抑制し、抽出時の不純物量を削減することに成功しました。短距離および中距離で最も効果的に使用できますが、レーザーの不安定性が増加しているため、照射中はレーザーを注意深く管理する必要があります。
  item_Mining_MiningLaser_Shubin_1_SV=Hofstede-SV 採掘レーザー
- item_Mining_MiningLaser_Shubin_1_SV_Desc=製造元：Shubin Interstellar\nアイテムタイプ：採掘レーザー\nサイズ：0\n\n適正距離：15m\n最大有効射程：75m\n\n電力転送：2000\n不安定性：-50%\n回収速度：0.35 SCU/s\nモジュール用スロット数：2\n\n安全を考慮して設計され、Hofstede-SV は射程を犠牲にし、鉱石の不安定性を抑制して安全に採掘できるようにします。致命的な爆発の可能性を減少させたい採掘者は、Shubin が誇るこの信頼性の高い、かつ手ごろな価格の採掘レーザーに頼るべきでしょう。
+ item_Mining_MiningLaser_Shubin_1_SV_Desc=製造元：Shubin Interstellar\nアイテムタイプ：採掘レーザー\nサイズ：0\n\n適正距離：15m\n最大有効射程：75m\n\n電力転送：2000\n不安定性：-50%\n回収速度：0.35 SCU/秒\nモジュール用スロット数：2\n\n安全を考慮して設計され、Hofstede-SV は射程を犠牲にし、鉱石の不安定性を抑制して安全に採掘できるようにします。致命的な爆発の可能性を減少させたい採掘者は、Shubin が誇るこの信頼性の高い、かつ手ごろな価格の採掘レーザーに頼るべきでしょう。
  item_Mining_MiningLaser_Shubin_2_S1=Klein-S1 採掘レーザー
 -item_Mining_MiningLaser_Shubin_2_S1_Desc=製造元：Shubin Interstellar\nアイテムタイプ：採掘レーザー\nサイズ：1\n\n適正距離：45m\n最大有効射程：135m\n\n採掘レーザー出力：378-2220\n抽出レーザー出力：2220\n\nモジュール用スロット数：0\n\n耐性：-45%\n適正出力域補正：+20%\n不純物含有率：-30%\n\nレーザー不安定度：+35%\n\nShubin は Klein-S1を設計し、採掘スピードを速める強力なレーザーの開発に成功しました。その強力なパワーはレーザーの不安定性を増加させる追加のリスクを伴いますが、正しく使用すれば、Klein-S1は注意深い採掘者に素早く報酬をもたらすことができます。
 +item_Mining_MiningLaser_Shubin_2_S1_Desc=製造元：Shubin Interstellar\nアイテムタイプ：採掘レーザー\nサイズ：1\n\n適正距離：45m\n最大有効射程：135m\n\n採掘レーザー出力：378-2220\n抽出レーザー出力：2220\n\nモジュール用スロット数：0\n\n耐性：-45%\n適正出力域補正：+20%\n不純物含有率：-30%\n\nレーザー不安定度：+35%\n\nShubin は Klein-S1を設計し、採掘スピードを速める強力なレーザーの開発に成功しました。その強力なパワーはレーザーの不安定性を増加させる追加のリスクを伴いますが、正しく使用すれば、Klein-S1 は注意深い採掘者に素早く報酬をもたらすことができます。
@@ -6365,7 +6365,7 @@ index e9c08c0..3b8a458 100644
 -item_Mining_MiningLaser_Shubin_2_S2_Desc=製造元：Shubin Interstellar\nアイテムタイプ：採掘レーザー\nサイズ：2\n\n適正距離：60m\n最大有効射程：180m\n\n採掘レーザー出力：720-3600\n抽出レーザー出力：2775\n\nモジュール用スロット数：1\n\n耐性：-45%\n適正出力域補正：+20%\n不純物含有率：-40%\n\nレーザー不安定度：+35%\n\nShubin は Klein-S2を設計し、採掘スピードを速める強力なレーザーの開発に成功しました。その強力なパワーはレーザーの不安定性を増加させる追加のリスクを伴いますが、正しく使用すれば、Klein-S2は注意深い採掘者に素早く報酬をもたらすことができます。
 +item_Mining_MiningLaser_Shubin_2_S2_Desc=製造元：Shubin Interstellar\nアイテムタイプ：採掘レーザー\nサイズ：2\n\n適正距離：60m\n最大有効射程：180m\n\n採掘レーザー出力：720-3600\n抽出レーザー出力：2775\n\nモジュール用スロット数：1\n\n耐性：-45%\n適正出力域補正：+20%\n不純物含有率：-40%\n\nレーザー不安定度：+35%\n\nShubin は Klein-S2を設計し、採掘スピードを速める強力なレーザーの開発に成功しました。その強力なパワーはレーザーの不安定性を増加させる追加のリスクを伴いますが、正しく使用すれば、Klein-S2 は注意深い採掘者に素早く報酬をもたらすことができます。
  item_Mining_MiningLaser_Shubin_2_SV=Klein-SV 採掘レーザー
- item_Mining_MiningLaser_Shubin_2_SV_Desc=製造元：Shubin Interstellar\nアイテムタイプ：採掘レーザー\nサイズ：0\n\n適正距離：30m\n最大有効射程：150m\n\n電力転送：2500\n耐性：-10%\n不安定度：+50%\n回収速度：0.35 SCU/s\nモジュール用スロット数：2\n\nShubin は Klein-SV を設計し、採掘スピードを速める強力なレーザーの開発に成功しました。この増加した採掘スピードは、鉱石の不安定性と爆発の可能性を増加させる追加のリスクを伴いますが、正しく使用すれば、Klein-SV は注意深い採掘者に素早く報酬をもたらすことができます。
+ item_Mining_MiningLaser_Shubin_2_SV_Desc=製造元：Shubin Interstellar\nアイテムタイプ：採掘レーザー\nサイズ：0\n\n適正距離：30m\n最大有効射程：150m\n\n電力転送：2500\n耐性：-10%\n不安定度：+50%\n回収速度：0.35 SCU/秒\nモジュール用スロット数：2\n\nShubin は Klein-SV を設計し、採掘スピードを速める強力なレーザーの開発に成功しました。この増加した採掘スピードは、鉱石の不安定性と爆発の可能性を増加させる追加のリスクを伴いますが、正しく使用すれば、Klein-SV は注意深い採掘者に素早く報酬をもたらすことができます。
  item_Mining_MiningLaser_Thermyte_1_S1=Impact I 採掘レーザー
 -item_Mining_MiningLaser_Thermyte_1_S1_Desc=製造元：Thermyte Concern\nアイテムタイプ：採掘レーザー\nサイズ：1\n\n適正距離：45m\n最大有効射程：135m\n\n採掘レーザー出力：420-2100\n抽出レーザー出力：2775\n\nモジュール用スロット数：2\n\nレーザー不安定度：-10%\n適正出力域補正：+20%\n不純物含有率：-30%\n\n耐性：+10%\n適正出力時チャージ速度：-40%\n\n\nImpact I はさまざまな採掘状況で優れた性能を発揮します。特殊なフォーカス・レンズにより、レーザーを安定させ、適正出力域を増やすことで、鉱石を効果的に処理することができます。増加した鉱石の抵抗や適正出力域のチャージが遅くなるという欠点もありますが、Thermyte Concern はまた、2つのモジュール用スロットを提供し、採掘者がレーザーをより適切にタスクにカスタマイズできるようにしました。
 +item_Mining_MiningLaser_Thermyte_1_S1_Desc=製造元：Thermyte Concern\nアイテムタイプ：採掘レーザー\nサイズ：1\n\n適正距離：45m\n最大有効射程：135m\n\n採掘レーザー出力：420-2100\n抽出レーザー出力：2775\n\nモジュール用スロット数：2\n\nレーザー不安定度：-10%\n適正出力域補正：+20%\n不純物含有率：-30%\n\n耐性：+10%\n適正出力時チャージ速度：-40%\n\n\nImpact I はさまざまな採掘状況で優れた性能を発揮します。特殊なフォーカスレンズにより、レーザーを安定させ、適正出力域を増やすことで、鉱石を効果的に処理することができます。増加した鉱石の抵抗や適正出力域のチャージが遅くなるという欠点もありますが、Thermyte Concern はまた、2つのモジュール用スロットを提供し、採掘者がレーザーをより適切にタスクにカスタマイズできるようにしました。
@@ -6373,7 +6373,7 @@ index e9c08c0..3b8a458 100644
 -item_Mining_MiningLaser_Thermyte_1_S2_Desc=製造元：Thermyte Concern\nアイテムタイプ：採掘レーザー\nサイズ：2\n\n適正距離：60m\n最大有効射程：180m\n\n採掘レーザー出力：840-3360\n抽出レーザー出力：3145\n\nモジュール用スロット数：3\n\nレーザー不安定度：-10%\n適正出力域補正：+20%\n不純物含有率：-40%\n\n耐性：+10%\n適正出力時チャージ速度：-40%\n\nImpact II はさまざまな採掘状況で優れた性能を発揮します。特殊なフォーカス・レンズにより、レーザーを安定させ、適正出力域を増やすことで、鉱石を効果的に処理することができます。増加した鉱石の抵抗や適正出力域のチャージが遅くなるという欠点もありますが、Thermyte Concern はまた、3つのモジュール用スロットを提供し、採掘者がレーザーをより適切にタスクにカスタマイズできるようにしました。
 +item_Mining_MiningLaser_Thermyte_1_S2_Desc=製造元：Thermyte Concern\nアイテムタイプ：採掘レーザー\nサイズ：2\n\n適正距離：60m\n最大有効射程：180m\n\n採掘レーザー出力：840-3360\n抽出レーザー出力：3145\n\nモジュール用スロット数：3\n\nレーザー不安定度：-10%\n適正出力域補正：+20%\n不純物含有率：-40%\n\n耐性：+10%\n適正出力時チャージ速度：-40%\n\nImpact II はさまざまな採掘状況で優れた性能を発揮します。特殊なフォーカスレンズにより、レーザーを安定させ、適正出力域を増やすことで、鉱石を効果的に処理することができます。増加した鉱石の抵抗や適正出力域のチャージが遅くなるという欠点もありますが、Thermyte Concern はまた、3つのモジュール用スロットを提供し、採掘者がレーザーをより適切にタスクにカスタマイズできるようにしました。
  item_Mining_MiningLaser_Thermyte_1_SV=Impact S 採掘レーザー
- item_Mining_MiningLaser_Thermyte_1_SV_Desc=製造元：Thermyte Concern\nアイテムタイプ：採掘レーザー\nサイズ：0\n\n適正距離：30m\n最大有効射程：150m\n\n電力転送：3000\n適正出力時チャージ率：+20%\n耐性：-10%\n回収速度：0.45 SCU/s\n不安定度：+20%\n破砕ダメージ：+50%\n過剰出力時チャージ率：+100%\nモジュール用スロット数：3\n\nImpact S を使えば、採掘が難しい鉱石をより簡単かつ素早く採掘できます。Thermyte Concern は特殊なフォーカス・レンズを作成し、レーザーのパワーを増強し、より大きな適正出力域に必要な精度を提供しました。この強力な採掘レーザーは使用時に注意深い管理が必要であり、鉱石はより速く過熱し、より強力に爆発するでしょう。
+ item_Mining_MiningLaser_Thermyte_1_SV_Desc=製造元：Thermyte Concern\nアイテムタイプ：採掘レーザー\nサイズ：0\n\n適正距離：30m\n最大有効射程：150m\n\n電力転送：3000\n適正出力時チャージ率：+20%\n耐性：-10%\n回収速度：0.45 SCU/秒\n不安定度：+20%\n破砕ダメージ：+50%\n過剰出力時チャージ率：+100%\nモジュール用スロット数：3\n\nImpact S を使えば、採掘が難しい鉱石をより簡単かつ素早く採掘できます。Thermyte Concern は特殊なフォーカス・レンズを作成し、レーザーのパワーを増強し、より大きな適正出力域に必要な精度を提供しました。この強力な採掘レーザーは使用時に注意深い管理が必要であり、鉱石はより速く過熱し、より強力に爆発するでしょう。
  item_Mining_MiningLaser_Thermyte_2_S1=Helix I 採掘レーザー
 @@ -62823,11 +62823,11 @@ item_Mining_MiningSack_GRIN_ROC_Name=Greycat ROC 鉱石ポッド
  item_Mining_MiningSack_MISC_Desc=容量：8 SCU\n\n対応する採掘船で使用するために製作された MISC 製鉱石ポッドは、ポッド内部の耐摩耗塗料など独特の特徴を備えており、数年にわたって重い積荷に耐えることができます。
@@ -8675,6 +8675,15 @@ index e9c08c0..3b8a458 100644
  ui_CI_MGV_Pitch_Down=地上車両 - ピッチを下げる
  ui_CI_MGV_Pitch_Up=地上車両 - ピッチを上げる
  ui_CI_MGV_ToggleBreakOnIdle=非操作時の自動ブレーキ 切り替え
+@@ -84491,7 +84493,7 @@ ui_Filtering=フィルター
+ ui_FindMatch=マッチを検索
+ ui_FlightMode_QuickSelectRadialMenu=フライトシステム選択 ホイールメニュー
+ ui_FlightSystems_PITWheelCategory=フライトシステム - PIT カテゴリー
+-ui_Free=自由
++ui_Free=無料
+ ui_Friends=フレンド
+ ui_Fullscreen=フルスクリーン
+ ui_FullscreenTT=フルスクリーンに切り替え
 @@ -84603,7 +84605,7 @@ ui_LockedGameModeTooltip=ロビーリーダーのみ編集可能です。
  ui_LookAhead_ReticleOffset=Look Ahead レクティルのオフセット
  ui_LookAhead_Sensitivity=Look Ahead 感度
@@ -8834,11 +8843,11 @@ index e9c08c0..3b8a458 100644
  vehicle_DescAEGS_Sabre_Peregrine=製造元：Aegis Dynamics\n用途：レース\n\nSabre Raven のファンがレーストラックで戦闘機を駆り、偉業を成し遂げた姿を目の当たりにした Aegis Dynamics の開発チームは、この戦闘機のレースバージョンを公式に作ることを思い立ちました。ご紹介しましょう、Sabre Peregrine です。洗練されたデザインと増設されたスラスターによるブースト力を備え、この俊敏な一羽の鳥ならば、ゴールラインをいつでも飛び越えられることでしょう。
 @@ -87700,7 +87706,7 @@ vehicle_DescANVL_Hornet_F7CM=製造元：Anvil Aerospace\n用途：中戦闘\n\n
  vehicle_DescANVL_Hornet_F7CM_Heartseeker=製造元：Anvil Aerospace\n用途：中戦闘\n\nスリリングなドッグファイトを心から愛するパイロットのために設計された限定版 F7C-M Heartseeker Mk I は、真の戦闘狂のための「運命の1機」です。最高級のコンポーネントを搭載し、堂々たる4基の Behring レーザーキャノンを装備したこの獰猛な殲滅機は、Super Hornet の伝説的な戦闘能力に磨きをかけ、宇宙での戦闘で究極の強さを発揮します。
- vehicle_DescANVL_Hornet_F7CM_Heartseeker_Mk2=製造元：Anvil Aerospace\n用途：中型戦闘\n\nF7C-M Super Hornet が Mk II にアップグレードされた際、Anvil Aerospace は特別仕様機である Heartseeker にも同様の改良を施すことを確信していました。スリリングなドッグファイトに心を躍らせるパイロットの為に設計された強力な武装パッケージを備えた限定版 F7C-M Heartseeker Mk II は、新世代の真の戦闘愛好者たちにとってのお気に入りの船となることを目指しています。
- vehicle_DescANVL_Hornet_F7CM_Mk2=製造元：Anvil Aerospace\n用途：中型戦闘\n\nAnvil Aerospace は最新技術を取り入れ、軍用クラスの優位性を誇る名高き戦闘機を洗練させ、F7C-M Super Hornet Mk II を完成させました。オリジナルモデルを戦場における恐怖の的たらしめた第二座席とボールタレットを引き継ぎつつ、さらなる改良が施されています。
--vehicle_DescANVL_Hornet_F7CR=製造元：Anvil Aerospace\n用途：先行探査\n\nGhost が隠れるために生まれたものなら、Tracker は探し求めるために生まれたものです。F7C-R Hornet Tracker Mk I は高度なレーダー・スイートを誇り、スキャン・パッケージに深さと正確さを要求する深宇宙探査に理想的な船です。地元の民兵や大規模な傭兵部隊も、Tracker を中隊の移動 C&C 船として活用するでしょう。 
-+vehicle_DescANVL_Hornet_F7CR=製造元：Anvil Aerospace\n用途：先行探査\n\nGhost が隠れるために生まれたものなら、Tracker は探し求めるために生まれたものです。F7C-R Hornet Tracker Mk I は高度なレーダースイートを誇り、スキャンパッケージに深さと正確さを要求する深宇宙探査に理想的な船です。地元の民兵や大規模な傭兵部隊も、Tracker を中隊の移動 C&C 船として活用するでしょう。 
- vehicle_DescANVL_Hornet_F7CR_Mk2=製造元：Anvil Aerospace\n用途：偵察\n\n次なる大いなるフロンティアを目指すなら、次世代型偵察機ほど信頼できる存在はありません。F7C-R Hornet Tracker Mk II は、スキャン精度と探査範囲を求める深宇宙探検家に最適な、改良型レーダーシステムを搭載しています。
+ vehicle_DescANVL_Hornet_F7CM_Heartseeker_Mk2=製造元：Anvil Aerospace\n用途：中戦闘\n\nF7C-M Super Hornet が Mk II にアップグレードされた際、Anvil Aerospace は特別仕様機である Heartseeker にも同様の改良を施すことを確信していました。スリリングなドッグファイトに心を躍らせるパイロットの為に設計された強力な武装パッケージを備えた限定版 F7C-M Heartseeker Mk II は、新世代の真の戦闘愛好者たちにとってのお気に入りの船となることを目指しています。
+ vehicle_DescANVL_Hornet_F7CM_Mk2=製造元：Anvil Aerospace\n用途：中戦闘\n\nAnvil Aerospace は最新技術を取り入れ、軍用クラスの優位性を誇る名高き戦闘機を洗練させ、F7C-M Super Hornet Mk II を完成させました。オリジナルモデルを戦場における恐怖の的たらしめた第二座席とボールタレットを引き継ぎつつ、さらなる改良が施されています。
+-vehicle_DescANVL_Hornet_F7CR=製造元：Anvil Aerospace\n用途：探査\n\nGhost が隠れるために生まれたものなら、Tracker は探し求めるために生まれたものです。F7C-R Hornet Tracker Mk I は高度なレーダー・スイートを誇り、スキャン・パッケージに深さと正確さを要求する深宇宙探査に理想的な船です。地元の民兵や大規模な傭兵部隊も、Tracker を中隊の移動 C&C 船として活用するでしょう。 
++vehicle_DescANVL_Hornet_F7CR=製造元：Anvil Aerospace\n用途：探査\n\nGhost が隠れるために生まれたものなら、Tracker は探し求めるために生まれたものです。F7C-R Hornet Tracker Mk I は高度なレーダースイートを誇り、スキャンパッケージに深さと正確さを要求する深宇宙探査に理想的な船です。地元の民兵や大規模な傭兵部隊も、Tracker を中隊の移動 C&C 船として活用するでしょう。 
+ vehicle_DescANVL_Hornet_F7CR_Mk2=製造元：Anvil Aerospace\n用途：探査\n\n次なる大いなるフロンティアを目指すなら、次世代型偵察機ほど信頼できる存在はありません。F7C-R Hornet Tracker Mk II は、スキャン精度と探査範囲を求める深宇宙探検家に最適な、改良型レーダーシステムを搭載しています。
  vehicle_DescANVL_Hornet_F7CS=製造元：Anvil Aerospace\n用途：ステルス戦闘\n\n低排出量のドライブ、低消費電力武器、そしてスキャンを拡散させる Void Armor テクノロジーの組み合わせにより、F7C-S Hornet Ghost Mk I は目立たないことを望むパイロットのために開発されました。Ghost は熱心な監視者の目をすり抜け、どんな目的でも達成することが可能です。心配はご無用です。 
  vehicle_DescANVL_Hornet_F7CS_Mk2=製造元：Anvil Aerospace\n用途：ステルス戦闘機\n\nF7C-S Hornet Ghost Mk II の再設計にあたり、Anvil Aerospace のエンジニアたちは、パイロットたちに愛された低廃熱ドライブ、低消費電力兵器、Void Armor 技術を継承しつつ、ステルス作戦の新時代に向けてさらに高性能へと洗練させることを目指しました。
 @@ -87723,7 +87729,7 @@ vehicle_DescANVL_Terrapin_Medic=製造元：Anvil Aerospace\n用途：医療\n\n
@@ -8879,8 +8888,8 @@ index e9c08c0..3b8a458 100644
 +vehicle_DescMISC_Fortune=製造元：MISC\n用途：軽サルベージ\n\n自分の職業を次のレベルに引き上げる準備ができた方のために、MISC のエンジニア達は Fortune をクラス最高の小型サルベージ船となるべく丁寧に設計しました。多目的サルベージアームと貨物リフトを搭載可能である MISC Fortune は、廃棄物を宝物に変えることを目的に、新規設計船として組み立てられました。\n
 +vehicle_DescMISC_Fortune_Teach=製造元：MISC\n用途：軽サルベージ\n\n自分の職業を次のレベルに引き上げる準備ができた方のために、MISC のエンジニア達は Fortune をクラス最高の小型サルベージ船となるべく丁寧に設計しました。多目的サルベージアームと貨物リフトを搭載可能である MISC Fortune は、廃棄物を宝物に変えることを目的に、新規設計船として組み立てられました。\n\nNyx の過酷な作業環境に対応するため、Teach’s Ship Shop は堅牢なコンポーネントを備えたカスタム装備を施し、作業効率を最大限に高めてた特別仕様を作製しました。
  vehicle_DescMISC_Freelancer=製造元：MISC\n用途： 軽輸送\n\nFreelancer シリーズは銀河中の企業に長距離商船として使用されていますが、銀河外縁で活動する独立船長により専用探査船として再利用されることも少なくないようです。
--vehicle_DescMISC_Freelancer_DUR=製造元：MISC\n用途：探査\n\nFreelancer DUR は長距離探査に特化したバリエーションす。ベースモデルの 25 ％分の貨物容量を犠牲にして、強化されたジャンプドライブとより高度なスキャナー、そして拡張された燃料タンクを搭載しています。これらの変更を気に入らない人々もいるかもしれませんが、利益よりも発見を重視する人々にとってこの船は最適な選択肢といえるでしょう。  
-+vehicle_DescMISC_Freelancer_DUR=製造元：MISC\n用途：探査\n\nFreelancer DUR は長距離探査に特化したバリエーションす。ベースモデルの 25％ 分の貨物容量を犠牲にして、強化されたジャンプドライブとより高度なスキャナー、そして拡張された燃料タンクを搭載しています。これらの変更を気に入らない人々もいるかもしれませんが、利益よりも発見を重視する人々にとってこの船は最適な選択肢といえるでしょう。  
+-vehicle_DescMISC_Freelancer_DUR=製造元：MISC\n用途：長期探査\n\nFreelancer DUR は長距離探査に特化したバリエーションす。ベースモデルの 25 ％分の貨物容量を犠牲にして、強化されたジャンプドライブとより高度なスキャナー、そして拡張された燃料タンクを搭載しています。これらの変更を気に入らない人々もいるかもしれませんが、利益よりも発見を重視する人々にとってこの船は最適な選択肢といえるでしょう。  
++vehicle_DescMISC_Freelancer_DUR=製造元：MISC\n用途：長期探査\n\nFreelancer DUR は長距離探査に特化したバリエーションです。ベースモデルの 25 ％分の貨物容量を犠牲にして、強化されたジャンプドライブとより高度なスキャナー、そして拡張された燃料タンクを搭載しています。これらの変更を気に入らない人々もいるかもしれませんが、利益よりも発見を重視する人々にとってこの船は最適な選択肢といえるでしょう。  
  vehicle_DescMISC_Freelancer_MAX=製造元：MISC\n用途：中輸送\n\n火力と引き換えに貨物積載量を大幅に増加させた Freelancer のバリエーションです。精密機器や原材料の中規模輸送にするにあたって武装よりも積載量を重視する Freelancer MAX は最適解となるでしょう。 
  vehicle_DescMISC_Freelancer_MIS=製造元：MISC\n用途：ガンシップ\n\nThe Freelancer MIS は UEE の方針の下、商船であるベースモデルを重武装化した軍用化バージョンです。貨物容量の大部分を犠牲にして大量のミサイル搭載能力を確保したこのモデルは、生産初期に発生したペイロード事故の影響で少量しか生産されませんでした。 
  vehicle_DescMISC_Hull_A=製造元：MISC\n用途：軽輸送\n\nとってもコンパクトで、とっても手軽。Hull A は銀河系を一人気ままに横断する人にぴったりです。Aurora や Mustang と似ているように思われるかもしれませんが、Hull A に「何でも屋」的な側面はありません。貨物容量を犠牲に速度や火力を得たそれらと異なり、Hull A は純粋な貨物輸送機なのです。
@@ -8915,17 +8924,18 @@ index e9c08c0..3b8a458 100644
  vehicle_DescMisc_Fury_Miru=製造元：Mirai\n用途：スナブ戦闘\n\n同クラス帯の中でも突出した機動性と Xi'an の最先端技術を特徴とする Mirai の次世代スナブ爆撃機である Fury MX は、20本のミサイルを用いてターゲットに壊滅的な打撃を与えます。
 -vehicle_DescORIG_100i=製造元：Origin Jumpworks\n用途：スターター / 探査\n\n\ 豪華さと性能の完ぺきな組み合わせで宇宙を巡りましょう。Origin Jumpworks の AIR 燃料システム（特許取得済）を搭載した 100i は、市販されている船の中でもっとも効率的かつ環境に優しい船です。このサイズでは不可能とさえ言われていた長距離航行を機能性や信頼性を損ねることなく実現した 100i シリーズは、注目を浴びたいソロ・パイロットに最適といえるでしょう。
 +vehicle_DescORIG_100i=製造元：Origin Jumpworks\n用途：スターター / 探査\n\n\ 豪華さと性能の完ぺきな組み合わせで宇宙を巡りましょう。Origin Jumpworks の AIR 燃料システム（特許取得済）を搭載した 100i は、市販されている船の中でもっとも効率的かつ環境に優しい船です。このサイズでは不可能とさえ言われていた長距離航行を機能性や信頼性を損ねることなく実現した 100i シリーズは、注目を浴びたいソロパイロットに最適といえるでしょう。
- vehicle_DescORIG_125a=製造元：Origin Jumpworks\n用途：軽戦闘\n\n\ リスクとは冒すモノですが、戦闘中に燃料切れのリスクを冒すことは避けたいですよね？AIR 燃料システムと強化された武器パッケージ、そして Origin Jumpworks 特有の豪華さと洗練性を兼ね備えた 125a は、こだわりの破天荒パイロットのために設計されました。
+ vehicle_DescORIG_125a=製造元：Origin Jumpworks\n用途：軽戦闘\n\nリスクは冒すためにあるものですが、激しい戦闘の最中に燃料切れのリスクまで冒す必要はありません。AIR 燃料システムと強化された兵装パッケージ、そして Origin Jumpworks ならではの高級感と洗練を兼ね備えた 125a は、眼識のある一匹狼たちのために設計されました。
  vehicle_DescORIG_135c=製造元：Origin Jumpworks\n用途：軽輸送\n\n事を成すなら素早く、そしてカッコよく。スタイリッシュなフレームに収められた十分な貨物容量と Origin の AIR 燃料システム（特許取得済）から成る 135c は、ミュージシャンや宅配業者、パーティー好きたちにとってまさに理想の船です。
  vehicle_DescORIG_300i=製造元：Origin Jumpworks\n用途：高級旅客\n\n星々を旅するならスタイリッシュに翔びましょう。300i は Origin Jumpworks の最上級ラインナップの高級宇宙船です。その上品な紳士淑女の如く洗練されたシルエットに込められたメッセージ性は、巨大な粒子砲に比するほど強烈なものでしょう。 
  vehicle_DescORIG_315p=製造元：Origin Jumpworks\n用途：探査 \n\n​探求、それは人類至高の使命。​人類が手にした最も洗練されたテクノロジーの結晶、Origin 315p と共に未知なる地平を切り拓きましょう。​より高出力なパワープラントと、Chimera Communications 社が本機用に特別設計したカスタム・スキャンパッケージを搭載しています。
 -vehicle_DescORIG_325a=製造元：Origin Jumpworks\n用途：要撃\n\n治安の悪い銀河を訪れたからといって、快適さを犠牲にする必要がどこにあるのでしょう？強化された兵装ペイロードと WillsOp 社による 325a 専用カスタム・ターゲティング・システムを搭載した 325a ならば、どんなドッグファイトでさえ優位性を失うことはありません。 
 +vehicle_DescORIG_325a=製造元：Origin Jumpworks\n用途：要撃\n\n治安の悪い銀河を訪れたからといって、快適さを犠牲にする必要がどこにあるのでしょう？強化された兵装ペイロードと WillsOp 社による 325a 専用カスタム・ターゲティングシステムを搭載した 325a ならば、どんなドッグファイトでさえ優位性を失うことはありません。 
  vehicle_DescORIG_350r=製造元：Origin Jumpworks\n用途：レース\n\nOrigin Jumpworks の 300 シリーズは、まさに気品と宇宙工学の究極の融合です。すべてのコンポーネントに綿密な調整を重ね、貴方の船の調和は完ぺきに保たれているのです。シリーズの中でも抜きん出た速度を誇る 350r は、300 シリーズの驚異的なパワーを圧倒的なスピードへと変換することに成功しました。 
--vehicle_DescORIG_400i=製造元：Origin Jumpworks\n用途：長期探査\n\n未開拓の星々を探検することは崇高な試みです。だからこそ、Origin Jumpworks はハイパフォーマンスな探査船である 400i を開発しました。同クラス帯の中でも抜きん出た航続距離に充実した防衛能力、そして当社の誇るスキャニング・アレイを搭載した 400i は、Origin の快適さと気品を維持しつつ、銀河の過酷な領域へと挑む足となることでしょう。
-+vehicle_DescORIG_400i=製造元：Origin Jumpworks\n用途：長期探査\n\n未開拓の星々を探検することは崇高な試みです。だからこそ、Origin Jumpworks はハイパフォーマンスな探査船である 400i を開発しました。同クラス帯の中でも抜きん出た航続距離に充実した防衛能力、そして当社の誇るスキャニングアレイを搭載した 400i は、Origin の快適さと気品を維持しつつ、銀河の過酷な領域へと挑む足となることでしょう。
- vehicle_DescORIG_600i=製造元：Origin Jumpworks\n用途：探査\n\nOrigin Jumpworks の送り出すこのマルチロール・ラグジュアリー船は、洗練されたタイムレスなフォルムにパフォーマンスと多用途性の絶妙たるバランスを細部まで織り込んだ設計を特徴としています。また 600i は最先端のモジュール技術で設計されており、お客様のニーズに合わせた船のカスタマイズを可能としています。
- vehicle_DescORIG_600i_2951_BIS=製造元：Origin Jumpworks\n用途：探査\n\nOrigin Jumpworks の送り出すこのマルチロール・ラグジュアリー船は、洗練されたタイムレスなフォルムにパフォーマンスと多用途性の絶妙たるバランスを細部まで織り込んだ設計を特徴としています。また 600i は最先端のモジュール技術で設計されており、お客様のニーズに合わせた船のカスタマイズを可能としています。この Edition は 600i が 2951 年 Best in Show 最終選考に選ばれたことを記念して、青色と黒色の特別なカラーリングが施されています。
+ vehicle_DescORIG_400i=製造元：Origin Jumpworks\n用途：長期探査\n\n未開拓の星々を探検することは崇高な試みです。だからこそ、Origin Jumpworks はハイパフォーマンスな探査船である 400i を開発しました。同クラス帯の中でも抜きん出た航続距離に充実した防衛能力、そして当社の誇るスキャニング・アレイを搭載した 400i は、Origin の快適さと気品を維持しつつ、銀河の過酷な領域へと挑む足となることでしょう。
+-vehicle_DescORIG_600i=製造元：Origin Jumpworks\n用途：長期探査\n\nOrigin Jumpworks の送り出すこのマルチロール・ラグジュアリー船は、洗練されたタイムレスなフォルムにパフォーマンスと多用途性の絶妙たるバランスを細部まで織り込んだ設計を特徴としています。また 600i は最先端のモジュール技術で設計されており、お客様のニーズに合わせた船のカスタマイズを可能としています。
+-vehicle_DescORIG_600i_2951_BIS=製造元：Origin Jumpworks\n用途：長期探査\n\nOrigin Jumpworks の送り出すこのマルチロール・ラグジュアリー船は、洗練されたタイムレスなフォルムにパフォーマンスと多用途性の絶妙たるバランスを細部まで織り込んだ設計を特徴としています。また 600i は最先端のモジュール技術で設計されており、お客様のニーズに合わせた船のカスタマイズを可能としています。この Edition は 600i が 2951 年 Best in Show 最終選考に選ばれたことを記念して、青色と黒色の特別なカラーリングが施されています。
++vehicle_DescORIG_600i=製造元：Origin Jumpworks\n用途：長期探査\n\nOrigin Jumpworks の送り出すこのマルチロールラグジュアリー船は、洗練されたタイムレスなフォルムにパフォーマンスと多用途性の絶妙たるバランスを細部まで織り込んだ設計を特徴としています。また 600i は最先端のモジュール技術で設計されており、お客様のニーズに合わせた船のカスタマイズを可能としています。
++vehicle_DescORIG_600i_2951_BIS=製造元：Origin Jumpworks\n用途：長期探査\n\nOrigin Jumpworks の送り出すこのマルチロールラグジュアリー船は、洗練されたタイムレスなフォルムにパフォーマンスと多用途性の絶妙たるバランスを細部まで織り込んだ設計を特徴としています。また 600i は最先端のモジュール技術で設計されており、お客様のニーズに合わせた船のカスタマイズを可能としています。この Edition は 600i が 2951 年 Best in Show 最終選考に選ばれたことを記念して、青色と黒色の特別なカラーリングが施されています。
  vehicle_DescORIG_600i_Touring=製造元：Origin Jumpworks\n用途：高級旅客\n\nOrigin Jumpworks の送り出すこのマルチロール・ラグジュアリー船は、洗練されたタイムレスなフォルムにパフォーマンスと多用途性の絶妙たるバランスを細部まで織り込んだ設計を特徴としています。また 600i は最先端のモジュール技術で設計されており、お客様のニーズに合わせた船のカスタマイズを可能としています。
 -vehicle_DescORIG_85X=製造元：Origin Jumpworks\n用途：観光\n\nエレガントなスタイルと綿密なストラクチャーからなる 85X は、大気圏内外での正確な操作性を特徴とする幅広い用途の小型機です。さらに 300 シリーズと同じスラスター・テクノロジーを採用しており、レーシングなパワーとツーリングの信頼性を併せ持っています。惑星地表へのドライブから星系内の観光ツアーまでこなせる 85X は、名実共に Origin の誇り高き伝統を受け継いでいるといえるでしょう。 
 +vehicle_DescORIG_85X=製造元：Origin Jumpworks\n用途：観光\n\nエレガントなスタイルと綿密なストラクチャーからなる 85X は、大気圏内外での正確な操作性を特徴とする幅広い用途の小型機です。さらに 300 シリーズと同じスラスターテクノロジーを採用しており、レーシングなパワーとツーリングの信頼性を併せ持っています。惑星地表へのドライブから星系内の観光ツアーまでこなせる 85X は、名実共に Origin の誇り高き伝統を受け継いでいるといえるでしょう。 
@@ -8954,13 +8964,13 @@ index e9c08c0..3b8a458 100644
 +vehicle_DescRSI_Aurora_LN=製造元：RSI\n用途：軽戦闘\n\nより頑丈なシールドジェネレーターと追加の兵装用ハードポイントを備えた Legionnaire は、任意の宇宙の障害に対処するために作られた専用の戦闘機です。 
  vehicle_DescRSI_Aurora_LX=製造元：RSI\n用途：探査 \n\n​出自を忘れない、そんな審美眼を持つパイロットのために仕立てられた最新の Aurora Deluxe が登場。​LX モデルは、高級なパテントレザーをあしらった内装を採用しており、漆黒の深宇宙へと続く長旅においても、格別な安らぎと至福の快適性をお約束いたします。
  vehicle_DescRSI_Aurora_MR=製造元：RSI\n用途：スターター / 軽戦闘\n\n積載能力はそのままに、戦闘能力も兼ね備えたものをお探しですか？Aurora Marque には、Behring 品質のレーザーと高品質の武装冷却システムが搭載されています。 
- vehicle_DescRSI_Aurora_Mk2=製造元：Roberts Space Industries\n用途：スターター / 軽輸送\n \n名機の新解釈として、Roberts Space Industries は信頼と実績の Aurora を根本から再構築しました。それこそが Aurora Mk II です。機体性能や使い勝手、スタイリングに至るまで、新世代のパイロットを念頭に置いて全面的に刷新されています。さらに、この最新モデルには Aurora シリーズに新たな特長――換装可能なモジュールを取り付けることができます。パイロットを単一のキャリアパスに縛り付けることなく、ハンガーにいながらにして、用途に合わせた特化運用への切り替えが簡単に行えます。初めて船を所有される方から、日常の愛機をアップグレードしたい熟練パイロットまで。Aurora Mk II は、あなたの搭乗をお待ちしています。
+ vehicle_DescRSI_Aurora_Mk2=製造元：Roberts Space Industries\n用途：スターター / 軽輸送\n \n名機の新解釈として、Roberts Space Industries は信頼と実績の Aurora を根本から再構築しました。それこそが Aurora Mk II です。機体性能や使い勝手、スタイリングに至るまで、新世代のパイロットを念頭に置いて全面的に刷新されています。さらに、この最新モデルには Aurora シリーズに新たな特長として、換装可能なモジュールシステムを導入。特定のキャリアパスに縛られることなく、ハンガーにいながらにして、用途に合わせた特化運用への切り替えが簡単に行えます。初めて船を所有される方から、日常の愛機をアップグレードしたい熟練パイロットまで。Aurora Mk II は、あなたの搭乗をお待ちしています。
 @@ -87907,11 +87908,11 @@ vehicle_DescRSI_Aurora_SE=製造元：RSI\n用途：マルチロール\n\n世代
  vehicle_DescRSI_Bengal=<-=MISSING=->
  vehicle_DescRSI_Constellation_Andromeda=製造元：RSI\n用途：中輸送 / ガンシップ\n\nConstellation Andromeda は、その多用途性のおかげで帝国中の商人に支持される信頼性の高いマルチクルーの輸送船です。RSI が建造する最も人気のある船のひとつとして象徴的でもある Andromeda は、よく整備された貨物室、スナブ戦闘機用のドッキングポート、そして特徴的な配置のブリッジを備えています。
- vehicle_DescRSI_Constellation_Aquila,P=製造元：RSI\n用途：探査\n\nRSI によって遠くのフロンティアを横断するために設計された Constellation Aquila は、最大限の視界を確保するために再設計されたコックピット、先進的なセンサー群、そして惑星探査用のスナブ船、P-52 と Ursa ローバーを搭載しています。なぜ多くの探検家が Aquila の船長へとなるのか、その理由をあなたも見つけてみませんか。 
+ vehicle_DescRSI_Constellation_Aquila,P=製造元：RSI\n用途：長期探査\n\nRSI によって遠くのフロンティアを横断するために設計された Constellation Aquila は、最大限の視界を確保するために再設計されたコックピット、先進的なセンサー群、そして惑星探査用のスナブ船、P-52 と Ursa ローバーを搭載しています。なぜ多くの探検家が Aquila の船長へとなるのか、その理由をあなたも見つけてみませんか。 
 -vehicle_DescRSI_Constellation_Phoenix=製造元：RSI\n用途：高級旅客\n\n洗練されたスター・キャプテンのための専用の高級宇宙船。 Constellation Phoenix は組織の指揮船として運用でき、豪華な内装が特徴です。最も貴重な貨物のための隠れたセンサー・ダンピング・エリアが含まれています。Phoenix には Lynx ローバーと Kruger P-72 Archimedes Fighter が付属しています。 
-+vehicle_DescRSI_Constellation_Phoenix=製造元：RSI\n用途：高級旅客\n\n洗練されたスターキャプテンのための専用の高級宇宙船。 Constellation Phoenix は組織の指揮船として運用でき、豪華な内装が特徴です。最も貴重な貨物のための隠れたセンサーダンピングエリアが含まれています。Phoenix には Lynx ローバーと Kruger P-72 Archimedes Fighter が付属しています。 
++vehicle_DescRSI_Constellation_Phoenix=製造元：RSI\n用途：高級旅客\n\n洗練されたスターキャプテンのための専用の高級宇宙船。 Constellation Phoenix は組織の指揮船として運用でき、豪華な内装が特徴です。最も貴重な貨物のための隠れたセンサー・ダンピング・エリアが含まれています。Phoenix には Lynx ローバーと Kruger P-72 Archimedes Fighter が付属しています。 
  vehicle_DescRSI_Constellation_Phoenix_Emerald=製造元：RSI\n用途：高級旅客\n\n目の肥えた社交家であれ、自由奔放な無類のパーティー好きであれ、Constellation Phoenix Emerald は、あなた専用のエンターテイメントへのパスポートとなります。パーティー専用に設計された豪華なキャビンと、限定版の『ラッキー』な塗装が施された Emerald は、星空を贅沢に駆け抜けながら、Radegast Gold のグラスを傾けたり、グリーンの Sleeping Tiger Malt を飲んだりするのに最高の場所です。パーティの際は、専属パイロットをお忘れなく。 
  vehicle_DescRSI_Constellation_Taurus=製造元：RSI\n用途：中輸送\n\n輸送に完全特化した Taurus は、RSI の Constellation シリーズの中で最も多くの貨物スペースを提供します。多用途性を犠牲にする代わりに、トラクタービーム、迅速な荷降ろしのための貨物リリースシステム、テックプレートで強化された保護船倉により、潜在的な利益を大幅に向上させています。
  vehicle_DescRSI_Constellation_Taurus_Collector_Military=製造元：RSI\n用途：中輸送\n\n輸送に完全特化した Taurus は、RSI の Constellation シリーズの中で最も多くの貨物スペースを提供します。多用途性を犠牲にする代わりに、トラクタービーム、迅速な荷降ろしのための貨物リリースシステム、テックプレートで強化された保護船倉により、潜在的な利益を大幅に向上させています。\n\nWikelo だ。船、すごく戦闘機っぽいになる役に立つ改造した。すごいイイ。
