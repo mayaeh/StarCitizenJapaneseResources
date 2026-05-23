@@ -121,6 +121,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	Oldman1917  
 	AdmiralAndersen  
 	nmtkawb  
+	かりんと  
 	eggman  
 	Verkhasel  
 	Heizo  
@@ -130,7 +131,6 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	Franku7  
 	velocity7  
 	Bran de Bruce  
-	かりんと  
 	luice  
 	Shinnryuu  
 	Riven  
