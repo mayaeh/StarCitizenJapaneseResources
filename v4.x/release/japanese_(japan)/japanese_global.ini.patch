@@ -1,5 +1,5 @@
 diff --git a/v4.x/release/japanese_(japan)/global.ini b/v4.x/release/japanese_(japan)/global.ini
-index 7a43a24..dd14f9e 100644
+index 1425592..fd6a70e 100644
 --- a/v4.x/release/japanese_(japan)/global.ini
 +++ b/v4.x/release/japanese_(japan)/global.ini
 @@ -12,7 +12,7 @@
@@ -1325,7 +1325,7 @@ index 7a43a24..dd14f9e 100644
  Foxwell_Mercenary_Rehire_title_001=仕事をお探しですか？/ Still Looking for Work?
  Foxwell_RepUI_Area=UEE 圏
  Foxwell_RepUI_Description=Corel 星系の Lo 在住の元警察官によって設立された Foxwell Enforcement は、最も支援を必要とする人々に低コストのセキュリティコンサルティングを提供しています。当初、こうした善意の活動が経済的な成功につながることを期待していましたが、現実は厳しく、経費削減や採用基準の緩和を余儀なくされています。低価格でのサービス提供を求める企業にとって、Foxwell の需要は依然として根強いものの、低賃金のため熟練したセキュリティ契約者を確保し続けるのは難しいのが現状です。
-@@ -9923,38 +9923,38 @@ Foxwell_RepUI_Founded=2928 年
+@@ -9923,75 +9923,75 @@ Foxwell_RepUI_Founded=2928 年
  Foxwell_RepUI_Headquarters=Corel 星系, Lo
  Foxwell_RepUI_Leadership=最高経営責任者　Banco Foxwell
  Foxwell_RepUI_Name=Foxwell Enforcement
@@ -1381,9 +1381,21 @@ index 7a43a24..dd14f9e 100644
  Foxwell_ShipWaveAttack_ClearHostiles_Title_E_001=イエローレベル契約：船舶ジャックギャングの無力化 / Yellow Level Contract: Neutralize Shipjacking Gang
  Foxwell_ShipWaveAttack_ClearHostiles_Title_H_001=オレンジレベル契約：違法船団の掃討 / Orange Level Contract: Take Out Criminal Fleet
  Foxwell_ShipWaveAttack_ClearHostiles_Title_M_001=オレンジレベル契約：違法な脅威の破壊 / Orange Level Contract: Destroy Outlaw Threat
-@@ -9969,29 +9969,29 @@ Foxwell_X2_ShipDefend_Desc=A distress beacon came in from <EM4>~mission(Location
+ Foxwell_ShipWaveAttack_ClearHostiles_Title_VE_001=イエローレベル契約：船舶ジャック犯の排除 / Yellow Level Contract: Clear Shipjacking Group
+-Foxwell_X2_AttackIdris_Desc=<EM4>~mission(Location|Address)</EM4>にて、戦闘機の支援を受けたXenoThreatのIdrisを捕捉しました。彼らの通信規律はめちゃくちゃです。無線交信によると、司令官はIdrisに乗っているようです。これほど正確に居場所を特定できたのは、いつ以来でしょうか。これで作戦全体を壊滅させるチャンスかもしれません。\n\nいかがでしょう？\n\nKevin Walton\nFoxwell Enforcement 通信管理官\n「セキュリティを、貴方の望む形で。」\n\nFoxwell Enforcement は、UEE 圏全域での活動が承認された認定済セキュリティ・スペシャリストです。私たちは常に、新たなオペレーターを弊社のファミリーとして歓迎しています。ご自身またはお知り合いに興味をお持ちの方がいらっしゃいましたら、ぜひ契約担当者までお問い合わせください。
++Foxwell_X2_AttackIdris_Desc=<EM4>~mission(Location|Address)</EM4> にて、戦闘機の支援を受けた XenoThreat の Idris を捕捉しました。彼らの通信規律はめちゃくちゃです。無線交信によると、司令官は Idris に乗っているようです。これほど正確に居場所を特定できたのは、いつ以来でしょうか。これで作戦全体を壊滅させるチャンスかもしれません。\n\nいかがでしょう？\n\nKevin Walton\nFoxwell Enforcement 通信管理官\n「セキュリティを、貴方の望む形で。」\n\nFoxwell Enforcement は、UEE 圏全域での活動が承認された認定済セキュリティスペシャリストです。私たちは常に、新たなオペレーターを弊社のファミリーとして歓迎しています。ご自身またはお知り合いに興味をお持ちの方がいらっしゃいましたら、ぜひ契約担当者までお問い合わせください。
+ Foxwell_X2_AttackIdris_Title=目標：XenoThreat 攻撃部隊 / Target: XenoThreat Attack Group
+-Foxwell_X2_DrawOutBoss_Desc=<EM>~mission(TargetName)</EM4>とその直属の攻撃部隊が、<EM4>~mission(Location|Address)</EM4>にいることを示す位置情報ビーコンを傍受しました。彼らはXenoThreatの創設以来、最も残忍な執行部隊の一つとして活動してきました。\n\n<EM>~mission(TargetName|Last)</EM4>は戦いを避けるような相手ではないので、彼らの船を徹底的に攻撃し、十分なダメージを与えれば、戦いに加わらずにはいられなくなるでしょう。彼らが姿を現したら、彼らを主な標的としてください。\n\n準備はよろしいですか？\n\nKevin Walton\nFoxwell Enforcement 通信管理官\n「セキュリティを、貴方の望む形で。」\n\nFoxwell Enforcement は、UEE 圏全域での活動が承認された認定済セキュリティ・スペシャリストです。私たちは常に、新たなオペレーターを弊社のファミリーとして歓迎しています。ご自身またはお知り合いに興味をお持ちの方がいらっしゃいましたら、ぜひ契約担当者までお問い合わせください。
++Foxwell_X2_DrawOutBoss_Desc=<EM>~mission(TargetName)</EM4> とその直属の攻撃部隊が、<EM4>~mission(Location|Address)</EM4> にいることを示す位置情報ビーコンを傍受しました。彼らは XenoThreat の創設以来、最も残忍な執行部隊の一つとして活動してきました。\n\n<EM>~mission(TargetName|Last)</EM4> は戦いを避けるような相手ではないので、彼らの船を徹底的に攻撃し、十分なダメージを与えれば、戦いに加わらずにはいられなくなるでしょう。彼らが姿を現したら、彼らを主な標的としてください。\n\n準備はよろしいですか？\n\nKevin Walton\nFoxwell Enforcement 通信管理官\n「セキュリティを、貴方の望む形で。」\n\nFoxwell Enforcement は、UEE 圏全域での活動が承認された認定済セキュリティスペシャリストです。私たちは常に、新たなオペレーターを弊社のファミリーとして歓迎しています。ご自身またはお知り合いに興味をお持ちの方がいらっしゃいましたら、ぜひ契約担当者までお問い合わせください。
+ Foxwell_X2_DrawOutBoss_Title=XenoThreat の幹部を排除せよ / Eliminate XenoThreat Enforcer
+-Foxwell_X2_ShipAmbush_Desc=XenoThreatの攻撃部隊の飛行経路に関する確かな情報が入りました。今すぐ準備を整え、彼らの到着に先立って<EM4>~mission(Location|Address)</EM4>に展開できる契約者を探しています。現地の環境がスキャナーのシグナルを隠してくれるため、彼らに生涯忘れられないほどの衝撃を与えることができるはずです。狩る側を狩られる側に変えましょう。
++Foxwell_X2_ShipAmbush_Desc=XenoThreat の攻撃部隊の飛行経路に関する確かな情報が入りました。今すぐ準備を整え、彼らの到着に先立って <EM4>~mission(Location|Address)</EM4> に展開できる契約者を探しています。現地の環境がスキャナーのシグナルを隠してくれるため、彼らに生涯忘れられないほどの衝撃を与えることができるはずです。狩る側を狩られる側に変えましょう。
+ Foxwell_X2_ShipAmbush_Title=XenoThreat 攻撃隊を急襲せよ / Ambush XenoThreat Strike Wing
+-Foxwell_X2_ShipDefend_Desc=<EM4>~mission(Location|Address)</EM4>から、XenoThreatの攻撃を受けている船に関する遭難信号が入りました。パイロットの報告によると、シールドが機能不全に陥っており、攻撃者から逃げ切ることができないとのことです。\n\nその船は<EM4>~mission(Ship)</EM4>ですが、パイロットは人間です。XenoThreatの歪んだ考え方によれば、これは人類への裏切り行為であり、彼らの憎悪の対象とななります。\n\n現地へ向かい、救出活動を行っていただけるオペレーターを募集しています。\n\nKevin Walton\nFoxwell Enforcement 通信管理官\n「セキュリティを、貴方の望む形で。」\n\nFoxwell Enforcement は、UEE 圏全域での活動が承認された認定済セキュリティ・スペシャリストです。私たちは常に、新たなオペレーターを弊社のファミリーとして歓迎しています。ご自身またはお知り合いに興味をお持ちの方がいらっしゃいましたら、ぜひ契約担当者までお問い合わせください。
++Foxwell_X2_ShipDefend_Desc=<EM4>~mission(Location|Address)</EM4> から、XenoThreat の攻撃を受けている船に関する遭難信号が入りました。パイロットの報告によると、シールドが機能不全に陥っており、攻撃者から逃げ切ることができないとのことです。\n\nその船は <EM4>~mission(Ship)</EM4> ですが、パイロットは人間です。XenoThreat の歪んだ考え方によれば、これは人類への裏切り行為であり、彼らの憎悪の対象となります。\n\n現地へ向かい、救出活動を行っていただけるオペレーターを募集しています。\n\nKevin Walton\nFoxwell Enforcement 通信管理官\n「セキュリティを、貴方の望む形で。」\n\nFoxwell Enforcement は、UEE 圏全域での活動が承認された認定済セキュリティスペシャリストです。私たちは常に、新たなオペレーターを弊社のファミリーとして歓迎しています。ご自身またはお知り合いに興味をお持ちの方がいらっしゃいましたら、ぜひ契約担当者までお問い合わせください。
  Foxwell_X2_ShipDefend_Title=緊急 - XenoThreat の船舶への攻撃を検知 / Urgent - Ship Under XenoThreat Attack
- Foxwell_X2_ShipWaves_Desc=Multiple reports are coming in of XenoThreat ships massing at <EM4>~mission(Location|Address)</EM4>\nWe're looking for contractors ready to take the fight to them. \n\nThey want us to believe that they have right on their side. They want us to believe that they have overwhelming force. This is a chance to show them we know better.\n\nI won't lie, this is more than just a simple security contract to me. I really hate those intolerant assholes and everything they stand for.\n\nYou with me?\n\nKevin Walton\nDispatcher, Foxwell Enforcement\n'Security, Your Way'\n\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.
+-Foxwell_X2_ShipWaves_Desc=<EM4>~mission(Location|Address)</EM4>にXenoThreatの艦隊が集結しているという報告が相次いでいます。\n奴らに戦いを挑む覚悟のある契約者を募集しています。\n\n奴らは、自分たちが正義の側に立っていると信じ込ませようとしています。圧倒的な戦力を誇っていると信じ込ませようとしています。今こそ、我々がその真実に気づいていることを奴らに見せつける好機だ。\n\n正直に言います。私にとって、これは単なる警備契約以上の意味があります。あの偏狭なクソ野郎共と、奴らが掲げる理念のすべてが心底嫌いです。\n\nお付き合いいただけますか？\n\nKevin Walton\nFoxwell Enforcement 通信管理官\n「セキュリティを、貴方の望む形で。」\n\nFoxwell Enforcement は、UEE 圏全域での活動が承認された認定済セキュリティ・スペシャリストです。私たちは常に、新たなオペレーターを弊社のファミリーとして歓迎しています。ご自身またはお知り合いに興味をお持ちの方がいらっしゃいましたら、ぜひ契約担当者までお問い合わせください。
++Foxwell_X2_ShipWaves_Desc=<EM4>~mission(Location|Address)</EM4> に XenoThreat の艦隊が集結しているという報告が相次いでいます。\n奴らに戦いを挑む覚悟のある契約者を募集しています。\n\n奴らは、自分たちが正義の側に立っていると信じ込ませようとしています。圧倒的な戦力を誇っていると信じ込ませようとしています。今こそ、我々がその真実に気づいていることを奴らに見せつける好機です。\n\n正直に言います。私にとって、これは単なる警備契約以上の意味があります。あの偏狭なクソ野郎共と、奴らが掲げる理念のすべてが心底嫌いです。\n\nお付き合いいただけますか？\n\nKevin Walton\nFoxwell Enforcement 通信管理官\n「セキュリティを、貴方の望む形で。」\n\nFoxwell Enforcement は、UEE 圏全域での活動が承認された認定済セキュリティスペシャリストです。私たちは常に、新たなオペレーターを弊社のファミリーとして歓迎しています。ご自身またはお知り合いに興味をお持ちの方がいらっしゃいましたら、ぜひ契約担当者までお問い合わせください。
  Foxwell_X2_ShipWaves_Title=XenoThreat 攻撃部隊の活動阻止 / Interdict XenoThreat Attack Force
 -Foxwell_bombingrun_E_desc_001=新たな勢力として台頭しつつある、無法者たちの前哨基地が判明しました。クライアントの意向にると、彼らと直接刃を交える必要はないとのことです。その代わり、弊社からは彼らの補給路を断つ作戦をお願いしたいと考えています。\n\n<EM4>~mission(Location|Address)</EM4> へ向かい、敵抵抗を退けつつ、拠点の燃料貯蔵庫を破壊してください。敵勢力とどの程度交戦するかはそちらの判断にお任せしますが、あくまで燃料タンクの無力化が最優先事項であることは忘れないでくださいね。\n\n本件はイエローレベル契約ですので、報酬もそれに見合った額を用意しております。\n\n幸運を。\n\nKevin Walton\nFoxwell Enforcement 通信管理官\n「セキュリティを、貴方の望む形で。」\n\nFoxwell Enforcement は、UEE 圏全域での活動が承認された認定済セキュリティ・スペシャリストです。私たちは常に、新たなオペレーターを弊社のファミリーとして歓迎しています。ご自身またはお知り合いに興味をお持ちの方がいらっしゃいましたら、ぜひ契約担当者までお問い合わせください。
 +Foxwell_bombingrun_E_desc_001=新たな勢力として台頭しつつある、無法者たちの前哨基地が判明しました。クライアントの意向にると、彼らと直接刃を交える必要はないとのことです。その代わり、弊社からは彼らの補給路を断つ作戦をお願いしたいと考えています。\n\n<EM4>~mission(Location|Address)</EM4> へ向かい、敵抵抗を退けつつ、拠点の燃料貯蔵庫を破壊してください。敵勢力とどの程度交戦するかはそちらの判断にお任せしますが、あくまで燃料タンクの無力化が最優先事項であることは忘れないでくださいね。\n\n本件はイエローレベル契約ですので、報酬もそれに見合った額を用意しております。\n\n幸運を。\n\nKevin Walton\nFoxwell Enforcement 通信管理官\n「セキュリティを、貴方の望む形で。」\n\nFoxwell Enforcement は、UEE 圏全域での活動が承認された認定済セキュリティスペシャリストです。私たちは常に、新たなオペレーターを弊社のファミリーとして歓迎しています。ご自身またはお知り合いに興味をお持ちの方がいらっしゃいましたら、ぜひ契約担当者までお問い合わせください。
@@ -8494,7 +8506,7 @@ index 7a43a24..dd14f9e 100644
  northrock_boarders_890J_title_001=緊急：移乗攻撃進行中 / URGENT: Boarding Action In Progress
  northrock_bounty_PVP_desc_001=我々は、これまで捕縛を逃れている <EM4>~mission(TargetName)</EM4> という名前の容疑者を追跡する契約を受けた。\n\n君ほどのギルド認証持ちならば、この任務を遂行できると期待している。彼らは通常のターゲットよりも手強いことを覚悟してくれ。\n\nご武運を。\n\nStanton 支部 - 物流担当官\nBraden Corchado\nNorthrock Service Group
  northrock_bounty_PVP_desc_002=また一人、追跡してほしい逃亡者が発生した - <EM4>~mission(TargetName)</EM4> という名だ。\n\nこの容疑者はおそらく通常よりも手強いだろう。常に一歩か二歩先を行くようにして、無事に任務を遂行してくれ。\n\n対応に感謝する。\n\nStanton 支部 - 物流担当官\nBraden Corchado\nNorthrock Service Group
-@@ -79304,10 +79304,10 @@ outlawsweep_combatpay_0001=通常の契約金に加えて、戦闘員の無力
+@@ -79315,10 +79315,10 @@ outlawsweep_combatpay_0001=通常の契約金に加えて、戦闘員の無力
  outlawsweep_combatpay_0002=残念ながら敵の規模は把握できていませんが、敵1体ごとに危険手当を支給します。 
  outlawsweep_combatpay_0003=また、無法者の世話をしてくれた人には、その数だけ危険手当を支給することも許可されています。 
  outlawsweep_combatpay_0004=ご質問の回答ですが、通常の定額制の料金に加えて、敵対行為をクリアするごとに危険手当が発生します。 
@@ -8509,7 +8521,7 @@ index 7a43a24..dd14f9e 100644
  outlawsweep_obj_long_01=敵が目撃された現場に向かう。
  outlawsweep_obj_long_02=敵性存在を排除する。
  outlawsweep_obj_long_03=戦闘を行い、敵を排除して危険手当を集める。
-@@ -79363,7 +79363,7 @@ outpost_repair_title_0005=電気技師募集 / Electrical Technician Needed
+@@ -79374,7 +79374,7 @@ outpost_repair_title_0005=電気技師募集 / Electrical Technician Needed
  outpost_repair_title_0006=修理技術者募集中 / Repair Technician Wanted
  outpost_repair_title_0007=修理依頼 / Repair Request
  p_protectandresupply_PreXeno_desc,P=CDF 志願兵へ通達、XenoThreat がついに Stanton の Pyro Gateway にある INS-Jericho ステーションへの攻撃を開始した。\n\n海軍は CDF 部隊に対し、XenoThreat 部隊と交戦、または残骸から物資を回収して安全に Jericho ステーションに届けるよう要請している。\n\n海軍は支払いの分配を管理するための共同手当を組織した。この手当は指定された額で全 CDF 志願兵に分配される。この支払いを測定する指標が HUD に表示される手はずだ。\n\n物資は正しく取り扱わない限り非常に不安定であることに注意しろ。以下の材料を輸送する際には特に気を付けてくれ：\n* Zeta-Prolanide は時間と共に劣化し、最終的に完全に崩壊する。\n* AcryliPlex 複合材は損傷を受けると爆発的に不安定になる。\n* Diluthermex は Quantum Travel にさらされると船を破壊しうるほどのエネルギーパルスを放出する。\n\nAdvocacy の SAIC、Rowena Dulli が CDF の公式連絡官であり、作戦の指揮を執る。
@@ -8518,7 +8530,7 @@ index 7a43a24..dd14f9e 100644
  p_protectandresupply_desc=*星系内全域に対する緊急通信*\n\n注目せよ、XenoThreat は、現在 Stanton 星系の Pyro Gateway にある INS Jericho ステーションに向かい、重要物資を輸送中の海軍輸送船団へ急襲を始めた。海軍は CDF 部隊に対し、これらの物資を残骸から回収し、安全に Jericho ステーションに届けるよう要請している。この要請は全 CDF 志願兵に向けたものである。\n\n物資は正しく取り扱わない限り非常に不安定であることに注意しろ。以下の材料を輸送する際には特に気を付けてくれ：\n* Zeta-Prolanide は時間と共に劣化し、最終的に完全に崩壊する。\n* AcryliPlex 複合材は損傷を受けると爆発的に不安定になる。\n* Diluthermex は Quantum Travel にさらされると船を破壊しうるほどのエネルギーパルスを放出する。\n\nさらに、攻撃中に失われた DynaFlex はそれほど不安定ではないものの、海軍が Javelin の修理を完了するために依然として緊急に必要であり、回収の優先事項とする必要がある。\n\nXenoThreat の敵がまだ宙域に潜伏している可能性がある点に留意しろ。戦闘経験のある CDF 志願兵には、XenoThreat 部隊の残党からこれらの宙域を確保するよう奨励する。\n\n本作戦は Advocacy 所属、CDF 公式連絡官の SAIC Rowena Dulli が指揮を執る。
  p_protectandresupply_desc_v2=*星系内全域に対する緊急通信*\n\n注目、XenoThreat は、現在 Stanton 星系の Pyro Gateway にある INS Jericho ステーションに向かい、重要物資を輸送中の海軍輸送船団へ急襲を始めた。海軍は CDF 部隊に対し、これらの物資を残骸から回収し、安全に Jericho ステーションに届けるよう要請している。\n\n海軍は支払いの分配を管理するための共同手当を組織した。この手当は指定された額で全 CDF 志願兵に分配される。この支払いを測定する指標が HUD に表示される手はずだ。\n\n物資は正しく取り扱わない限り非常に不安定であることに注意しろ。以下の材料を輸送する際には特に気を付けてくれ：\n* Zeta-Prolanide は時間と共に劣化し、最終的に完全に崩壊する。\n* AcryliPlex 複合材は損傷を受けると爆発的に不安定になる。\n* Diluthermex は Quantum Travel にさらされると船を破壊しうるほどのエネルギーパルスを放出する。\n\nさらに、攻撃中に失われた DynaFlex はそれほど不安定ではないものの、海軍が Javelin の修理を完了するために依然として緊急に必要であり、回収の優先事項とする必要がある。\n\nXenoThreat の敵がまだ宙域に潜伏している可能性がある点に留意しろ。戦闘経験のある CDF 志願兵には、XenoThrea 部隊の残党からこれらの宙域を確保するよう奨励する。\n\n本作戦は Advocacy 所属、CDF 公式連絡官の SAIC Rowena Dulli が指揮を執る。
  p_protectandresupply_from=CIVILIAN DEFENSE FORCE より発令
-@@ -79422,8 +79422,8 @@ p_protectandresupply_wreck_018=補給船 Romeo
+@@ -79433,8 +79433,8 @@ p_protectandresupply_wreck_018=補給船 Romeo
  p_protectandresupply_wreck_019=補給船 Sierra
  p_protectandresupply_wreck_020=補給船 Tango
  p_protectandresupply_wreck_021=補給船 Uniform
@@ -8529,7 +8541,7 @@ index 7a43a24..dd14f9e 100644
  p_showdown_desc=*星系内全域に対する緊急通信*\n\n注目、海軍は Stanton 星系 を苦しめてきたアウトロー集団、XenoThreat が計画中の最終攻撃に向けて再編成を完了した。よって星系を確保するための最終的な押し込みとして戦闘支援を提供する CDF 志願兵を公式に要請中だ。\n\n本作戦は Advocacy 所属、CDF 公式連絡官の SAIC Rowena Dulli が指揮を執る。
  p_showdown_from=民間防衛力構想
  p_showdown_obj_display_00=出航準備中の Javelin を保護する
-@@ -79436,7 +79436,7 @@ p_showdown_obj_long_01=XenoThreat 軍との最終決戦を報告する。
+@@ -79447,7 +79447,7 @@ p_showdown_obj_long_01=XenoThreat 軍との最終決戦を報告する。
  p_showdown_obj_long_02=XenoThreat 撃退のため、彼らの主力艦と護衛機を撃破しろ。
  p_showdown_obj_long_02A=Idris へ移乗し、XenoThreat のリーダーを無力化する。
  p_showdown_obj_long_02B=Idris とその護衛船を撃墜する。
@@ -8538,7 +8550,7 @@ index 7a43a24..dd14f9e 100644
  p_showdown_obj_marker_01=沈没事故現場
  p_showdown_obj_marker_02=XenoThreat 主力艦
  p_showdown_obj_marker_03=XenoThreat 主力艦
-@@ -79570,7 +79570,7 @@ pause_OptionsFlightProximityAssistEnabled=フライト - 近接アシスト デ
+@@ -79581,7 +79581,7 @@ pause_OptionsFlightProximityAssistEnabled=フライト - 近接アシスト デ
  pause_OptionsFlightSpacebrakeEngagesBoost=フライト - スペースブレーキ時のブーストの使用
  pause_OptionsFlightSpeedLimiterDefaultOn=フライト - スピードリミッター デフォルトでオン
  pause_OptionsFoIPCamera=Faceware - カメラの選択
@@ -8547,7 +8559,7 @@ index 7a43a24..dd14f9e 100644
  pause_OptionsFoIPCameraModeDesc=カメラプラス解像度と FPS を選択できるようにします。30fps 以下、320ピクセル幅以下、1920ピクセル幅以上の項目は除外されます。解像度と FPS が高いほど、パフォーマンスへの影響が大きくなります。
  pause_OptionsFoIPCameraRotation=Faceware - カメラの回転
  pause_OptionsFog=フォグ
-@@ -79840,7 +79840,7 @@ pause_VSync=垂直同期
+@@ -79851,7 +79851,7 @@ pause_VSync=垂直同期
  pause_WeaponAimAutoLockChase=固定武器でのエイムアシスト
  pause_WeaponGimbalLockToggle=武器ジンバルロックのデフォルトをオンにする
  pause_Yes=はい
@@ -8556,7 +8568,7 @@ index 7a43a24..dd14f9e 100644
  pause_options_auto_gimbal_mode_on_pip=平均 PIP
  pause_options_auto_gimbal_mode_on_target=ジンバルインジケーターでターゲット
  pause_options_autodetect,P=自動検出
-@@ -79913,7 +79913,7 @@ pause_options_head_tracking_tobii_profile1_head_view_auto_center=ヘッドトラ
+@@ -79924,7 +79924,7 @@ pause_options_head_tracking_tobii_profile1_head_view_auto_center=ヘッドトラ
  pause_options_headtracking_global_smoothing_position=ヘッドトラッキング - 一般 - グローバルスムージング - 位置
  pause_options_headtracking_global_smoothing_rotation=ヘッドトラッキング - 一般 - グローバルスムージング - 回転
  pause_options_light_group_controller_lights_enabled=デフォルト - ライト - 有効
@@ -8565,7 +8577,7 @@ index 7a43a24..dd14f9e 100644
  pause_options_look_ahead_dampening_zone=ルックアヘッド - 減衰ゾーン
  pause_options_look_ahead_mgv_enabled=ドライバー - ルックアヘッド - 有効
  pause_options_look_ahead_mgv_forward=ドライバー - ルックアヘッド - 強さ - 前方
-@@ -81161,10 +81161,10 @@ redwind_Timed_005=納期が厳しい契約なので、時間を賢く管理す
+@@ -81172,10 +81172,10 @@ redwind_Timed_005=納期が厳しい契約なので、時間を賢く管理す
  redwind_UGF_collect_desc_001=RED WIND LINEHAUL\n「グッズはグッドな運び手に」\n----------------------------\n\n<EM4>~mission(Location|Address)</EM4>から<EM4>~mission(Destination|Address)</EM4>へ配達待ちの荷物が発生しました。\n\n率直に言いますが、この場所の評判はあまりよくありません。とはいえ、お客様に届ける荷物はまだありますし、お支払いもあります。リスクと報酬は五分五分といったところでしょう。しかし、その場所に向かうなら、トラブルに巻き込まれる可能性がかなり高いことだけ忘れずに。\n\n対処できない場合は、仕事を受けないことをお勧めします。\n\n\n\n全ての帰還兵の方へ - Red Wind はわれらが帝国への貢献に感謝します！あなた方の闘いは我々の自由を意味します！\n
  redwind_UGF_collect_title_001=Red Wind 配達パイロット募集
  redwind_courier_dc_small_title_001=Red Wind 惑星系内便の運送 / Red Wind Local Shipment Route
@@ -8580,7 +8592,7 @@ index 7a43a24..dd14f9e 100644
  redwind_delivery_desc_0001=RED WIND LINEHAUL\n「グッズはグッドな運び手に」\n----------------------------\n\n仕事をお探し中のパイロットの皆さん、配送契約はいかがですか？\n\n<EM4>~mission(Location|Address)</EM4>から<EM4>~mission(Destination|Address)</EM4>まで運搬待ちのお荷物があります。~mission(Contractor|Timed)~mission(Contractor|Danger)\n\n~mission(Contractor|SignOff)
  redwind_delivery_desc_0002=RED WIND LINEHAUL\n「グッズはグッドな運び手に」\n----------------------------\n\n<EM4>~mission(Location|Address)</EM4> から <EM4>~mission(Destination|Address)</EM4> への配送を担当していただける独立パイロットを募集しています。 \n\nしかし、自由奔放すぎるのはよくありません。船の側面に何が書いてあってもかまいませんが、この仕事を引き受けた時点で Red Wind の所属として飛ぶことに変わりはないですから。~mission(Contractor|Timed)~mission(Contractor|Danger) \n\n~mission(Contractor|SignOff)
  redwind_delivery_desc_0003=RED WIND LINEHAUL\n「グッズはグッドな運び手に」\n----------------------------\n\n<EM4>~mission(Location|Address)</EM4>から<EM4>~mission(Destination|Address)</EM4>までのルートを運行するパイロットを探しています。~mission(Contractor|Timed)~mission(Contractor|Danger)\n\n~mission(Contractor|SignOff)
-@@ -81241,7 +81241,7 @@ refinery_ui_ProcessingType_FastWasteful=XCR Reaction
+@@ -81252,7 +81252,7 @@ refinery_ui_ProcessingType_FastWasteful=XCR Reaction
  refinery_ui_ProcessingType_FastWasteful_Desc=このプロセスでは、鉱石に腐食作用の強い複数種類の反応剤を用いて、不要な物質を迅速に溶解します。戦時中、資材生産の高速化のために海軍によって開発されたこの高価な製錬方法は、平均よりも低い収率を高い回転率でカバーしています。
  refinery_ui_ProcessingType_FastWasteful_Details=高速 // 高コスト // 低収量
  refinery_ui_ProcessingType_NormalCareful=Ferron Exchange
@@ -8589,7 +8601,7 @@ index 7a43a24..dd14f9e 100644
  refinery_ui_ProcessingType_NormalCareful_Details=低速 // 中コスト // 高収量
  refinery_ui_ProcessingType_NormalNormal=Electrostarolysis
  refinery_ui_ProcessingType_NormalNormal_Desc=この平均的な価格の電気化学プロセスでは、目的の最終資源の純粋なサンプルを陽極として使用します。化学的に溶解した原料を引き寄せて析出させることで、平均的な収率および処理時間を実現しています。
-@@ -81279,7 +81279,7 @@ refinery_ui_Welcome_AfterFirstTime_01=おかえりなさい
+@@ -81290,7 +81290,7 @@ refinery_ui_Welcome_AfterFirstTime_01=おかえりなさい
  refinery_ui_Welcome_AfterFirstTime_02=現在、
  refinery_ui_Welcome_AfterFirstTime_03=件の完了した製錬依頼が納品を待機中
  refinery_ui_Welcome_AfterFirstTime_04=件の製錬依頼が進行中です。
@@ -8598,7 +8610,7 @@ index 7a43a24..dd14f9e 100644
  refinery_ui_Welcome_FirstTime_01=ようこそ
  refinery_ui_Welcome_FirstTime_02=様
  refinery_ui_Welcome_Introduction=最高品質の設備と数十年にわたる生鉱や素材の加工経験を持つスタッフが揃っています。あらゆるものを製錬できるこの場所で、お客様サービスが精練を必要としない、ほぼ唯一の要素です。
-@@ -81577,6 +81577,8 @@ roughready_missingperson_inv_e_station_desc_001,P=~mission(Location|Address) 付
+@@ -81588,6 +81588,8 @@ roughready_missingperson_inv_e_station_desc_001,P=~mission(Location|Address) 付
  roughready_missingperson_inv_e_station_title_001,P=行方不明: ~mission(TargetName) / Missing: ~mission(TargetName)
  roughready_replaceparts_desc_001=誰かマルチツールとヒューズを持ってるヤツはいねぇか？~mission(Location) ステーションの周りで、いくつか直してほしい所があるんだ。もし引き受けてくれるなら、詳細を送るぜ。\n\nま、やってくれたら、いくらかクレジットはやるつもりだが... 正直言って、俺達がお前らにステーションを自由に使わせてやってるんだから、少しくらい助けを求めるのは、そんなに無茶な話でもねえんじゃねぇか？まあ、俺がそう思ってるだけかもしれんが。\n\nGrizz
  roughready_replaceparts_title_001="|| ちょっと修理を頼む \\ / || Need a patchup \
@@ -8607,7 +8619,7 @@ index 7a43a24..dd14f9e 100644
  roughready_salvage_E_desc_001=いくつかの難破船を ~mission(Location|Address) までけん引させといた。完全に使いモンにならねえし、もうバラすくらいが関の山だな。もし残骸のサルベージに興味があるんなら、全部アンタにくれてやるぜ。もちろん、それなりの値段でな。\n\nおまけに、作業場は俺達のステーションの近くだから、邪魔が入る心配も大してねえ。周りの連中なら俺達がお行儀よくさせてるからな。\n\n- Smokey
  roughready_salvage_E_title_001=壊れた船 販売中 / Wrecked Ships for Sale
  roughready_salvage_M_desc_001=~mission(Location|Address) の近くに、船が何隻か寂しくプカプカ漂ってるって情報が入った。良いサルベージ物件ではあるんだが、今はどのクルーも手が空いてねぇ。だから、アンタに最初に手をつける権利をやろうと考えたわけだ。\n\n座標が欲しけりゃ、金で売ってやる。そしたら、好きなだけ残骸をきれいに平らげて、全部売ってがっぽり儲けるがいい。まあ、現場じゃライバルのスカヴ共から、ちったあ面倒をふっかけられるかもしれねえが、アンタが対処できねえようなモンじゃねえと信じてるぜ。\n\n- Smokey
-@@ -81988,7 +81990,7 @@ shop_name_pharmacy=薬局
+@@ -81999,7 +82001,7 @@ shop_name_pharmacy=薬局
  shop_name_platinumbay=Platinum Bay
  shop_name_portolisar=Port Olisar
  shop_name_regal=Regal Luxury レンタル
@@ -8616,7 +8628,7 @@ index 7a43a24..dd14f9e 100644
  shop_name_shubin=Shubin Interstellar
  shop_name_skutters=Skutters
  shop_name_tammanyandsons=Tammany and Sons
-@@ -82358,7 +82360,7 @@ shop_ui_transactionResult_00_Success=取引完了
+@@ -82369,7 +82371,7 @@ shop_ui_transactionResult_00_Success=取引完了
  shop_ui_transactionResult_01_AuthorityError=認証エラー
  shop_ui_transactionResult_02_TransactionServiceError=決済サービスエラー
  shop_ui_transactionResult_03_InvalidLocation=無効なロケーション
@@ -8625,7 +8637,7 @@ index 7a43a24..dd14f9e 100644
  shop_ui_transactionResult_05_InventoryContainerRequestFail=インベントリコンテナリクエストの失敗
  shop_ui_transactionResult_06_InventoryItemFail=インベントリアイテムに不備を検知
  shop_ui_transactionResult_07_InventoryItemContentFail=インベントリアイテムの内容不備
-@@ -82733,9 +82735,9 @@ spacesteal_obj_short_03=ブツを回収する
+@@ -82744,9 +82746,9 @@ spacesteal_obj_short_03=ブツを回収する
  spacesteal_obj_short_04=ブツを配達する
  spacesteal_obj_short_04a=ブツ
  spacesteal_timed_0001=こんなチャンスを待っていたんです。お前が足を引っ張ったせいで、せっかくのチャンスが台無しだ。
@@ -8637,7 +8649,7 @@ index 7a43a24..dd14f9e 100644
  spacesteal_title=~mission(Contractor|StealTitle)
  spacesteal_title_0001=ネコババ / Five Finger Discount
  spacesteal_title_0002=持ち去り / Take Away
-@@ -82749,7 +82751,7 @@ spacesteal_title_medium=~mission(Contractor|StealMediumTitle)
+@@ -82760,7 +82762,7 @@ spacesteal_title_medium=~mission(Contractor|StealMediumTitle)
  stanton1_surface_relay=墜落したリレー AC-652
  stanton2_Shipping_Covalex=Covalex 配送ハブ Gundo
  stanton2_Shipping_Covalex_CargoBay=貨物室
@@ -8646,7 +8658,7 @@ index 7a43a24..dd14f9e 100644
  stanton2_asteroidfield_1=2904-UEE649
  stanton2_asteroidfield_2=2909-UEE831
  stanton2_asteroidfield_3=2910-UEE217
-@@ -82761,7 +82763,7 @@ stanton2_asteroidfield_8=2930-CRU983
+@@ -82772,7 +82774,7 @@ stanton2_asteroidfield_8=2930-CRU983
  stanton2_housing_grimhex=Grim HEX
  stanton2_housing_grimhex_clinic=Green Imperial 病院
  stanton2_housing_grimhex_clinic_desc=所在地：Stanton 星系、Grim HEX\n\nGreen Imperial 病院は、Housing Exchange の住民の生活支援として、基本的な医療サービスを提供しています。
@@ -8655,7 +8667,7 @@ index 7a43a24..dd14f9e 100644
  stanton2_researchSatellite275=ICC 衛星 275
  stanton2_researchSatellite306=ICC 衛星 306
  stanton2_researchSatellite472=ICC 衛星 472
-@@ -82770,7 +82772,7 @@ stanton2_researchSatellite625=ICC 衛星 625
+@@ -82781,7 +82783,7 @@ stanton2_researchSatellite625=ICC 衛星 625
  stanton2_researchSatellite730=ICC 衛星 730
  stanton2_researchSatellite849=ICC 衛星 849
  stanton2_researchSatellite_126=ICC 衛星 126
@@ -8664,7 +8676,7 @@ index 7a43a24..dd14f9e 100644
  stanton2_restockStation042=Cry-Astro Service 042
  stanton2_restockStation126=Cry-Astro Service 151
  stanton2_restockStation275=Cry-Astro Service 262
-@@ -82780,10 +82782,10 @@ stanton2_restockStation556=Cry-Astro Service 501
+@@ -82791,10 +82793,10 @@ stanton2_restockStation556=Cry-Astro Service 501
  stanton2_restockStation625=Cry-Astro Service 685
  stanton2_restockStation730=Cry-Astro Service 793
  stanton2_restockStation849=Cry-Astro Service 824
@@ -8677,7 +8689,7 @@ index 7a43a24..dd14f9e 100644
  stanton2_transfer_Port_Olisar=Port Olisar
  stanton2_transfer_Port_Olisar_desc=Located in the trade lanes above Crusader, Port Olisar offers a breathtaking view of the planet below. Owned and operated by Crusader Industries, Port Olisar acts as a gateway to the company’s vast planetary holdings and orbital shipyards. The station offers a wide variety of shops and services including: Refueling, Restocking, Ship Weapons, Ship Components, Personal Armor, Personal Weapons, Clothing, and Habs.
  stanton3_private_landingpad=私有ランディングパッド
-@@ -82947,7 +82949,7 @@ strawberry_A_datapad_email_02=通信
+@@ -82958,7 +82960,7 @@ strawberry_A_datapad_email_02=通信
  strawberry_A_datapad_from=From: Slicer01
  strawberry_A_datapad_from_01=From: Slicer01
  strawberry_A_datapad_from_02=From: Slicer01
@@ -8686,7 +8698,7 @@ index 7a43a24..dd14f9e 100644
  strawberry_A_datapad_notes_01=昨日はすげぇ大漁だったな！\n\nちょうど荷降ろしを終えたんだが、このまま続けられりゃ Stanton は大混乱間違いなしだろうよ。\n\nまだクソったれの状況は続いてる。Dusters みてぇな犯罪者共と隠れなきゃいけねぇのも理想的とは言い難てぇが、お前はうまくやってるよ。他の連中もお前ぐらい献身的だったら助かるんだが……とにかく次の標的を探してるとこだ、それまで身を隠して Pyro に備えとけ。\n\n気を抜くなよ。
  strawberry_A_datapad_notes_02=よぉ\n\nStanton 中のセキュリティ共がやっと重い腰を上げたらしい。こっちの情報じゃ、特定エリアの監視と工作員の特定をしようとしてやがる。露呈した隠れ場所の数は不明だ。俺達が Dusters と隠れていることを知られたかどうかもな。安全第一ってことで、新しい隠れ家に移動してもらう。 \n\n装備を整えたら不審船を警戒しながら次の指示を待て。それから、もし危機的状況になったら緊急通信を飛ばして別途指示があるまで隠れ家から離れてろ。
  strawberry_A_datapad_subject=件名：その場で待機しろ
-@@ -82963,7 +82965,7 @@ strawberry_B_datapad_from=From: Slicer01
+@@ -82974,7 +82976,7 @@ strawberry_B_datapad_from=From: Slicer01
  strawberry_B_datapad_from_01=From: Slicer01
  strawberry_B_datapad_from_02=From: Slicer01
  strawberry_B_datapad_notes=そっちの準備が完了したのは知ってるが、出撃はまだだ。\n\nセキュリティ共の攻撃でこっちの人員に被害が出てな。念の為、人員と物資を動かしてる最中だ。それが終わり次第、Quicksilver は計画通り出航する。\n\nその間は目立たないように隠れてろ。無許可のパトロールも、派手な射撃訓練もナシだ。これ以上、注目を浴びるような真似はするな。日に日にこっちの首を狙ってる連中が増えてやがる、ソイツらの手助けなんてしたくねぇだろ？\n\n気を抜くなよ。
@@ -8695,7 +8707,7 @@ index 7a43a24..dd14f9e 100644
  strawberry_B_datapad_notes_02=よぉ\n\n現場の在庫確認をもう一回やってくれ。面倒なのは承知の上だが、前回の確認以降記録がこっちと一致してねぇ。在庫の確認が終わり次第、最新版のリストを俺に送れ。\n\n出来る限り迅速かつに正確に、だぞ。Quicksilver の準備は順調だが、Pyro まで残しとく物資を正確に把握する必要がある。1時間以内にできそうか？
  strawberry_B_datapad_subject=件名：ステータス更新
  strawberry_B_datapad_subject_01=件名：人事更新
-@@ -82998,7 +83000,7 @@ terminal_atm_banking_updated_001=アカウントが更新されました
+@@ -83009,7 +83011,7 @@ terminal_atm_banking_updated_001=アカウントが更新されました
  terminal_atm_banking_wait_001=処理中です。しばらくお待ちください...
  terminal_atm_banking_welcome_001=ようこそいらっしゃいませ
  terminal_mtps_codescreen_01=科学技術にも人間性を。
@@ -8704,7 +8716,7 @@ index 7a43a24..dd14f9e 100644
  testcase_2_ShipInFrontAndBehindIdris,P=2. Ship In Front and Behind Idris
  text_AUEC_deducted_text=控除 %i aUEC
  text_MER_deducted_text=控除 %i Merits
-@@ -83019,10 +83021,10 @@ text_dfm_ea_PreloadingRom=ROM をプリロード中...
+@@ -83030,10 +83032,10 @@ text_dfm_ea_PreloadingRom=ROM をプリロード中...
  text_hostility_EnterMonitoredArea,P=監視宙域に進入
  text_hostility_LeaveMonitoredArea,P=監視宙域から離脱
  text_hostility_Wanted=CrimeStat が上昇
@@ -8717,7 +8729,7 @@ index 7a43a24..dd14f9e 100644
  text_level_info_description_hangarApp=Personal Hangar Description
  text_level_info_primary_title_Area18=STANTON III
  text_level_info_primary_title_Crusader=STANTON II
-@@ -83140,7 +83142,7 @@ text_ui_charactercustomizer_rootcolor,P=生え際の色
+@@ -83151,7 +83153,7 @@ text_ui_charactercustomizer_rootcolor,P=生え際の色
  text_ui_charactercustomizer_rootdyecolor,P=生え際を染める
  text_ui_charactercustomizer_scars,P=傷跡
  text_ui_charactercustomizer_sculpt,P=スカルプト
@@ -8726,7 +8738,7 @@ index 7a43a24..dd14f9e 100644
  text_ui_charactercustomizer_selectbody,P=ボディタイプの選択
  text_ui_charactercustomizer_skin,P=肌
  text_ui_charactercustomizer_stubble,P=無精ひげ
-@@ -83163,7 +83165,7 @@ text_ui_chractercustomizer_dna,P=DNA
+@@ -83174,7 +83176,7 @@ text_ui_chractercustomizer_dna,P=DNA
  text_ui_currency_AUEC=AUEC
  text_ui_currency_MER=MER
  text_ui_currency_REC=REC
@@ -8735,7 +8747,7 @@ index 7a43a24..dd14f9e 100644
  text_ui_lens_East,P=E
  text_ui_lens_East_90,P=90
  text_ui_lens_North,P=N
-@@ -83203,7 +83205,7 @@ text_ui_units_angle=°
+@@ -83214,7 +83216,7 @@ text_ui_units_angle=°
  text_ui_units_bpm=bpm
  text_ui_units_colon=：
  text_ui_units_credits=¤
@@ -8744,7 +8756,7 @@ index 7a43a24..dd14f9e 100644
  text_ui_units_degrees=℃
  text_ui_units_degrees_frac=%.*f ℃
  text_ui_units_hp=hp
-@@ -83402,7 +83404,7 @@ ui_CG_Turret_Movement=タレットの動作
+@@ -83413,7 +83415,7 @@ ui_CG_Turret_Movement=タレットの動作
  ui_CIARMode=AR モード
  ui_CIATCLoadingRequest=貨物の積み降ろしを申請する
  ui_CIATCRequest=着陸の申請
@@ -8753,7 +8765,7 @@ index 7a43a24..dd14f9e 100644
  ui_CIATCRequest_Landing=着陸の申請
  ui_CIATCRequest_Takeoff=離陸の申請
  ui_CIAccelRangeAbs=加速度リミッター 増加 / 減少（絶対値）
-@@ -83420,7 +83422,7 @@ ui_CIAccelScaleDownDesc=スラストマグニチュードコントロールダ
+@@ -83431,7 +83433,7 @@ ui_CIAccelScaleDownDesc=スラストマグニチュードコントロールダ
  ui_CIAccelScaleRel=スラストマグニチュードコントロールアップ/ダウン（rel.）
  ui_CIAccelScaleRelDesc=スラストマグニチュードコントロール Up / Down (rel.) - 古い値から相対的に加速度の大きさを減少/増加させる
  ui_CIAccelScaleUp=スラストマグニチュードコントロールアップ
@@ -8762,7 +8774,7 @@ index 7a43a24..dd14f9e 100644
  ui_CIAdvanCamClearSave=保存されたビューのクリア
  ui_CIAdvanCamDOFDecrease=被写界深度の減少
  ui_CIAdvanCamDOFIncrease,P=被写界深度の増加
-@@ -83514,13 +83516,13 @@ ui_CICycleViewMode=カメラの切り替え - オービットモード
+@@ -83525,13 +83527,13 @@ ui_CICycleViewMode=カメラの切り替え - オービットモード
  ui_CICycleViewSecondary=カメラの切り替え - 副次視点
  ui_CICycleWeaponAmmoBack=ミサイルの種類の変更（前）
  ui_CICycleWeaponAmmoFwd=ミサイルの種類の変更（次）
@@ -8783,7 +8795,7 @@ index 7a43a24..dd14f9e 100644
  ui_CIDecoupledStrafeBack=デカップル平行移動 後退
  ui_CIDecoupledStrafeDown=デカップル平行移動 下
  ui_CIDecoupledStrafeFwd=デカップル平行移動 前進
-@@ -83530,11 +83532,11 @@ ui_CIDecoupledStrafeLeftRight=デカップル平行移動 左 / 右
+@@ -83541,11 +83543,11 @@ ui_CIDecoupledStrafeLeftRight=デカップル平行移動 左 / 右
  ui_CIDecoupledStrafeRight=デカップル平行移動 右
  ui_CIDecoupledStrafeUp=デカップル平行移動 上
  ui_CIDecoupledStrafeUpDown=デカップル平行移動 上 / 下
@@ -8799,7 +8811,7 @@ index 7a43a24..dd14f9e 100644
  ui_CIDeployLandingSystem=着陸システム（展開）
  ui_CIDismissCorpseMarker=死体マーカーの消去
  ui_CIDownedRevivalRequest=救助の要請（行動不能時）
-@@ -83768,7 +83770,7 @@ ui_CIHUDToggleCursor=HUD マウスカーソル（トグル）
+@@ -83779,7 +83781,7 @@ ui_CIHUDToggleCursor=HUD マウスカーソル（トグル）
  ui_CIHUDWeapons=HUD に武器のグルーピングを表示
  ui_CIHailTarget=ヘイルターゲット
  ui_CIHailTargetDesc=ヘイルターゲット
@@ -8808,7 +8820,7 @@ index 7a43a24..dd14f9e 100644
  ui_CIHeadTrackCalibrateDesc=最近のヘッドトラッキング
  ui_CIHeadTrackCameraEnabled=三人称視点カメラのヘッドトラッキングを有効／無効にする（トグル）
  ui_CIHeadTrackCameraEnabledDesc=外部カメラのヘッドトラッキングの有効／無効を設定します。
-@@ -83798,7 +83800,7 @@ ui_CIInteractionMode=インタラクションモード
+@@ -83809,7 +83811,7 @@ ui_CIInteractionMode=インタラクションモード
  ui_CIInteractionModeDesc= インタラクションモード
  ui_CIInteractionPersonal=Personal Inner Thought (PIT)
  ui_CIInteractionPersonalDesc= Personal Inner Thought
@@ -8817,7 +8829,7 @@ index 7a43a24..dd14f9e 100644
  ui_CIInteractionPlacementX=配置は左/右
  ui_CIInteractionPlacementXDesc=配置は左/右
  ui_CIInteractionPlacementY=配置を上/下に
-@@ -84043,7 +84045,7 @@ ui_CISalvageFocusRight,P=右のサルベージヘッドを見る
+@@ -84054,7 +84056,7 @@ ui_CISalvageFocusRight,P=右のサルベージヘッドを見る
  ui_CISalvageFocusRightDesc,P=右のサルベージヘッドを見る
  ui_CISalvageGimbalReset=サルベージモードジンバルのリセット
  ui_CISalvageGimbalToggle=サルベージモードジンバル（切り替え）
@@ -8826,7 +8838,7 @@ index 7a43a24..dd14f9e 100644
  ui_CISalvageIncreaseBeamSpacing=ビーム間隔を増やす
  ui_CISalvageIncreaseBeamSpacingDesc=Vulture の2つのサルベージヘッドの間隔を増やす。
  ui_CISalvageMode,P=サルベージオペレーターモードの切り替え
-@@ -84148,8 +84150,8 @@ ui_CITargetingCycleSelectionBack=サイクルセレクション-戻る
+@@ -84159,8 +84161,8 @@ ui_CITargetingCycleSelectionBack=サイクルセレクション-戻る
  ui_CITargetingCycleSelectionFwd=サイクルセレクション-フォワード
  ui_CITargetingCycleSelectionReset=選択切り替え - 自動にリセット
  ui_CITargetingCycleSubtargetBack=サイクルロック-サブターゲット-バック
@@ -8837,7 +8849,7 @@ index 7a43a24..dd14f9e 100644
  ui_CITargetingCycleSubtargetFwd=サイクルロック-サブターゲット-フォワード
  ui_CITargetingCycleSubtargetReset=サイクルロック-サブターゲット-メインターゲットへのリセット
  ui_CITargetingLockIndex1=ピンインデックス1 - 固定されたターゲットのロック/ロック解除
-@@ -84180,7 +84182,7 @@ ui_CIThrowOver=投擲（とうてき）-オーバーアーム
+@@ -84191,7 +84193,7 @@ ui_CIThrowOver=投擲（とうてき）-オーバーアーム
  ui_CIThrowPowerDecrease=スローパワーの減少
  ui_CIThrowPowerDecreaseDesc=スローパワーの減少
  ui_CIThrowUnder=スロー - 脇の下
@@ -8846,7 +8858,7 @@ index 7a43a24..dd14f9e 100644
  ui_CIThrustAbsFullDesc=全範囲（前方-後方）における絶対推力軸
  ui_CIThrustAbsHalf=スラストアブソリュート軸ハーフ
  ui_CIThrustAbsHalfDesc=ハーフレンジでの絶対推力軸（フォワード-ニュートラル）
-@@ -84284,9 +84286,9 @@ ui_CI_Countermeasures_Decoy_Launch_PanicDesc=マガジン内の大部分のカ
+@@ -84295,9 +84297,9 @@ ui_CI_Countermeasures_Decoy_Launch_PanicDesc=マガジン内の大部分のカ
  ui_CI_Countermeasures_Launch_All=すべての対策を打ち出す
  ui_CI_Countermeasures_Launch_AllDesc=可能な限りのカウンターメジャーを打ち出す。
  ui_CI_Countermeasures_Launch_Decoy=デコイ - バースト発射（タップ）、設定とバースト発射（ホールド）
@@ -8858,7 +8870,7 @@ index 7a43a24..dd14f9e 100644
  ui_CI_MGV_Pitch_Down=地上車両 - ピッチを下げる
  ui_CI_MGV_Pitch_Up=地上車両 - ピッチを上げる
  ui_CI_MGV_ToggleBreakOnIdle=非操作時の自動ブレーキ 切り替え
-@@ -84608,7 +84610,7 @@ ui_LockedGameModeTooltip=ロビーリーダーのみ編集可能です。
+@@ -84619,7 +84621,7 @@ ui_LockedGameModeTooltip=ロビーリーダーのみ編集可能です。
  ui_LookAhead_ReticleOffset=Look Ahead レクティルのオフセット
  ui_LookAhead_Sensitivity=Look Ahead 感度
  ui_LookAhead_aimdecay=ルックアヘッド・エイム・デケイ
@@ -8867,7 +8879,7 @@ index 7a43a24..dd14f9e 100644
  ui_MFD_View_Communications=通信
  ui_MFD_View_Configuration=設定
  ui_MFD_View_Diagnostics=診断
-@@ -84966,7 +84968,7 @@ ui_ac_TeamA=チーム1
+@@ -84977,7 +84979,7 @@ ui_ac_TeamA=チーム1
  ui_ac_TeamB=チーム2
  ui_ac_lobby_ChangeShip=船を変更
  ui_ac_lobby_SelectedShip=選択した船
@@ -8876,7 +8888,7 @@ index 7a43a24..dd14f9e 100644
  ui_aiming=エイムと武器
  ui_applyChanges=変更を適用しますか？
  ui_bodydrag=身体を引きずる
-@@ -84979,22 +84981,22 @@ ui_category_landing_pads,P=ランディングパッド
+@@ -84990,22 +84992,22 @@ ui_category_landing_pads,P=ランディングパッド
  ui_category_shared_hangars,P=共用ハンガー
  ui_cg_docking=フライト - ドッキング
  ui_cg_quantum_travel=フライト - Quantum トラベル
@@ -8907,7 +8919,7 @@ index 7a43a24..dd14f9e 100644
  ui_chemsymbol_SulphurMonoxide=SO
  ui_ci_TurretToggleEsp_disable=タレット E.S.P.を無効化
  ui_ci_TurretToggleesp_enable=タレット E.S.P.を有効化
-@@ -85670,7 +85672,7 @@ ui_escortPayoutLabel=aUEC 1分あたりの支払い額
+@@ -85681,7 +85683,7 @@ ui_escortPayoutLabel=aUEC 1分あたりの支払い額
  ui_flight_strafe_forward_back_rel=スロットル - 前進 / 後退（相対）
  ui_game_popup_error=エラー - %s（コード %i）\n%s
  ui_hacking_BLTR=Blue Triangle
@@ -8916,7 +8928,7 @@ index 7a43a24..dd14f9e 100644
  ui_hacking_BootProgress=起動状況
  ui_hacking_BootSequence=起動シーケンス
  ui_hacking_BootStatus=起動ステータス
-@@ -85779,7 +85781,7 @@ ui_hacking_objectives_type_A=タイプ A
+@@ -85790,7 +85792,7 @@ ui_hacking_objectives_type_A=タイプ A
  ui_hacking_objectives_type_B=タイプ B
  ui_hacking_objectives_type_C=タイプ C
  ui_hacking_pickup=対象
@@ -8925,7 +8937,7 @@ index 7a43a24..dd14f9e 100644
  ui_hacking_rotation=ノードローテーション
  ui_hacking_rotation_input_clockwise=E
  ui_hacking_rotation_input_counter_clockwise=Q
-@@ -85797,7 +85799,7 @@ ui_hacking_terminal_anti_virus_alert_exit=不審な動きなし
+@@ -85808,7 +85810,7 @@ ui_hacking_terminal_anti_virus_alert_exit=不審な動きなし
  ui_hacking_terminal_anti_virus_pursuit_enter=警告！ 不正なソフトウェアが検出されました！
  ui_hacking_terminal_anti_virus_pursuit_exit=不正なソフトウェアは見つかりませんでした
  ui_hacking_terminal_anti_virus_swap_completed=切り替え完了
@@ -8934,7 +8946,7 @@ index 7a43a24..dd14f9e 100644
  ui_hacking_terminal_command_commands=COMMANDS
  ui_hacking_terminal_command_commands_desc=コマンドリストを表示する
  ui_hacking_terminal_command_commands_screen="HELP"と入力すると、ターミナルの使い方についてのヘルプが表示されます。\n利用可能なすべてのコマンドのリストを取得するには"COMMANDS"と入力してください。
-@@ -85871,8 +85873,12 @@ ui_hacking_terminal_param_type_coordinate=Coordinate
+@@ -85882,8 +85884,12 @@ ui_hacking_terminal_param_type_coordinate=Coordinate
  ui_hacking_terminal_param_type_float=float
  ui_hacking_terminal_param_type_int=int
  ui_hacking_terminal_root="\\Root
@@ -8948,7 +8960,7 @@ index 7a43a24..dd14f9e 100644
  ui_hacking_terminal_system_start_up_outro=システム初期化に成功しました\n入力を待機中_
  ui_hacking_terminal_system_timed_out=期限切れのアクセスコードです！
  ui_hacking_terminal_three_dots=...
-@@ -86029,7 +86035,7 @@ ui_interactor_ST3_Transit_spaceport=Riker 記念宇宙港
+@@ -86040,7 +86046,7 @@ ui_interactor_ST3_Transit_spaceport=Riker 記念宇宙港
  ui_interactor_ST4_Tobin_ApexHall=Apex ホール
  ui_interactor_ST4_Tobin_ZenithHall=Zenith ホール
  ui_interactor_ST4_Transit_Tobin=Tobin センター
@@ -8957,7 +8969,7 @@ index 7a43a24..dd14f9e 100644
  ui_interactor_SiteB=サイト B
  ui_interactor_SubBasement=地下2階
  ui_interactor_aegs_001=Aegis Dynamics ホール A
-@@ -86846,14 +86852,14 @@ ui_null_availability_timer=未設定
+@@ -86857,14 +86863,14 @@ ui_null_availability_timer=未設定
  ui_old_screen_code=RPLC 0011
  ui_options=オプション
  ui_paste=ペースト
@@ -8975,7 +8987,7 @@ index 7a43a24..dd14f9e 100644
  ui_pause_PopupQuittingGame,P=ゲームを終了しています...
  ui_payoutLabel=支払額の設定
  ui_pc_pit_inventory=インベントリの切り替え（短押し）
-@@ -86877,24 +86883,24 @@ ui_pit_inventory_sorting_typeAZ=タイプ：A > Z
+@@ -86888,24 +86894,24 @@ ui_pit_inventory_sorting_typeAZ=タイプ：A > Z
  ui_pit_inventory_sorting_typeZA=タイプ：Z > A
  ui_pit_inventory_split=分割
  ui_pregame_Hangars=ハンガー
@@ -9006,7 +9018,7 @@ index 7a43a24..dd14f9e 100644
  ui_pregame_hangar_selfland_callout1=SELA
  ui_pregame_hangar_selfland_callout2=船の容量: 最大 XXX
  ui_pregame_hangar_selfland_callout3=ローテク/コロニアル
-@@ -87661,7 +87667,7 @@ vehicle_DescAEGS_Gladius_PIR,P=製造元：Aegis Dynamics\n用途：軽戦闘 -
+@@ -87672,7 +87678,7 @@ vehicle_DescAEGS_Gladius_PIR,P=製造元：Aegis Dynamics\n用途：軽戦闘 -
  vehicle_DescAEGS_Gladius_Valiant=製造元：Aegis Dynamics\n用途：軽戦闘\n\n「Arena Commander」のフライトシムと連携して製造された「Masters of Flight」シリーズの一環として、Valiant は戦闘において Vanduul を初めて撃破した人間として記録されている名高い防衛パイロット、Condi Hillard に敬意を表して作られました。この Gladius は、特殊なドッグファイティングに焦点を当てた装備と、彼女の象徴的な船に敬意を表す特別仕様のカスタムされた外観を備えています。  
  vehicle_DescAEGS_Hammerhead=製造元：Aegis Dynamics\n用途：重ガンシップ\n\n多数の砲塔を備えた高速の巡視船で、戦闘機との戦闘に対処するために設計された Hammerhead は、艦隊内でより大きな主力艦をサポートするのにも適しており、また、戦闘機グループの旗艦としての役割も果たします。  
  vehicle_DescAEGS_Idris=製造元：Aegis Dynamics\n用途：フリゲート\n\nUEE 巡視任務向けに開発された2番目の「ピースキーパー」バリアント、Idris-P は通常型の艦対艦砲と Spinal マウントを取り除いた代わりに、追加の貨物容量と優れた速度を優先して設計されています。 
@@ -9015,7 +9027,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_DescAEGS_Idris_P=製造元：Aegis Dynamics\n用途：フリゲート \n\nUEE の哨戒任務向けに開発された2番目の「ピースキーパー」バリアントである Idris-P は通常型の艦対艦砲と Spinal マウントを取り除いた代わりに、追加の貨物容量と優れた速度を優先して設計されています。
  vehicle_DescAEGS_Idris_P_Collector_Military=製造元：Aegis Dynamics\n用途：フリゲート\n\nUEE 巡視任務向けに開発された2番目の「ピースキーパー」バリアント、Idris-P は通常型の艦対艦砲と Spinal マウントを取り除いた代わりに、追加の貨物容量と優れた速度を優先して設計されています。 \n\nWikelo だ。もっと激しいに戦うできる、役に立つ改造した。すごいイイ。
  vehicle_DescAEGS_Javelin=製造元：Aegis Dynamics\n用途：駆逐艦\n\nUEE 軍での使用を想定して設計された Javelin は、巨大なモジュラー型主力艦であり、起業家用にも流用が可能です。細部まで作り込まれた内装、豊富なモジュールルームオプション、そして高い乗員定員数を誇る Javelin は、様々な役割でその名を轟かせています。
-@@ -87670,7 +87676,7 @@ vehicle_DescAEGS_Reclaimer_Teach=製造元：Aegis Dynamics\n用途：重サル
+@@ -87681,7 +87687,7 @@ vehicle_DescAEGS_Reclaimer_Teach=製造元：Aegis Dynamics\n用途：重サル
  vehicle_DescAEGS_Redeemer=製造元：Aegis Dynamics\n用途：ガンシップ\n\nAegis Dynamics によって設計された Redeemer は、強力な戦闘船であり、強力な武器ペイロードを備えて戦闘で自立できる能力を持っています。タレットとミサイルが散りばめられた Redeemer は、兵士を前線に送り届ける装甲揚陸艇としても機能します。  
  vehicle_DescAEGS_Retaliator=製造元：Aegis Dynamics\n用途：モジュール船\n\nこの民間仕様となった Retaliator では、軍用船のシャーシを更新することで、必要に応じて様々なモジュールを搭載できる自由なスペースが用意されています。 
  vehicle_DescAEGS_Retaliator_Bomber=製造元：Aegis Dynamics\n用途：重爆撃\n\nUnited Empire of Earth の最も強力な戦闘機の一つである Aegis Dynamics の Retaliator は、主力艦を攻撃し撃破するために設計された恐ろしい武器プラットフォームです。Retaliator 中隊は、無法者、Vanduul、および他の戦場で際立った戦果を残しています。 
@@ -9024,7 +9036,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_DescAEGS_Sabre_Comet=製造元：Aegis Dynamics\n用途：ステルス戦闘\n\n「Arena Commander」のフライトシムと連携して製造された「Masters of Flight」シリーズの一環として、Comet は、Aegis と共に戦闘機デザインの新時代を切り開いた名パイロット、Kamur Dalion 大佐に捧げるものです。この Sabre はドッグファイトに特化した装備と、この象徴的な船を称える特別仕様のカスタム外装が施されています。 
  vehicle_DescAEGS_Sabre_Firebird=製造元：Aegis Dynamics\n用途：ステルス戦闘\n\n前線での小競り合いが迅速かつ決定的な攻撃を必要としたとき、Sabre Firebird はあらゆる鉄火場に理想的な中型戦闘機です。 Aegis 社はすでに戦闘実績のある Sabre Raven をベースに派生機となる Firebird はミサイルランチャーを強化することで、さまざまな脅威に対応できるよう設計しました。
  vehicle_DescAEGS_Sabre_Peregrine=製造元：Aegis Dynamics\n用途：レース\n\nSabre Raven のファンがレーストラックで戦闘機を駆り、偉業を成し遂げた姿を目の当たりにした Aegis Dynamics の開発チームは、この戦闘機のレースバージョンを公式に作ることを思い立ちました。ご紹介しましょう、Sabre Peregrine です。洗練されたデザインと増設されたスラスターによるブースト力を備え、この俊敏な一羽の鳥ならば、ゴールラインをいつでも飛び越えられることでしょう。
-@@ -87705,7 +87711,7 @@ vehicle_DescANVL_Hornet_F7CM=製造元：Anvil Aerospace\n用途：中戦闘\n\n
+@@ -87716,7 +87722,7 @@ vehicle_DescANVL_Hornet_F7CM=製造元：Anvil Aerospace\n用途：中戦闘\n\n
  vehicle_DescANVL_Hornet_F7CM_Heartseeker=製造元：Anvil Aerospace\n用途：中戦闘\n\nスリリングなドッグファイトを心から愛するパイロットのために設計された限定版 F7C-M Heartseeker Mk I は、真の戦闘狂のための「運命の1機」です。最高級のコンポーネントを搭載し、堂々たる4基の Behring レーザーキャノンを装備したこの獰猛な殲滅機は、Super Hornet の伝説的な戦闘能力に磨きをかけ、宇宙での戦闘で究極の強さを発揮します。
  vehicle_DescANVL_Hornet_F7CM_Heartseeker_Mk2=製造元：Anvil Aerospace\n用途：中戦闘\n\nF7C-M Super Hornet が Mk II にアップグレードされた際、Anvil Aerospace は特別仕様機である Heartseeker にも同様の改良を施すことを確信していました。スリリングなドッグファイトに心を躍らせるパイロットの為に設計された強力な武装パッケージを備えた限定版 F7C-M Heartseeker Mk II は、新世代の真の戦闘愛好者たちにとってのお気に入りの船となることを目指しています。
  vehicle_DescANVL_Hornet_F7CM_Mk2=製造元：Anvil Aerospace\n用途：中戦闘\n\nAnvil Aerospace は最新技術を取り入れ、軍用クラスの優位性を誇る名高き戦闘機を洗練させ、F7C-M Super Hornet Mk II を完成させました。オリジナルモデルを戦場における恐怖の的たらしめた第二座席とボールタレットを引き継ぎつつ、さらなる改良が施されています。
@@ -9033,7 +9045,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_DescANVL_Hornet_F7CR_Mk2=製造元：Anvil Aerospace\n用途：探査\n\n次なる大いなるフロンティアを目指すなら、次世代型偵察機ほど信頼できる存在はありません。F7C-R Hornet Tracker Mk II は、スキャン精度と探査範囲を求める深宇宙探検家に最適な、改良型レーダーシステムを搭載しています。
  vehicle_DescANVL_Hornet_F7CS=製造元：Anvil Aerospace\n用途：ステルス戦闘\n\n低排出量のドライブ、低消費電力武器、そしてスキャンを拡散させる Void Armor テクノロジーの組み合わせにより、F7C-S Hornet Ghost Mk I は目立たないことを望むパイロットのために開発されました。Ghost は熱心な監視者の目をすり抜け、どんな目的でも達成することが可能です。心配はご無用です。 
  vehicle_DescANVL_Hornet_F7CS_Mk2=製造元：Anvil Aerospace\n用途：ステルス戦闘機\n\nF7C-S Hornet Ghost Mk II の再設計にあたり、Anvil Aerospace のエンジニアたちは、パイロットたちに愛された低廃熱ドライブ、低消費電力兵器、Void Armor 技術を継承しつつ、ステルス作戦の新時代に向けてさらに高性能へと洗練させることを目指しました。
-@@ -87728,7 +87734,7 @@ vehicle_DescANVL_Terrapin_Medic=製造元：Anvil Aerospace\n用途：医療\n\n
+@@ -87739,7 +87745,7 @@ vehicle_DescANVL_Terrapin_Medic=製造元：Anvil Aerospace\n用途：医療\n\n
  vehicle_DescANVL_Terrapin_Medic_Collector_Medic=製造元：Anvil Aerospace\n用途：医療\n\nAnvil のデザイナーたちは、オリジナルの Terrapin が誇る堅牢性を維持しつつ、救助活動に最適な機体として Terrapin Medic を開発しました。Tier 2 の医療ベッドを搭載し、強力な装甲とシールドを備えた Terrapin Medic は、極めて危険な状況からでも負傷者を救出することが可能な船舶です。\n\nWikelo だ。船、アナタもっと回復できる、良いをもっと良いにする改造した。
  vehicle_DescANVL_Valkyrie_CitizenCon=製造元：Anvil Aerospace\n用途：ドロップシップ\n\n1世紀以上もの間、Anvil の船は数え切れないほどの民間および軍の戦闘作戦でその名を馳せてきました。その誇り高き安全保障の伝統に敬意を表し、CitizenCon 2948 でのデビューを記念した限定トリムパッケージを備えた限定版 Liberator Edition Valkyrie をお届けします。  
  vehicle_DescARGO_ATLS=製造元：Argo Astronautics\n用途：貨物運搬\n \n実際の現場での徹底したテストを経て、この Argo Astronautics 製次世代アシスト運搬システムでは完全に再設計されたコックピットを搭載しました。この最新の ATLS パワースーツを装着すれば、これまで以上に自然なあなたの身体の延長として操作できることでしょう。前バージョンよりもスムーズな脚部アクチュエーターと、強力な内蔵トラクタービームを組み合わせることで、大型貨物の効率的かつ正確な移動がかつてないほど容易になりました。
@@ -9042,7 +9054,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_DescARGO_ATLS_GEO_IKTI=製造元：Banu\n用途：戦闘\n\nWikelo の手によって一つひとつ製作された本機は、ATLS GEO パワースーツの特別仕様モデルにあたる機体です。非武装系の装備はすべて排除され、代わりに武器が搭載されています。さらに、GEO のリソースポッドがジャンプパックへと換装されたことにより、機動性も大幅に向上しています。
  vehicle_DescARGO_ATLS_IKTI=製造元：Banu\n用途：戦闘\n\nWikelo の手作業によって製造されたこの特別仕様の ATLS パワースーツは、武装以外のすべてを取り除いた代わりに、徹底的な火力強化が施されています。
  vehicle_DescARGO_ATLS_IKTI_Rad=製造元：ASD\n用途：戦闘\n\nBanu の商人 Wikelo によって戦闘用に改造された Argo ATLS を基に、ASD はさらなる改良を加え、パワースーツを Pyro I で発生する致命的な放射線嵐の中でも生き延びられる機体へと仕上げました。
-@@ -87807,8 +87813,8 @@ vehicle_DescDRAK_Kraken=製造元：Drake Interplanetary\n用途：軽空母\n\n
+@@ -87818,8 +87824,8 @@ vehicle_DescDRAK_Kraken=製造元：Drake Interplanetary\n用途：軽空母\n\n
  vehicle_DescDRAK_Kraken_Privateer=製造元：Drake Interplanetary\n用途：軽空母\n\nDrake Interplanetary は、Kraken Privateer で恒星間商取引を再定義するために、アフターマーケットでの大型船の改造で有名な Cousin Crow's Custom Craft と提携しました。この公式コンバージョン船を使用することで、獰猛なクラーケン攻撃空母の中に私設の市場が築かれるでしょう。
  vehicle_DescDRAK_Mule=製造元：Drake Interplanetary\n用途：軽輸送\n\n6輪の Drake Mule は、あらゆる種類の積み込み・運搬作業に対応する、頼りになるあなたの働き馬です。不整地での貨物輸送であろうと、大型船や貨物デッキへの積み込みであろうと、Mule は最も困難な契約でも最後までやり遂げます。そう、この車両は単純明快そのものなのです。
  vehicle_DescDRAK_Pitbull,P=製造元：Drake Interplanetary\n用途：スナブ戦闘 \n\n無駄を削ぎ落とした、純粋な戦闘マシンがこの機体です。Pitbull は高速マニューバ性能とむき出しの火力を融合させ、強力な一撃を見舞うジャガーノートのような力を、小型の単座船パッケージで実現させました。
@@ -9053,7 +9065,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_DescEA_GroundRadar,P=< PLACEHOLDER >
  vehicle_DescEA_OrbitalMiningLaser,P=< PLACEHOLDER >
  vehicle_DescESPR_Blade=製造元：Vanduul Clans\n用途：軽戦闘機 \n\nこの軽戦闘機は「Blade」の型式名で知られており、Vanduul 氏族団によって主に偵察および第一波攻撃用機体として運用されています。その優れた速度性能から、戦闘区域からの脱出を試みる敵艦の追撃役を担う散開部隊機としても活用されています。過去数十年にわたり、UEE のアグレッサー部隊は Esperia 社との独占契約によって製造された Blade のレプリカ機を採用してきました。
-@@ -87818,10 +87824,10 @@ vehicle_DescESPR_Prowler_Utility=製造元：Esperia\n用途：軽輸送\n\nこ
+@@ -87829,10 +87835,10 @@ vehicle_DescESPR_Prowler_Utility=製造元：Esperia\n用途：軽輸送\n\nこ
  vehicle_DescESPR_Prowler_Utility_Collector_Indust=製造元：Esperia\n用途：軽輸送\n\nこの歴史的船舶の Tevarin 製オリジナル機体は現存していないものの、Esperia の歴史学者チームは当時の UPE 軍の前線での報告書を参考にして、この改造型 Prowler を再現しました。Tevarin 軍によって必要な物緊急資を前線に届けるために使用された Prowler Utility は、トラクタービームと完全にアクセス可能な貨物室を搭載し、戦闘艦としての強力な武装も維持しています。この設計により、戦場という過酷な環境下でも精密な貨物輸送が可能となっています。\n\nWikelo やぁする。船、もっと工業する船にするの、すごい改造した。アナタ、これ好きする。
  vehicle_DescESPR_Stinger=製造元：Esperia\n用途：重戦闘\n\n人類の辺境星系で破壊の限りを尽くすこの Vanduul 重戦闘機は、UEE 海軍によって Stinger と呼称され、パイロットや主力艦の大きな脅威となってきた血塗られた経歴を持つ存在でもあります。元々は訓練時のアグレッサー部隊専用機として開発されましたが、この度 Esperia はこの精巧なレプリカ機を一般市民にも提供することを決定しました。\n
  vehicle_DescESPR_Talon=製造元：Esperia\n用途：軽戦闘\n\nTalon は、歴史的に重要な Tevarin の船舶デザインを保存し続ける Esperia の取り組みを体現しています。機動力のある単座戦闘機で、装甲は軽いながらも強力な方向性の『Phalanx』シールドを備えており、Talon は先手を打ち、強烈な打撃を与えた後、シールドを使用して脱出をカバーするように作られています。
@@ -9066,7 +9078,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_DescGRIN_Cydnus=Greycat Cydnus 採掘 Bot
  vehicle_DescGRIN_MTC=製造元：Greycat Industrial\n用途：探査\n\n産業オペレーションの専門家として、Greycat は現場の安全がビジネス成功の鍵であることを理解しています。さらに、その安全性を確保するには、警備要員と装備を必要な場所へ確実に輸送することが不可欠です。だからこそ、MTC：モバイル戦術センターは次なる事業において極めて重要な存在です。遠隔地の複雑な地形にも対応できる機動力を備え、スーツロッカー、武器ラック、各種収納を完備した Greycat MTC は、潜在的な問題を利益へと変える鍵となるでしょう。
  vehicle_DescGRIN_PTV=製造元：Greycat Industrial\n用途：旅客輸送\n\nGreycat PTV は、大型ハンガーや前哨基地内での移動時間を短縮するために頻繁に使用される、シンプルで実用的なバギーです。
-@@ -87839,14 +87845,14 @@ vehicle_DescKRIG_P72_Archimedes=製造元：Kruger Intergalactic\n用途：レ
+@@ -87850,14 +87856,14 @@ vehicle_DescKRIG_P72_Archimedes=製造元：Kruger Intergalactic\n用途：レ
  vehicle_DescKRIG_P72_Archimedes_Emerald=製造元：Kruger Intergalactic\n用途：レース r\n\n安全確保から星系の探索、操縦桿を握る楽しさを味わうことまで……いかなる目的であろうと、Kruger Intergalactic の P-72 Archimedes はそれを成し遂げます。スタイリッシュに洗練された P-72 Archimedes は卓越したハンドリング性能と軽快な加速力を実現するよう設計されました。またエメラルド限定版には特別な「lucky」ペイントが付属しています。
  vehicle_DescMISC_Endeavor=製造元：MISC\n用途：科学\n\nMusashi Industrial & Starflight Concern が自信をもって送り出す Endeavor 級研究船は、様々な科学的・医療的タスクに適応するよう設計された完全モジュラー型の多目的プラットフォームです。当初は MISC 社の浮遊実験室として開発が始まった MISC Endeavor は、今では深宇宙望遠鏡から移動式医療施設まであらゆる用途のモジュールを装備・運用することができます。
  vehicle_DescMISC_Expanse=製造元：MISC\n用途：製錬\n\nMISC Expanse が搭載している自己完結型の鉱物製錬システムは、エントリーレベルにおける鉱物製錬の業界標準を再定義する存在です。MISC Prospector のような採掘船との連携を前提に設計された Expanse は未製錬鉱物を高品質な資源へと製錬する能力により、あらゆる採掘業務の完ぺきな相棒となることでしょう。
@@ -9085,7 +9097,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_DescMISC_Hull_D=製造元：MISC\n用途：重輸送\n\n堅牢なフレームを中心に構築された MISC の Hull D は、大規模貨物輸送におけるスタンダードといえるでしょう。Hull D は中規模の組織や企業などににより運用され、しばしば輸送船団の旗艦として使用されることもあります。
  vehicle_DescMISC_Hull_E=製造元：MISC\n用途：重輸送\n\n市販されている貨物専用輸送船の中で最大級のサイズを誇る Hull E は、比類のない貨物積載能力を備えています。超大規模な貨物輸送オペレーション使われる MISC Hull E は、現在の UEE で行われている星系間貿易において不可欠な存在であるといっても過言ではありません。
  vehicle_DescMISC_Odyssey=製造元：MISC\n用途：探索\n\nMISC Odyssey で未知なる彼方を調査し、宇宙の最果てを探検しよう。民間人が購入可能な探査船の中でもっとも先進的かつ理想的な探査船である Odyssey は、最高の自給自足を念頭に設計されました。船内に内蔵された採掘機器と製錬設備、大量の貨物積載能力、小型船を駐機可能な格納庫の他、7人の乗組員用の包括的で快適な居住区画を完備しています。
-@@ -87856,12 +87862,7 @@ vehicle_DescMISC_Razor=製造元：Mirai\n用途：レース\n\nこの複合立
+@@ -87867,12 +87873,7 @@ vehicle_DescMISC_Razor=製造元：Mirai\n用途：レース\n\nこの複合立
  vehicle_DescMISC_Razor_EX=製造元：Mirai\n用途：ステルス\n\n熱や電磁波の放出量を抑える特殊な構造の Razor EX は、UEE Advocacy の監視任務や要人回収作戦のため秘密裏に設計されました。最終的に正式採用には見送られてしまったものの、あまりに目立ちたくない一般の方々のために民間モデルの発売が決まりました。 
  vehicle_DescMISC_Razor_LX=製造元：Mirai\n用途：レース\n\nオーバーチャージされた Razor に刮目せよ。オーバークロック済みのカスタムエンジンを搭載した LX は驚異的な最高速度を解き放ちます。火力と操作性の低下という代償は支払いましたが、噴射煙の中にライバルたちを置き去りにするのに武装など必要ありません。 
  vehicle_DescMISC_Reliant=製造元：MISC\n用途：スターター / 軽輸送\n\nReliant Kore をもって、MISC は印象的な船のラインナップにより小さな入門機となる宇宙船を加えています。先進的な Xi'an の設計を活用して、Reliant は広くて洗練された翼、全方位スラスター、水平および垂直の飛行モードに対応する完全に可動式の複座型コックピットを特徴としています。これら全てが組み合わさり、そのクラスの多くの船よりも大きな積載能力を持つことで、Kore は短距離の輸送に最適な選択肢となります。さらに、いくつかのオプションコンポーネントを追加するだけで、この万能船はあなたが夢見るどんなことでも実現可能です。 
@@ -9099,7 +9111,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_DescMISC_Starlancer_MAX_Collector_Indust,P=製造元：MISC\n用途：中貨物\n\n輸送業務を拡大したいと考える方に向けて、MISC のエンジニアたちは Starlancer MAX を改良し、貨物や車両を輸送できる広々とした貨物室を追加しました。長旅にむけた快適な居住設備と、人里離れた場所を進む際の完全な防衛パッケージが組み合わさった Starlancer MAX が ‘verse 中の勤勉なパイロットたちに選ばれる理由は、簡単なものです。
  vehicle_DescMISC_Starlancer_TAC_Collector_Military=製造元：MISC\n用途：ガンシップ\n\n一人でも戦える多用途な船を求める方に向け、MISC のエンジニアは Starlancer TAC に強力な攻撃パッケージを搭載し、最も手強い敵にも立ち向かえるようアップグレードしました。ハイリスク・ハイリターンの任務に挑むとき、Starlancer TAC はあなたとクルーが最後までやり遂げられるよう支えてくれるでしょう。\n\nWikelo だ。船、もっと戦う船するみたいになるよう、すごい改造した。すごいイイ。
  vehicle_DescMISC_Starlite=製造元：MISC\n用途：軽給油\n\n宇宙における唯一の絶対的な真理があるとすれば、それは「いずれ船は燃料切れになる」ということでしょう。そこで活躍するのが Starlite です。標準燃料ポッド2基と洗練されたコンパクトな設計を備えた Starlite は、いかなる場所で遭難した船へでも給油支援を行えるよう、MISC のエンジニアによって丹念に作り上げられました。
-@@ -87870,39 +87871,39 @@ vehicle_DescMRAI_Guardian_Collector_Military=製造元：Mirai\n用途：重戦
+@@ -87881,39 +87882,39 @@ vehicle_DescMRAI_Guardian_Collector_Military=製造元：Mirai\n用途：重戦
  vehicle_DescMRAI_Guardian_MX=製造元：Mirai\n用途：重戦闘\n\nGuardian 戦闘機の設計をもとに、さらに多くの攻撃オプションを追加した Mirai Guardian MX は、圧倒的な火力と装甲を備えた機体です。標準型の Guardian ほどの敏捷性はありませんが、この重戦闘機は同クラスの他の多くの機体よりも優れた機動性を誇ります。\n
  vehicle_DescMRAI_Guardian_MX_Collector_Military=製造元：Mirai\n用途：重戦闘\n\nGuardian 戦闘機の設計をもとに、さらに多くの攻撃オプションを追加した Mirai Guardian MX は、圧倒的な火力と装甲を備えた機体です。標準型の Guardian ほどの敏捷性はありませんが、この重戦闘機は同クラスの他の多くの機体よりも優れた機動性を誇ります。\n\nWikelo だ。船、すごく戦闘機っぽいになる役に立つ改造した。すごいイイ、だ。
  vehicle_DescMRAI_Guardian_QI=製造元：Mirai\n用途：航行阻止\n\n強力な敵と対峙した際に敵が逃げ出すのは当然のことですが、Mirai Guardian QI の持つ量子減衰能力があれば、敵が再び戦える日を迎えられないようにできるでしょう。ベースモデルである Guardian の優れた特長を引き継ぎ、Mirai のエンジニアたちは、QI バリアントをあらゆる防衛部隊にとって理想的な補完となるよう改良しました。\n
@@ -9152,7 +9164,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_DescRSI_Aurora_LX=製造元：RSI\n用途：探査 \n\n​出自を忘れない、そんな審美眼を持つパイロットのために仕立てられた最新の Aurora Deluxe が登場。​LX モデルは、高級なパテントレザーをあしらった内装を採用しており、漆黒の深宇宙へと続く長旅においても、格別な安らぎと至福の快適性をお約束いたします。
  vehicle_DescRSI_Aurora_MR=製造元：RSI\n用途：スターター / 軽戦闘\n\n積載能力はそのままに、戦闘能力も兼ね備えたものをお探しですか？Aurora Marque には、Behring 品質のレーザーと高品質の武装冷却システムが搭載されています。 
  vehicle_DescRSI_Aurora_Mk2=製造元：Roberts Space Industries\n用途：スターター / 軽輸送\n \n名機の新解釈として、Roberts Space Industries は信頼と実績の Aurora を根本から再構築しました。それこそが Aurora Mk II です。機体性能や使い勝手、スタイリングに至るまで、新世代のパイロットを念頭に置いて全面的に刷新されています。さらに、この最新モデルには Aurora シリーズに新たな特長として、換装可能なモジュールシステムを導入。特定のキャリアパスに縛られることなく、ハンガーにいながらにして、用途に合わせた特化運用への切り替えが簡単に行えます。初めて船を所有される方から、日常の愛機をアップグレードしたい熟練パイロットまで。Aurora Mk II は、あなたの搭乗をお待ちしています。
-@@ -87912,11 +87913,11 @@ vehicle_DescRSI_Aurora_SE=製造元：RSI\n用途：マルチロール\n\n世代
+@@ -87923,11 +87924,11 @@ vehicle_DescRSI_Aurora_SE=製造元：RSI\n用途：マルチロール\n\n世代
  vehicle_DescRSI_Bengal=<-=MISSING=->
  vehicle_DescRSI_Constellation_Andromeda=製造元：RSI\n用途：中輸送 / ガンシップ\n\nConstellation Andromeda は、その多用途性のおかげで帝国中の商人に支持される信頼性の高いマルチクルーの輸送船です。RSI が建造する最も人気のある船のひとつとして象徴的でもある Andromeda は、よく整備された貨物室、スナブ戦闘機用のドッキングポート、そして特徴的な配置のブリッジを備えています。
  vehicle_DescRSI_Constellation_Aquila,P=製造元：RSI\n用途：長期探査\n\nRSI によって遠くのフロンティアを横断するために設計された Constellation Aquila は、最大限の視界を確保するために再設計されたコックピット、先進的なセンサー群、そして惑星探査用のスナブ船、P-52 と Ursa ローバーを搭載しています。なぜ多くの探検家が Aquila の船長へとなるのか、その理由をあなたも見つけてみませんか。 
@@ -9166,7 +9178,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_DescRSI_Hermes=製造元：Roberts Space Industries\n用途：中輸送\n\n神話上の同名存在とは違い、RSI Hermes は決してトリックスターではありません–その速さは本物ですが。専用設計の革新的なスラスターパッケージ、充実した防御装備、そして十分な容量の貨物室を備え、Hermes は荷物を最終目的地まで高速で届けることができます。他の運搬船が近づくことすらためらうような危険な投下地点であっても対応可能です。
  vehicle_DescRSI_Lynx=製造元：RSI\n用途：高級ツアー\n\nRSI は Lynx Rover を、さまざまな地形を探索できる車両として設計しましたが、それでいてドライバーに最高評価かつ精密に調整されたドライブ体験を提供します。
  vehicle_DescRSI_Mantis=製造元：RSI\n用途：航行阻止\n\nRSI のプレミアムな Quantum Enforcement 船で船を完全に停止させましょう。Mantis には Wei-Tek 製の特注の Quantum Enforcement Device が搭載されており、その Quantum Snare で船を QT から引き裂き、Quantum Dampener で逃げ道をふさぎます。
-@@ -87927,9 +87928,9 @@ vehicle_DescRSI_Perseus=製造元：RSI\n用途：重ガンシップ\n\nRSI は
+@@ -87938,9 +87939,9 @@ vehicle_DescRSI_Perseus=製造元：RSI\n用途：重ガンシップ\n\nRSI は
  vehicle_DescRSI_Polaris=製造元：Roberts Space Industries\n用途：コルベット\n\nPolaris は俊敏なコルベット・クラスの主力艦であり、タレットと魚雷の全武装で強力な一撃を放ちます。海軍フリゲートとしての運用と、民兵作戦の旗艦としての役割を兼ね備え、Polaris はサーチ・アンド・レスキュー、簡便な打撃任務、一般的なセキュリティ巡視を実行する能力を持っています。Polaris には、単一の戦闘機、軽爆撃機、またはサポート船用の修理、再武装、給油施設が備わっています。
  vehicle_DescRSI_Polaris_Collector_Military=製造元：Roberts Space Industries\n用途：コルベット\n\nPolaris は俊敏なコルベット・クラスの主力艦であり、タレットと魚雷の全武装で強力な一撃を放ちます。海軍フリゲートとしての運用と、民兵作戦の旗艦としての役割を兼ね備え、Polaris はサーチ・アンド・レスキュー、簡便な打撃任務、一般的なセキュリティ巡視を実行する能力を持っています。Polaris には、単一の戦闘機、軽爆撃機、またはサポート船用の修理、再武装、給油施設が備わっています。\n\nWikelo だ。船、すごくなる役に立つ改造した。
  vehicle_DescRSI_Salvation=製造元：Roberts Space Industries\n用途：サルベージ\n\n何世紀にもわたり、Roberts Space Industries はパイロットのニーズを満たすだけでなく、その期待を超える船を生み出してきました。RSI Salvation は一見すると単純なサルベージ船に見えるかもしれませんが、サルベージアーム、内蔵処理プラント、使いやすい外部ストレージに至るまで、あらゆる要素が徹底的に洗練され最適化されており、初心者でも熟練者のように扱えるよう設計されています。
@@ -9178,7 +9190,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_DescRSI_URSA_Medivac=製造元：RSI\n用途：医療\n\nどれほど人里離れた惑星にも救いの手を求める人々がいます。どんな険しい地形でも横断できるよう RSI が設計した Ursa Medivac は、最も必要とされる場所で医療を提供するのに最適な Tier 3 医療用ベッドを備えています。
  vehicle_DescRSI_Ursa_Rover=製造元：RSI\n用途：探査\n\nRSI が惑星探検家のために特別に開発した Ursa ローバーは、民間人向けに軍用クラスの全地形対応能力を提供し、地上拠点の偵察、地図作成、発見用途における頑丈な標準装備となっています。
  vehicle_DescRSI_Ursa_Rover_Emerald=製造元：RSI\n用途：探査\n\n幸運は果敢な者に味方します。全地形型探査車両として最も信頼されている Ursa ローバーは、幸運と成功の本質をこの限定記念モデルで体現しています。
-@@ -87945,7 +87946,7 @@ vehicle_DescTMBL_Cyclone_RC=製造元：Tumbril Land Systems\n用途：レース
+@@ -87956,7 +87957,7 @@ vehicle_DescTMBL_Cyclone_RC=製造元：Tumbril Land Systems\n用途：レース
  vehicle_DescTMBL_Cyclone_RN=製造元：Tumbril Land Systems\n用途：探査\n\nCyclone RN で常に目と足を動かし続けよ。この軽偵察車両は偵察に最適なソリューションであり、ビーコンの受送信だけでなく迅速かつ詳細な地形スキャンをも可能にします。
  vehicle_DescTMBL_Cyclone_TR=製造元：Tumbril Land Systems\n用途：対車両\n\n民兵や警備企業向けに設計された Cyclone TR は、強化された装甲と 360° の射界をカバーするサイズ 1 兵装の銃座モジュールを搭載しています。
  vehicle_DescTMBL_Nova=製造元：Tumbril Land Systems\n用途：重戦車\n\nTumbril の新型 Nova Tank は現代の戦闘に合うよう再構築された伝統的な戦場の戦士です。この重戦車は極めて高い破壊力の武装構成により、地上から空中まで様々な脅威を排除してみせることでしょう。
@@ -9187,7 +9199,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_DescTMBL_Storm=製造元：Tumbril Land Systems\n用途：軽戦車\n\n第2次 Tevarin 戦争真っただ中の 2606 年に導入された一人乗りミニ戦車である Tumbril Storm は、前線を電撃的に駆け抜け、敵陣地の火砲を破壊するために設計されました。今まで以上に速く、強く、そして影響力を発揮するように再設計された最新の Storm は、激化する現代の戦争において真価を発揮することでしょう。
  vehicle_DescTMBL_Storm_AA=製造元：Tumbril Land Systems\n用途：軽戦車\n\n第2次 Tevarin 戦争真っただ中の 2606 年に導入された一人乗りミニ戦車である Tumbril Storm は、前線を電撃的に駆け抜け、敵陣地の火砲を破壊するために設計されました。そしてこの現代に、より速く、より強く、より衝撃的な姿で生まれ変わったのが Storm AA です。空中および地上の標的を追い詰めるミサイルの弾幕を解き放つ Storm AA は、まさに「自然の脅威」といっても過言ではないでしょう。
  vehicle_DescVNCL_Blade=製造元：Esperia\n用途：軽戦闘\n\nこれらの軽戦闘機は「Blade」という名前で、Vanduul によって偵察機や先遣隊の突撃機としてしばしば使用されます。また、その速度により、戦闘区域からの逃亡を図る敵船の追撃役を担う散兵としても活躍しています。数十年にわたり、UEE のアグレッサー部隊は Esperia が独占的な契約の下で製造した Blade のレプリカを運用してきました。 
-@@ -87953,12 +87954,12 @@ vehicle_DescVNCL_Glaive=製造元：Vanduul Clans\n用途：中戦闘\n\nGlaive
+@@ -87964,12 +87965,12 @@ vehicle_DescVNCL_Glaive=製造元：Vanduul Clans\n用途：中戦闘\n\nGlaive
  vehicle_DescVNCL_Kingship,P=Vanduul Kingship
  vehicle_DescVNCL_Mauler=製造元：Vanduul 氏族\n用途：駆逐艦\n\nMauler は Vanduul 艦隊にとって必要不可欠な大型護衛艦です。この重厚な艦はその多層構造の角ばったデザイン、多種多様な兵装、そして空力性能と威圧効果を兼ね備える側面の鋭い突起によって、パイロットに圧倒的な力の高揚感を与えてくれます。
  vehicle_DescVNCL_Scythe=製造元：Esperia\n用途：中戦闘\n\nVanduul の象徴として急速に認知されるようになった Scythe は、彼らの襲撃における歩兵であると共に、人間の戦闘機パイロットの標的です。豊富な武装ペイロードを特徴としますが、Scythe の真骨頂は、2基のメイン・スラスターと12基の機動スラスターによって発揮される機動性です。この捕獲された Vanduul 製の Scythe は、Esperia によって人間のパイロットでも操縦できるように改造されています。
@@ -9205,7 +9217,7 @@ index 7a43a24..dd14f9e 100644
  vehicle_FactionAdvocacy=Advocacy
  vehicle_FactionBounty_Hunter=賞金稼ぎ
  vehicle_FactionCivilians=一般市民
-@@ -88731,7 +88732,7 @@ vehicle_focus_transporter=輸送
+@@ -88742,7 +88743,7 @@ vehicle_focus_transporter=輸送
  vehicle_gunnery_hud_ads_acquiring=取得中：
  vehicle_gunnery_hud_ads_mode_fixed=固定
  vehicle_gunnery_hud_ads_mode_manual=マニュアル
