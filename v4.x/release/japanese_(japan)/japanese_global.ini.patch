@@ -1,5 +1,5 @@
 diff --git a/v4.x/release/japanese_(japan)/global.ini b/v4.x/release/japanese_(japan)/global.ini
-index 4d382ac..25d7cfc 100644
+index 4d382ac..fa1691b 100644
 --- a/v4.x/release/japanese_(japan)/global.ini
 +++ b/v4.x/release/japanese_(japan)/global.ini
 @@ -12,7 +12,7 @@
@@ -8969,6 +8969,15 @@ index 4d382ac..25d7cfc 100644
  ui_interactor_SiteB=サイト B
  ui_interactor_SubBasement=地下2階
  ui_interactor_aegs_001=Aegis Dynamics ホール A
+@@ -86494,7 +86500,7 @@ ui_interactor_secdock_c_deck_left=セキュリティデッキ - C（左）
+ ui_interactor_secdock_c_deck_right=セキュリティデッキ - C（右）
+ ui_interactor_secdock_c_dockingport=セキュリティポート - C
+ ui_interactor_self_destruct_TEMP=自爆 TEMP
+-ui_interactor_send_elevator=エレベーターで降りる
++ui_interactor_send_elevator=エレベーターを戻す
+ ui_interactor_shields_TEMP=シールド TEMP
+ ui_interactor_shuttle_called=シャトルを要請する
+ ui_interactor_stop_playing=再生を停止する
 @@ -86905,14 +86911,14 @@ ui_null_availability_timer=未設定
  ui_old_screen_code=RPLC 0011
  ui_options=オプション
