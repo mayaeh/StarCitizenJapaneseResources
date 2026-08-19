@@ -1,5 +1,5 @@
 diff --git a/v4.x/release/japanese_(japan)/global.ini b/v4.x/release/japanese_(japan)/global.ini
-index d341c97..956918c 100644
+index c10b33f..5f283b1 100644
 --- a/v4.x/release/japanese_(japan)/global.ini
 +++ b/v4.x/release/japanese_(japan)/global.ini
 @@ -12,7 +12,7 @@
@@ -536,7 +536,7 @@ index d341c97..956918c 100644
  CleanAir_RecoverCargo_Medium_title=Alliance Aid：貨物の強奪を阻止せよ / Alliance Aid: Stop Cargo Heist
 @@ -1627,9 +1627,9 @@ Community_Service_Desc_Long=除去したゴミ %ls
  Community_Service_Title=街をきれいにする
- ConerstoneDevelopments_From=Conerstone Developments
+ ConerstoneDevelopments_From,P=Cornerstone Developments
  ConstantineHurston_RepUI_Association=Hurston Dynamics
 -ConstantineHurston_RepUI_Biography=Hurston 家の誇り高き一員である Constantine Hurston は、一族の遺産である Hurston Dynamics の発展に尽力することを誓いました。ただ彼は本家の人間であることを理由にした昇進ではなく、実績の伴う昇進を望んでいます。現在彼は外部委託部門のジュニア・エージェントに過ぎませんが業務において自分の価値を証明して矢継ぎ早に昇進したいと考えているようです。
 +ConstantineHurston_RepUI_Biography=Hurston 家の誇り高き一員である Constantine Hurston は、一族の遺産である Hurston Dynamics の発展に尽力することを誓いました。ただ彼は本家の人間であることを理由にした昇進ではなく、実績の伴う昇進を望んでいます。現在彼は外部委託部門のジュニアエージェントに過ぎませんが、業務において自分の価値を証明して矢継ぎ早に昇進したいと考えているようです。
@@ -5026,6 +5026,15 @@ index d341c97..956918c 100644
  item_DescArrow_Paint_Lovestruck_Pink_Black=Coramor の色彩にインスパイアされた Lovestruck ペイントを使って、あなたの Arrow をスタイリッシュなメタリックピンクとブラックで彩りましょう。
  item_DescArrow_Paint_Unity=Foundation Festival は、市民と民間人が一堂に会し、コミュニティの基盤を強化する機会です。このカスタムペイントで、より良い宇宙への貢献をアピールしましょう。
  item_DescAsgard_Paint_BIS2955_Orange_Black_Orange=2955年の Ship Showdown でベスト4入りを果たした Asgard を記念し、この目を引くメタリックオレンジと黒が特徴の Best in Show ペイントで彩りましょう。
+@@ -58353,7 +58353,7 @@ item_DescAurora_Paint_StarKitten=このカスタムペイントには、大胆
+ item_DescAurora_Paint_Unity=Foundation Festival は、市民と民間人が一堂に会し、コミュニティの基盤を強化する機会です。このカスタムペイントで、より良い宇宙への貢献をアピールしましょう。
+ item_DescAurora_mk2_Paint_silver_teal_white=Foundation Festival は、市民と民間人が一堂に会し、コミュニティの基盤を強化する機会です。このカスタムペイントで、より良い宇宙への貢献をアピールしましょう。
+ item_DescAurora_mk2_Paint_silver_teal_white_torch=Foundation Festival は、市民と民間人が一堂に会し、コミュニティの基盤を強化する機会です。このカスタムペイントで、より良い宇宙への貢献をアピールしましょう。
+-item_DescAurora_pirate=この黒・赤カラーのペイントであなたの本領を大胆にアピールして、あなたがやりたい放題していることも、そしてそれに満足していることも見せつけてやりましょう。
++item_DescAurora_pirate=この黒と赤のペイントであなたの本領を大胆にアピールして、あなたがやりたい放題していることも、そしてそれに満足していることも見せつけてやりましょう。
+ item_DescAvenger_Paint_2950Invictus_1=2950年の Invictus Launch Week を記念した、青と黄金の特別なペイントで Avenger をカスタマイズして、海軍の新兵たちを応援しましょう。
+ item_DescAvenger_Paint_2950Invictus_2=シルバーのアクセントが効いたウッドランドグリーンのペイントであなたの Avenger をカスタマイズしましょう。
+ item_DescAvenger_Paint_2950Invictus_3=この緑色を散りばめたペイントであなたの Avenger をカスタマイズしましょう。
 @@ -58364,7 +58364,7 @@ item_DescAvenger_Paint_FW2955_Grey_Black_Red_Camo=黒を基調に赤のハイラ
  item_DescAvenger_Paint_Fleetweek_Black_Chrome=Ironweave ペイントは、Avenger に黒い船体に輝くクロームのアクセントを施します。
  item_DescAvenger_Paint_Fleetweek_Grey_Beige_Tigerstripe=Shroud ペイントは、ライトグレーの船体にベージュとダークグレーの飛行機雲が描かれ、Avenger をまったくユニークな外観へと昇華させてくれます。
@@ -7114,6 +7123,22 @@ index d341c97..956918c 100644
  item_NameVNCL_NC_S5_Q1=「WAR」中性子キャノン
  item_NameVNCL_NeutronCannon_S5=「WAR」キャノン
  item_NameVNCL_NeutronCannon_S5_short=WAR
+@@ -68579,11 +68579,11 @@ item_Name_cds_combat_medium_legs_03_03_xenothreat=ORC-mkX 脚部アーマー Jus
+ item_Name_cds_combat_medium_legs_04_01_01=GCD-Army 脚部アーマー
+ item_Name_cds_combat_medium_legs_04_01_xenothreat=ORC-mkX 脚部アーマー (XenoThreat v2)
+ item_Name_cds_combat_superheavy_arms_02_01_01=BUL-H4 腕部アーマー Stronghold
+-item_Name_cds_combat_superheavy_backpack_01_01_01=H4-PBF 弾薬運搬具
++item_Name_cds_combat_superheavy_backpack_01_01_01=H4-PBF 弾薬バックパック
+ item_Name_cds_combat_superheavy_backpack_01_01_02,P=PH - cds_combat_superheavy_backpack_01_01_02
+-item_Name_cds_combat_superheavy_backpack_01_03_01=H4-PBF 弾薬運搬具 Snow Camo
+-item_Name_cds_combat_superheavy_backpack_01_04_01=H4-PBF 弾薬運搬具 SteelTek
+-item_Name_cds_combat_superheavy_backpack_01_05_01=BUL-H4 弾薬運搬具 Stronghold
++item_Name_cds_combat_superheavy_backpack_01_03_01=H4-PBF 弾薬バックパック Snow Camo
++item_Name_cds_combat_superheavy_backpack_01_04_01=H4-PBF 弾薬バックパック SteelTek
++item_Name_cds_combat_superheavy_backpack_01_05_01=BUL-H4 弾薬バックパック Stronghold
+ item_Name_cds_combat_superheavy_core_02_01_01,P=PH - cds_combat_superheavy_core_02_01_01
+ item_Name_cds_combat_superheavy_helmet_01_01_01=BUL-H4 ヘルメット
+ item_Name_cds_combat_superheavy_helmet_01_01_02,P=BUL-H4 ヘルメット Stronghold
 @@ -69108,9 +69108,9 @@ item_Name_dmc_jacket_05_01_10=Coloma コート Ice and Iron
  item_Name_dmc_jacket_05_01_11=Coloma コート Iron and Silver
  item_Name_dmc_jacket_05_01_15=Coloma コート Sage and Navy
@@ -7523,6 +7548,21 @@ index d341c97..956918c 100644
  med_Start_Body=あなたは、以前の身体が利用できなくなったため再生されました
  med_Start_CloneDesc=インプリント記録と再生オプションの管理
  med_Start_CloneMe=再生
+@@ -75471,11 +75471,11 @@ mgClovus_opensalvage_obj_01_marker=周囲をサルベージする
+ mgClovus_opensalvage_obj_01_short=戦場をサルベージする
+ mgClovus_opensalvage_title_001=大惨事の末路 / In the Wake of Disaster
+ mg_battaglia_RepScope_Rank0=準同胞
+-mg_battaglia_RepScope_Rank0_perk=ストーリー1
++mg_battaglia_RepScope_Rank0_perk=ストーリー 1
+ mg_battaglia_RepScope_Rank1=同胞
+-mg_battaglia_RepScope_Rank1_perk=ストーリー2
++mg_battaglia_RepScope_Rank1_perk=ストーリー 2
+ mg_battaglia_RepScope_Rank2=信頼できる同胞
+-mg_battaglia_RepScope_Rank2_perk=ストーリー3
++mg_battaglia_RepScope_Rank2_perk=ストーリー 3
+ mg_battaglia_RepScope_Rank3=プレステージ 1
+ mg_battaglia_RepScope_Rank3_perk,P=Drake Golem
+ mg_battaglia_RepScope_Rank4=プレステージ 2
 @@ -75666,7 +75666,7 @@ mg_battaglia_space_recover_title=~mission(Contractor|RecoverSpaceTitle)
  mg_battaglia_title=~mission(Title)
  mg_clovus_acquirepart_desc=~mission(Desc)
