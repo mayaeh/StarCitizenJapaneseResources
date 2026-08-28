@@ -1,5 +1,5 @@
 diff --git a/v4.x/release/japanese_(japan)/global.ini b/v4.x/release/japanese_(japan)/global.ini
-index 9267582..1c51f41 100644
+index c7ac3b6..5361dcb 100644
 --- a/v4.x/release/japanese_(japan)/global.ini
 +++ b/v4.x/release/japanese_(japan)/global.ini
 @@ -12,7 +12,7 @@
@@ -6121,13 +6121,13 @@ index 9267582..1c51f41 100644
  mission_location_stanton_0220=Arial 上空の Hurston 武器試験場
  mission_location_stanton_0221=Yela の小惑星群
  mission_location_stanton_0222=Yela 周辺の採掘済み小惑星群
--mission_location_stanton_0223=The Pit
--mission_location_stanton_0224=Wheeler's
+-mission_location_stanton_0223="The Pit"
+-mission_location_stanton_0224="Wheeler's"
 +mission_location_stanton_0223=『The Pit』
 +mission_location_stanton_0224=『Wheeler's』
  mission_location_stanton_0225=私有ランディングパッド
  mission_location_stanton_0226=Area18 内の私有ランディングパッド
--mission_location_stanton_0227=The Orphanage
+-mission_location_stanton_0227="The Orphanage"
 +mission_location_stanton_0227=『The Orphanage』
  mission_location_stanton_0228=Lyria の『The Orphanage』
  mission_location_stanton_0229=Lyria の『The Pit』
@@ -6154,7 +6154,7 @@ index 9267582..1c51f41 100644
  mission_location_stanton_0277=Yela の Benson 採掘基地
  mission_location_stanton_0278=Teddy's Playhouse
  mission_location_stanton_0279=Lyria の Teddy's Playhouse
--mission_location_stanton_0280=Elsewhere
+-mission_location_stanton_0280="Elsewhere"
 +mission_location_stanton_0280=『Elsewhere』
  mission_location_stanton_0281=Lyria の『Elsewhere』
  mission_location_stanton_0282=Shubin 処理施設 SPAL-3
@@ -6163,7 +6163,7 @@ index 9267582..1c51f41 100644
  mission_location_stanton_346=microTech の Nuiqsut 緊急シェルター
  mission_location_stanton_347=Clear View 緊急シェルター
  mission_location_stanton_348=microTech の Clear View 緊急シェルター
--mission_location_stanton_349=The Necropolis
+-mission_location_stanton_349="The Necropolis"
 +mission_location_stanton_349=『The Necropolis』
  mission_location_stanton_350=microTech の『The Necropolis』
  mission_location_stanton_351=Outpost 54
@@ -6172,7 +6172,7 @@ index 9267582..1c51f41 100644
  mission_location_stanton_485=Yela の Wan 警備基地
  mission_location_stanton_486=NT-999-XXII
  mission_location_stanton_487=Yela の NT-999-XXII
--mission_location_stanton_488=Utopia
+-mission_location_stanton_488="Utopia"
 -mission_location_stanton_489=Yela の"Utopia"
 +mission_location_stanton_488=『Utopia』
 +mission_location_stanton_489=Yela の『Utopia』
@@ -6180,9 +6180,9 @@ index 9267582..1c51f41 100644
  mission_location_stanton_491=Yela の Connor's
  mission_location_stanton_492=Afterlife
  mission_location_stanton_493=Yela の Afterlife
--mission_location_stanton_494=Launch Pad
+-mission_location_stanton_494="Launch Pad"
 -mission_location_stanton_495=Lyria の"Launch Pad"
--mission_location_stanton_496=Buckets
+-mission_location_stanton_496="Buckets"
 -mission_location_stanton_497=Lyria の"Buckets"
 +mission_location_stanton_494=『Launch Pad』
 +mission_location_stanton_495=Lyria の『Launch Pad』
@@ -6192,7 +6192,7 @@ index 9267582..1c51f41 100644
  mission_location_stanton_499=Lyria の Shubin 処理施設 SPAL-16
  mission_location_stanton_500=Shubin 処理施設 SPAL-21
  mission_location_stanton_501=Lyria の Shubin 処理施設 SPAL-21
--mission_location_stanton_502=Lost and Found
+-mission_location_stanton_502="Lost and Found"
 -mission_location_stanton_503=Wala の"Lost and Found"
 +mission_location_stanton_502=『Lost and Found』
 +mission_location_stanton_503=Wala の 『Lost and Found』
