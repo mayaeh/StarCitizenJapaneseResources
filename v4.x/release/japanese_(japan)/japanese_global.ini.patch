@@ -1,5 +1,5 @@
 diff --git a/v4.x/release/japanese_(japan)/global.ini b/v4.x/release/japanese_(japan)/global.ini
-index 37bb630..0b2864b 100644
+index cf7b396..a9bfbb3 100644
 --- a/v4.x/release/japanese_(japan)/global.ini
 +++ b/v4.x/release/japanese_(japan)/global.ini
 @@ -12,7 +12,7 @@
@@ -1574,10 +1574,10 @@ index 37bb630..0b2864b 100644
  ORS_BunkerRaid_Title=Orison 救援作戦：Nine Tails の報復を無力化せよ / Orison Relief: Neutralize Nine Tails Reprisal
  ORS_Construct_Large_Desc=さて、\n\nOrison への Nine Tails の攻撃による被害報告が、今も次々と届いています。Crusader の担当者によると、これらのプラットフォームにある推進器のかなりの割合を修理しなければならない可能性があるそうです。今回の注文が大量なのはそのためです。\n\n数量が増えている以外は前回と同じです。アイテム製造機を使って自分で製造するか、別の方法で調達してください。\n\n終わったら、推進器を <EM4>~mission(Destination|Target|Address)</EM4> へ納品してください。今回はかなりの報酬になります。\n\nそれでは、よろしくお願いします。\nHal Grimsby\n契約担当マネージャー\n\nCORNERSTONE MAINTENANCE\n「過去の礎の上に築く。」
  ORS_Construct_Large_Title=Orison 救援作戦：大規模な製造発注 / Orison Relief: Large Fabrication Order
-@@ -23599,9 +23599,9 @@ ORS_MedicalAid_HaulingMedium_Title=Orison 救援作戦：中規模物資の輸
+@@ -23599,9 +23599,9 @@ ORS_MedicalAid_HaulingMedium_Title=Orison 救援作戦：中規模の物資輸
  ORS_MedicalAid_HaulingMedium_desc=どうも、El です。\n\nCrusader は襲撃後の Orison を立て直すため、今も対応を続けています。なので、今回もこの支援活動に協力していただけると助かります。\n\n私たちは、救援物資を <EM4>~mission(Destination|Target|Address)</EM4> へ届ける依頼を受けています。荷物の受け取り場所は <EM4>~mission(Location|Target|Address)</EM4> です。\nそれなりの量になりますので、<EM4>~mission(MissionMaxSCUSize) の貨物コンテナ</EM4>を積める船を用意して、<EM4>携帯型トラクタービーム</EM4>も持ってきてください。そうしないと、私たち全員が素人みたいに見られてしまいますからね。\n\nこの仕事をきちんとやり遂げることがどれだけ重要か、冗談抜きでそう思っています。Nine Tails の襲撃で多くの人が傷つき、今は私たちのような人間が必要な支援を届けてくれるのを頼りにしています。ですから、彼らのためにもきちんとやり遂げましょう。いいですね？\n\nElla Tieno\nジュニア物流コーディネーター \nCovalex Shipping\n「必要なものを、必要な場所へ。」
  ORS_MedicalAid_HaulingSmall_Desc=どうも、El です。\n\n今日は、かなり重要な配送を任せられる信頼できる契約業者を探しています。Orison で何があったかはご存じですよね。かなりの騒ぎになって、私の仕事も十倍くらい大変になりました。\n\nそれはさておき、Crusader から医療物資を <EM4>~mission(Destination|Target|Address)</EM4> へ届ける依頼を受けています。荷物の受け取り場所は <EM4>~mission(Location|Target|Address)</EM4> です。今回はそれほど重い荷物ではありませんが、<EM4>~mission(MissionMaxSCUSize) の貨物コンテナ</EM4>を積める船と、<EM4>携帯型トラクタービーム</EM4>は必ず用意してください。現地に着いてから困るようじゃ、かなり恥ずかしい思いをすることになりますからね。\n\nいいですか、率直に言いますね。この仕事は、ただ荷物を運べばいいって話じゃありません。Orison はあの Nine Tails にかなりひどい被害を受けています。だから、私たちにできることがあるなら、力を貸すのが正しいことだと思っています。\n\nきっちり片付けましょう。\n\nElla Tieno\nジュニア物流コーディネーター \nCovalex Shipping\n「必要なものを、必要な場所へ。」
- ORS_MedicalAid_HaulingSmall_Title=Orison 救援作戦：小規模物資の輸送 / Orison Relief: Small Supply Haul
+ ORS_MedicalAid_HaulingSmall_Title=Orison 救援作戦：小規模の物資輸送 / Orison Relief: Small Supply Haul
 -ORS_ShipAmb_Desc=この地域で、Crusader への攻撃に関与した犯罪者の一掃に協力してくれる、腕の立つ屈強なパイロットを探しています。Orison から追い出された Nine Tails の残党が、<EM4>~mission(Location|Address)</EM4> 付近に身を潜めているとの情報が入りました。Crusader Security は、連中が弱体化している今のうちに対処するため、私たちの協力を求めています。\n\n現地には、連中を不意打ちできる絶好の場所をこちらで選定しています。そこへ向かい、連中が姿を現すまで静かに待機し、状況を把握される前に攻撃を仕掛けてください。これで、彼らの仲間たちにも、自らの行動には相応の報いがあることを知らしめられるはずです。\n\n幸運を。\n\nKevin Walton\nFoxwell Enforcement 通信管理官\n「セキュリティを、貴方の望む形で。」\n\nFoxwell Enforcement は、UEE 圏全域での活動が承認された認定済セキュリティ・スペシャリストです。私たちは常に、新たなオペレーターを弊社のファミリーとして歓迎しています。ご自身またはお知り合いに興味をお持ちの方がいらっしゃいましたら、ぜひ契約担当者までお問い合わせください。
 +ORS_ShipAmb_Desc=この地域で、Crusader への攻撃に関与した犯罪者の一掃に協力してくれる、腕の立つ屈強なパイロットを探しています。Orison から追い出された Nine Tails の残党が、<EM4>~mission(Location|Address)</EM4> 付近に身を潜めているとの情報が入りました。Crusader Security は、連中が弱体化している今のうちに対処するため、私たちの協力を求めています。\n\n現地には、連中を不意打ちできる絶好の場所をこちらで選定しています。そこへ向かい、連中が姿を現すまで静かに待機し、状況を把握される前に攻撃を仕掛けてください。これで、彼らの仲間たちにも、自らの行動には相応の報いがあることを知らしめられるはずです。\n\n幸運を。\n\nKevin Walton\nFoxwell Enforcement 通信管理官\n「セキュリティを、貴方の望む形で。」\n\nFoxwell Enforcement は、UEE 圏全域での活動が承認された認定済セキュリティスペシャリストです。私たちは常に、新たなオペレーターを弊社のファミリーとして歓迎しています。ご自身またはお知り合いに興味をお持ちの方がいらっしゃいましたら、ぜひ契約担当者までお問い合わせください。
  ORS_ShipAmb_Title=Orison 救援作戦：Nine Tails 部隊の掃討 / Orison Relief: Strike Nine Tails Squad
@@ -7035,7 +7035,7 @@ index 37bb630..0b2864b 100644
 -vehicle_DescARGO_ATLS_GEO=製造元：ARGO Astronautics\n用途：採掘\n\nATLS の頑丈な基盤を活かし、ARGO Astronautics のエンジニアたちはこのパワースーツを理想的な個人用採掘プラットフォームへと見事に改造させました。採掘レーザー、トラクタービーム、着脱式の鉱石ストレージを備えた ATLS GEO は、埋蔵資源から最大限の価値を引き出すためのオールインワン・ソリューションです。
 +vehicle_DescARGO_ATLS_GEO=製造元：ARGO Astronautics\n用途：採掘\n\nATLS の頑丈な基盤を活かし、ARGO Astronautics のエンジニアたちはこのパワースーツを理想的な個人用採掘プラットフォームへと見事に改造させました。採掘レーザー、トラクタービーム、着脱式の鉱石ストレージを備えた ATLS GEO は、埋蔵資源から最大限の価値を引き出すためのオールインワンソリューションです。
  vehicle_DescARGO_ATLS_GEO_IKTI=製造元：Banu\n用途：戦闘\n\nWikelo の手によって一つひとつ製作された本機は、ATLS GEO パワースーツの特別仕様モデルにあたる機体です。非武装系の装備はすべて排除され、代わりに武器が搭載されています。さらに、GEO のリソースポッドがジャンプパックへと換装されたことにより、機動性も大幅に向上しています。
- vehicle_DescARGO_ATLS_GEO_IKTI_NTLS=Manufacturer: Unknown\nFocus: Combat\n \nA bespoke variant of the ATLS GEO power suit that outfits it for combat, this special Akuma version features the bold styling of the Nine Tails gang paired with custom-tuned laser repeaters and a modified jump pack with additional storage space.
+ vehicle_DescARGO_ATLS_GEO_IKTI_NTLS=Manufacturer: Unknown\nFocus: Combat\n \nA bespoke variant of the ATLS GEO power suit that outfits it for combat, this special Akuma version features the bold styling of the Nine Tails gang paired with custom-tuned plasma repeaters and a modified jump pack with additional storage space.
  vehicle_DescARGO_ATLS_IKTI=製造元：Banu\n用途：戦闘\n\nWikelo の手作業によって製造されたこの特別仕様の ATLS パワースーツは、武装以外のすべてを取り除いた代わりに、徹底的な火力強化が施されています。
 @@ -89213,8 +89219,8 @@ vehicle_DescDRAK_Kraken=製造元：Drake Interplanetary\n用途：軽空母\n\n
  vehicle_DescDRAK_Kraken_Privateer=製造元：Drake Interplanetary\n用途：軽空母\n\nDrake Interplanetary は、Kraken Privateer で恒星間商取引を再定義するために、アフターマーケットでの大型船の改造で有名な Cousin Crow's Custom Craft と提携しました。この公式コンバージョン船を使用することで、獰猛なクラーケン攻撃空母の中に私設の市場が築かれるでしょう。
