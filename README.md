@@ -15,7 +15,7 @@
 
 
 ## 最新翻訳版  
-現在の最新版は **SCJP翻訳版 12868798-0** と表示されます。  
+現在の最新版は **SCJP翻訳版 12881860-0** と表示されます。  
 
 ## 注意事項
 
@@ -25,11 +25,9 @@
 
 ## 公開リソース
 
-* v4.10.0 LIVE 版
+* v4.10.2 LIVE 版
 [v4.10.0 LIVE](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.10-ja_JP-alpha-4.10-LIVE "4.10.0 LIVE 版")  
 
-* v4.10.2 PTU 版
-[v4.10.2 PTU](https://github.com/stdblue/StarCitizenJapaneseResources/releases#release-v4.x-ja_JP-alpha-4.x-PTU "4.10.2 PTU 版")  
 
 ## 現在の翻訳/進捗
 
@@ -103,7 +101,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 ## 翻訳協力者一覧(Special Thanks)
 
 + Team Lead  
-	nmtkawb  
+	mossy  
 
 + Translation Tools Developer  
 	MoMoShrine
@@ -115,26 +113,26 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	mossy  
 
 + Translator  
-	MoMoShrine  
+	Luke514  
 	OOM Tricorn  
-	Luke  
 	kogumatta  
-	Exceptur  
 	NERURU  
+	Exceptur  
+	MoMoShrine  
 	Oldman1917  
 	AdmiralAndersen  
 	nmtkawb  
-	かりんと  
+	BANPEIYU113  
 	eggman  
 	Verkhasel  
-	BANPEIYU113  
 	Heizo  
-	Ban_Danas  
 	NTKestrel  
+	Ban_Danas  
 	ogumap  
 	Franku7  
 	velocity7  
 	Bran de Bruce  
+	かりんと  
 	luice  
 	Shinnryuu  
 	Riven  
@@ -151,7 +149,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	クレクレ柴犬  
 
 + Tech Adviser  
-	Luke  
+	Luke514  
 	luice  
 
 + Special thanks  
