@@ -1,5 +1,5 @@
 diff --git a/v4.x/release/japanese_(japan)/global.ini b/v4.x/release/japanese_(japan)/global.ini
-index e73fe12..1f9d5c5 100644
+index e73fe12..aa537db 100644
 --- a/v4.x/release/japanese_(japan)/global.ini
 +++ b/v4.x/release/japanese_(japan)/global.ini
 @@ -12,7 +12,7 @@
@@ -7106,6 +7106,15 @@ index e73fe12..1f9d5c5 100644
  ui_aiming=エイムと武器
  ui_applyChanges=変更を適用しますか？
  ui_bodydrag=身体を引きずる
+@@ -87073,7 +87075,7 @@ ui_controlhint_pc_qs_consumables_painkiller=消耗品（OpioPen）
+ ui_controlhint_pc_qs_consumables_radiation=消耗品（DeconPen）
+ ui_controlhint_pc_qs_consumables_steroids=消耗品（CorticoPen）
+ ui_controlhint_pc_qs_deployable=設置物
+-ui_controlhint_pc_qs_throwable=投擲武器
++ui_controlhint_pc_qs_throwable=投てき武器
+ ui_controlhint_pc_qs_weapons_heal_medgun=Med-Gun の選択
+ ui_controlhint_pc_qs_weapons_heal_multitool=Med-Tool の選択
+ ui_controlhint_pc_qs_weapons_primary=武器
 @@ -87764,9 +87766,13 @@ ui_hacking_terminal_param_type_char=char
  ui_hacking_terminal_param_type_coordinate=Coordinate
  ui_hacking_terminal_param_type_float=float
