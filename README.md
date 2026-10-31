@@ -13,7 +13,7 @@
 
 
 ## 最新翻訳版  
-現在の最新版は **SCJP翻訳版 12881860-0** と表示されます。  
+現在の最新版は **SCJP翻訳版 13055118-0** と表示されます。  
 
 ## 注意事項
 
@@ -24,7 +24,10 @@
 ## 公開リソース
 
 * v4.10.2 LIVE 版
-[v4.10.0 LIVE](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.10-ja_JP-alpha-4.10-LIVE "4.10.0 LIVE 版")  
+[v4.10.2 LIVE](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.10-ja_JP-alpha-4.10-LIVE "4.10.2 LIVE 版")  
+
+* v4.10.3 PTU 版
+[v4.10.3 PTU](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.10-ja_JP-alpha-4.10-LIVE "4.10.3 PTU 版")  
 
 
 ## 現在の翻訳/進捗
